@@ -20,12 +20,12 @@ int main()
     mq = (pow(a,2) + pow(b,2) + pow(c,2))/3;
     mq = pow(mq, 0.5);
 
-    cout << "ma " << ma << " mh " << mh << " mg " << mg << " mq " << mq << endl;
+    //cout << "ma " << ma << " mh " << mh << " mg " << mg << " mq " << mq << endl;
 
 
 
-    cout << mh << endl;
-    cout << mq << endl;
+    cout << "Menor: "<<mh << endl;
+    cout << "Maior: "<<mq << endl;
 
     return 0;
 }
