@@ -42,9 +42,9 @@ std::string raizes(double a, double b, double c){
 
     string resposta;
     
-    resposta.append(to_string(x2));
-    resposta.append(" e ");
     resposta.append(to_string(x1));
+    resposta.append(" e ");
+    resposta.append(to_string(x2));
     return resposta;
 
 }
