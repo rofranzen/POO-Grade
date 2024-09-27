@@ -1,0 +1,816 @@
+tester.py:56: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+g++ (Ubuntu 13.2.0-23ubuntu4) 13.2.0
+Copyright (C) 2023 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+ex7.cpp: In function ‘int seq(int, int, int*)’:
+ex7.cpp:13:29: error: expected ‘;’ before ‘for’
+   13 |             resp[i] = ini[i]
+      |                             ^
+      |                             ;
+......
+   16 |         for(int i = k; i <= n; i++){
+      |         ~~~                  
+ex7.cpp:16:24: error: ‘i’ was not declared in this scope
+   16 |         for(int i = k; i <= n; i++){
+      |                        ^
+ex7.cpp: In function ‘int ducimus()’:
+ex7.cpp:39:22: error: ‘k’ was not declared in this scope
+   39 |     for(int i = 0; i<k;i++)
+      |                      ^
+ex7.cpp:40:14: error: ‘t’ was not declared in this scope
+   40 |         cin>>t[i];
+      |              ^
+ex7.cpp:42:21: error: ‘t’ was not declared in this scope
+   42 |     cout << seq(a,b,t) << endl;
+      |                     ^
+ex7.cpp: In function ‘int seq(int, int, int*)’:
+ex7.cpp:13:29: error: expected ‘;’ before ‘for’
+   13 |             resp[i] = ini[i]
+      |                             ^
+      |                             ;
+......
+   16 |         for(int i = k; i <= n; i++){
+      |         ~~~                  
+ex7.cpp:16:24: error: ‘i’ was not declared in this scope
+   16 |         for(int i = k; i <= n; i++){
+      |                        ^
+ex7.cpp: In function ‘int aspernatur()’:
+ex7.cpp:39:22: error: ‘k’ was not declared in this scope
+   39 |     for(int i = 0; i<k;i++)
+      |                      ^
+ex7.cpp:40:14: error: ‘t’ was not declared in this scope
+   40 |         cin>>t[i];
+      |              ^
+ex7.cpp:42:21: error: ‘t’ was not declared in this scope
+   42 |     cout << seq(a,b,t) << endl;
+      |                     ^
+ex7.cpp: In function ‘int seq(int, int, int*)’:
+ex7.cpp:13:29: error: expected ‘;’ before ‘for’
+   13 |             resp[i] = ini[i]
+      |                             ^
+      |                             ;
+......
+   16 |         for(int i = k; i <= n; i++){
+      |         ~~~                  
+ex7.cpp:16:24: error: ‘i’ was not declared in this scope
+   16 |         for(int i = k; i <= n; i++){
+      |                        ^
+ex7.cpp: In function ‘int ipsa()’:
+ex7.cpp:39:22: error: ‘k’ was not declared in this scope
+   39 |     for(int i = 0; i<k;i++)
+      |                      ^
+ex7.cpp:40:14: error: ‘t’ was not declared in this scope
+   40 |         cin>>t[i];
+      |              ^
+ex7.cpp:42:21: error: ‘t’ was not declared in this scope
+   42 |     cout << seq(a,b,t) << endl;
+      |                     ^
+ex7.cpp: In function ‘int seq(int, int, int*)’:
+ex7.cpp:13:29: error: expected ‘;’ before ‘for’
+   13 |             resp[i] = ini[i]
+      |                             ^
+      |                             ;
+......
+   16 |         for(int i = k; i <= n; i++){
+      |         ~~~                  
+ex7.cpp:16:24: error: ‘i’ was not declared in this scope
+   16 |         for(int i = k; i <= n; i++){
+      |                        ^
+ex7.cpp: In function ‘int placeat()’:
+ex7.cpp:39:22: error: ‘k’ was not declared in this scope
+   39 |     for(int i = 0; i<k;i++)
+      |                      ^
+ex7.cpp:40:14: error: ‘t’ was not declared in this scope
+   40 |         cin>>t[i];
+      |              ^
+ex7.cpp:42:21: error: ‘t’ was not declared in this scope
+   42 |     cout << seq(a,b,t) << endl;
+      |                     ^
+ex7.cpp: In function ‘int seq(int, int, int*)’:
+ex7.cpp:13:29: error: expected ‘;’ before ‘for’
+   13 |             resp[i] = ini[i]
+      |                             ^
+      |                             ;
+......
+   16 |         for(int i = k; i <= n; i++){
+      |         ~~~                  
+ex7.cpp:16:24: error: ‘i’ was not declared in this scope
+   16 |         for(int i = k; i <= n; i++){
+      |                        ^
+ex7.cpp: In function ‘int ullam()’:
+ex7.cpp:39:22: error: ‘k’ was not declared in this scope
+   39 |     for(int i = 0; i<k;i++)
+      |                      ^
+ex7.cpp:40:14: error: ‘t’ was not declared in this scope
+   40 |         cin>>t[i];
+      |              ^
+ex7.cpp:42:21: error: ‘t’ was not declared in this scope
+   42 |     cout << seq(a,b,t) << endl;
+      |                     ^
+ex7.cpp: In function ‘int seq(int, int, int*)’:
+ex7.cpp:13:29: error: expected ‘;’ before ‘for’
+   13 |             resp[i] = ini[i]
+      |                             ^
+      |                             ;
+......
+   16 |         for(int i = k; i <= n; i++){
+      |         ~~~                  
+ex7.cpp:16:24: error: ‘i’ was not declared in this scope
+   16 |         for(int i = k; i <= n; i++){
+      |                        ^
+ex7.cpp: In function ‘int porro()’:
+ex7.cpp:39:22: error: ‘k’ was not declared in this scope
+   39 |     for(int i = 0; i<k;i++)
+      |                      ^
+ex7.cpp:40:14: error: ‘t’ was not declared in this scope
+   40 |         cin>>t[i];
+      |              ^
+ex7.cpp:42:21: error: ‘t’ was not declared in this scope
+   42 |     cout << seq(a,b,t) << endl;
+      |                     ^
+ex7.cpp: In function ‘int seq(int, int, int*)’:
+ex7.cpp:13:29: error: expected ‘;’ before ‘for’
+   13 |             resp[i] = ini[i]
+      |                             ^
+      |                             ;
+......
+   16 |         for(int i = k; i <= n; i++){
+      |         ~~~                  
+ex7.cpp:16:24: error: ‘i’ was not declared in this scope
+   16 |         for(int i = k; i <= n; i++){
+      |                        ^
+ex7.cpp: In function ‘int quidem()’:
+ex7.cpp:39:22: error: ‘k’ was not declared in this scope
+   39 |     for(int i = 0; i<k;i++)
+      |                      ^
+ex7.cpp:40:14: error: ‘t’ was not declared in this scope
+   40 |         cin>>t[i];
+      |              ^
+ex7.cpp:42:21: error: ‘t’ was not declared in this scope
+   42 |     cout << seq(a,b,t) << endl;
+      |                     ^
+ex7.cpp: In function ‘int seq(int, int, int*)’:
+ex7.cpp:13:29: error: expected ‘;’ before ‘for’
+   13 |             resp[i] = ini[i]
+      |                             ^
+      |                             ;
+......
+   16 |         for(int i = k; i <= n; i++){
+      |         ~~~                  
+ex7.cpp:16:24: error: ‘i’ was not declared in this scope
+   16 |         for(int i = k; i <= n; i++){
+      |                        ^
+ex7.cpp: In function ‘int odit()’:
+ex7.cpp:39:22: error: ‘k’ was not declared in this scope
+   39 |     for(int i = 0; i<k;i++)
+      |                      ^
+ex7.cpp:40:14: error: ‘t’ was not declared in this scope
+   40 |         cin>>t[i];
+      |              ^
+ex7.cpp:42:21: error: ‘t’ was not declared in this scope
+   42 |     cout << seq(a,b,t) << endl;
+      |                     ^
+ex7.cpp: In function ‘int seq(int, int, int*)’:
+ex7.cpp:13:29: error: expected ‘;’ before ‘for’
+   13 |             resp[i] = ini[i]
+      |                             ^
+      |                             ;
+......
+   16 |         for(int i = k; i <= n; i++){
+      |         ~~~                  
+ex7.cpp:16:24: error: ‘i’ was not declared in this scope
+   16 |         for(int i = k; i <= n; i++){
+      |                        ^
+ex7.cpp: In function ‘int autem()’:
+ex7.cpp:39:22: error: ‘k’ was not declared in this scope
+   39 |     for(int i = 0; i<k;i++)
+      |                      ^
+ex7.cpp:40:14: error: ‘t’ was not declared in this scope
+   40 |         cin>>t[i];
+      |              ^
+ex7.cpp:42:21: error: ‘t’ was not declared in this scope
+   42 |     cout << seq(a,b,t) << endl;
+      |                     ^
+ex7.cpp: In function ‘int seq(int, int, int*)’:
+ex7.cpp:13:29: error: expected ‘;’ before ‘for’
+   13 |             resp[i] = ini[i]
+      |                             ^
+      |                             ;
+......
+   16 |         for(int i = k; i <= n; i++){
+      |         ~~~                  
+ex7.cpp:16:24: error: ‘i’ was not declared in this scope
+   16 |         for(int i = k; i <= n; i++){
+      |                        ^
+ex7.cpp: In function ‘int quasi()’:
+ex7.cpp:39:22: error: ‘k’ was not declared in this scope
+   39 |     for(int i = 0; i<k;i++)
+      |                      ^
+ex7.cpp:40:14: error: ‘t’ was not declared in this scope
+   40 |         cin>>t[i];
+      |              ^
+ex7.cpp:42:21: error: ‘t’ was not declared in this scope
+   42 |     cout << seq(a,b,t) << endl;
+      |                     ^
+ex7.cpp: In function ‘int seq(int, int, int*)’:
+ex7.cpp:13:29: error: expected ‘;’ before ‘for’
+   13 |             resp[i] = ini[i]
+      |                             ^
+      |                             ;
+......
+   16 |         for(int i = k; i <= n; i++){
+      |         ~~~                  
+ex7.cpp:16:24: error: ‘i’ was not declared in this scope
+   16 |         for(int i = k; i <= n; i++){
+      |                        ^
+ex7.cpp: In function ‘int quod()’:
+ex7.cpp:39:22: error: ‘k’ was not declared in this scope
+   39 |     for(int i = 0; i<k;i++)
+      |                      ^
+ex7.cpp:40:14: error: ‘t’ was not declared in this scope
+   40 |         cin>>t[i];
+      |              ^
+ex7.cpp:42:21: error: ‘t’ was not declared in this scope
+   42 |     cout << seq(a,b,t) << endl;
+      |                     ^
+ex7.cpp: In function ‘int seq(int, int, int*)’:
+ex7.cpp:13:29: error: expected ‘;’ before ‘for’
+   13 |             resp[i] = ini[i]
+      |                             ^
+      |                             ;
+......
+   16 |         for(int i = k; i <= n; i++){
+      |         ~~~                  
+ex7.cpp:16:24: error: ‘i’ was not declared in this scope
+   16 |         for(int i = k; i <= n; i++){
+      |                        ^
+ex7.cpp: In function ‘int rem()’:
+ex7.cpp:39:22: error: ‘k’ was not declared in this scope
+   39 |     for(int i = 0; i<k;i++)
+      |                      ^
+ex7.cpp:40:14: error: ‘t’ was not declared in this scope
+   40 |         cin>>t[i];
+      |              ^
+ex7.cpp:42:21: error: ‘t’ was not declared in this scope
+   42 |     cout << seq(a,b,t) << endl;
+      |                     ^
+ex7.cpp: In function ‘int seq(int, int, int*)’:
+ex7.cpp:13:29: error: expected ‘;’ before ‘for’
+   13 |             resp[i] = ini[i]
+      |                             ^
+      |                             ;
+......
+   16 |         for(int i = k; i <= n; i++){
+      |         ~~~                  
+ex7.cpp:16:24: error: ‘i’ was not declared in this scope
+   16 |         for(int i = k; i <= n; i++){
+      |                        ^
+ex7.cpp: In function ‘int sed()’:
+ex7.cpp:39:22: error: ‘k’ was not declared in this scope
+   39 |     for(int i = 0; i<k;i++)
+      |                      ^
+ex7.cpp:40:14: error: ‘t’ was not declared in this scope
+   40 |         cin>>t[i];
+      |              ^
+ex7.cpp:42:21: error: ‘t’ was not declared in this scope
+   42 |     cout << seq(a,b,t) << endl;
+      |                     ^
+ex7.cpp: In function ‘int seq(int, int, int*)’:
+ex7.cpp:13:29: error: expected ‘;’ before ‘for’
+   13 |             resp[i] = ini[i]
+      |                             ^
+      |                             ;
+......
+   16 |         for(int i = k; i <= n; i++){
+      |         ~~~                  
+ex7.cpp:16:24: error: ‘i’ was not declared in this scope
+   16 |         for(int i = k; i <= n; i++){
+      |                        ^
+ex7.cpp: In function ‘int voluptatibus()’:
+ex7.cpp:39:22: error: ‘k’ was not declared in this scope
+   39 |     for(int i = 0; i<k;i++)
+      |                      ^
+ex7.cpp:40:14: error: ‘t’ was not declared in this scope
+   40 |         cin>>t[i];
+      |              ^
+ex7.cpp:42:21: error: ‘t’ was not declared in this scope
+   42 |     cout << seq(a,b,t) << endl;
+      |                     ^
+ex7.cpp: In function ‘int seq(int, int, int*)’:
+ex7.cpp:13:29: error: expected ‘;’ before ‘for’
+   13 |             resp[i] = ini[i]
+      |                             ^
+      |                             ;
+......
+   16 |         for(int i = k; i <= n; i++){
+      |         ~~~                  
+ex7.cpp:16:24: error: ‘i’ was not declared in this scope
+   16 |         for(int i = k; i <= n; i++){
+      |                        ^
+ex7.cpp: In function ‘int sunt()’:
+ex7.cpp:39:22: error: ‘k’ was not declared in this scope
+   39 |     for(int i = 0; i<k;i++)
+      |                      ^
+ex7.cpp:40:14: error: ‘t’ was not declared in this scope
+   40 |         cin>>t[i];
+      |              ^
+ex7.cpp:42:21: error: ‘t’ was not declared in this scope
+   42 |     cout << seq(a,b,t) << endl;
+      |                     ^
+ex7.cpp: In function ‘int seq(int, int, int*)’:
+ex7.cpp:13:29: error: expected ‘;’ before ‘for’
+   13 |             resp[i] = ini[i]
+      |                             ^
+      |                             ;
+......
+   16 |         for(int i = k; i <= n; i++){
+      |         ~~~                  
+ex7.cpp:16:24: error: ‘i’ was not declared in this scope
+   16 |         for(int i = k; i <= n; i++){
+      |                        ^
+ex7.cpp: In function ‘int repellendus()’:
+ex7.cpp:39:22: error: ‘k’ was not declared in this scope
+   39 |     for(int i = 0; i<k;i++)
+      |                      ^
+ex7.cpp:40:14: error: ‘t’ was not declared in this scope
+   40 |         cin>>t[i];
+      |              ^
+ex7.cpp:42:21: error: ‘t’ was not declared in this scope
+   42 |     cout << seq(a,b,t) << endl;
+      |                     ^
+ex7.cpp: In function ‘int seq(int, int, int*)’:
+ex7.cpp:13:29: error: expected ‘;’ before ‘for’
+   13 |             resp[i] = ini[i]
+      |                             ^
+      |                             ;
+......
+   16 |         for(int i = k; i <= n; i++){
+      |         ~~~                  
+ex7.cpp:16:24: error: ‘i’ was not declared in this scope
+   16 |         for(int i = k; i <= n; i++){
+      |                        ^
+ex7.cpp: In function ‘int corporis()’:
+ex7.cpp:39:22: error: ‘k’ was not declared in this scope
+   39 |     for(int i = 0; i<k;i++)
+      |                      ^
+ex7.cpp:40:14: error: ‘t’ was not declared in this scope
+   40 |         cin>>t[i];
+      |              ^
+ex7.cpp:42:21: error: ‘t’ was not declared in this scope
+   42 |     cout << seq(a,b,t) << endl;
+      |                     ^
+ex7.cpp: In function ‘int seq(int, int, int*)’:
+ex7.cpp:13:29: error: expected ‘;’ before ‘for’
+   13 |             resp[i] = ini[i]
+      |                             ^
+      |                             ;
+......
+   16 |         for(int i = k; i <= n; i++){
+      |         ~~~                  
+ex7.cpp:16:24: error: ‘i’ was not declared in this scope
+   16 |         for(int i = k; i <= n; i++){
+      |                        ^
+ex7.cpp: In function ‘int delectus()’:
+ex7.cpp:39:22: error: ‘k’ was not declared in this scope
+   39 |     for(int i = 0; i<k;i++)
+      |                      ^
+ex7.cpp:40:14: error: ‘t’ was not declared in this scope
+   40 |         cin>>t[i];
+      |              ^
+ex7.cpp:42:21: error: ‘t’ was not declared in this scope
+   42 |     cout << seq(a,b,t) << endl;
+      |                     ^
+ex7.cpp: In function ‘int seq(int, int, int*)’:
+ex7.cpp:13:29: error: expected ‘;’ before ‘for’
+   13 |             resp[i] = ini[i]
+      |                             ^
+      |                             ;
+......
+   16 |         for(int i = k; i <= n; i++){
+      |         ~~~                  
+ex7.cpp:16:24: error: ‘i’ was not declared in this scope
+   16 |         for(int i = k; i <= n; i++){
+      |                        ^
+ex7.cpp: In function ‘int distinctio()’:
+ex7.cpp:39:22: error: ‘k’ was not declared in this scope
+   39 |     for(int i = 0; i<k;i++)
+      |                      ^
+ex7.cpp:40:14: error: ‘t’ was not declared in this scope
+   40 |         cin>>t[i];
+      |              ^
+ex7.cpp:42:21: error: ‘t’ was not declared in this scope
+   42 |     cout << seq(a,b,t) << endl;
+      |                     ^
+ex7.cpp: In function ‘int seq(int, int, int*)’:
+ex7.cpp:13:29: error: expected ‘;’ before ‘for’
+   13 |             resp[i] = ini[i]
+      |                             ^
+      |                             ;
+......
+   16 |         for(int i = k; i <= n; i++){
+      |         ~~~                  
+ex7.cpp:16:24: error: ‘i’ was not declared in this scope
+   16 |         for(int i = k; i <= n; i++){
+      |                        ^
+ex7.cpp: In function ‘int voluptatum()’:
+ex7.cpp:39:22: error: ‘k’ was not declared in this scope
+   39 |     for(int i = 0; i<k;i++)
+      |                      ^
+ex7.cpp:40:14: error: ‘t’ was not declared in this scope
+   40 |         cin>>t[i];
+      |              ^
+ex7.cpp:42:21: error: ‘t’ was not declared in this scope
+   42 |     cout << seq(a,b,t) << endl;
+      |                     ^
+Versão do G++:
+Varificando data de envio...
+PRAZO MÁXIMO: 2024-09-28T03:00:00-03:00
+Testando sua solucao...
+Procurando exercício 1...
+Exercício 1...
+Compilando...
+g++ -O2 -Wno-unused-result  "ex1.cpp" 
+Teste 1: correto!
+Teste 2: correto!
+Teste 3: correto!
+Teste 4: correto!
+Teste 5: correto!
+Teste 6: correto!
+Teste 7: correto!
+Teste 8: correto!
+Teste 9: correto!
+Teste 10: correto!
+Teste 11: correto!
+Teste 12: correto!
+Teste 13: correto!
+Teste 14: correto!
+Teste 15: correto!
+Teste 16: correto!
+Teste 17: correto!
+Teste 18: correto!
+Teste 19: correto!
+Teste 20: correto!
+Nota exercicio 1: 0.5
+Procurando exercício 2...
+Exercício 2...
+Compilando...
+g++ -O2 -Wno-unused-result  "ex2.cpp" 
+Teste 1: correto!
+Teste 2: correto!
+Teste 3: correto!
+Teste 4: correto!
+Teste 5: correto!
+Teste 6: correto!
+Teste 7: correto!
+Teste 8: correto!
+Teste 9: correto!
+Teste 10: correto!
+Teste 11: correto!
+Teste 12: correto!
+Teste 13: correto!
+Teste 14: correto!
+Teste 15: correto!
+Teste 16: correto!
+Teste 17: correto!
+Teste 18: correto!
+Teste 19: correto!
+Teste 20: correto!
+Nota exercicio 2: 0.5
+Procurando exercício 3...
+Exercício 3...
+Compilando...
+g++ -O2 -Wno-unused-result  "ex3.cpp" 
+Teste 1: correto!
+Teste 2: correto!
+Teste 3: correto!
+Teste 4: correto!
+Teste 5: correto!
+Teste 6: correto!
+Teste 7: correto!
+Teste 8: correto!
+Teste 9: correto!
+Teste 10: correto!
+Teste 11: correto!
+Teste 12: correto!
+Teste 13: correto!
+Teste 14: correto!
+Teste 15: correto!
+Teste 16: correto!
+Teste 17: correto!
+Teste 18: correto!
+Teste 19: correto!
+Teste 20: correto!
+Nota exercicio 3: 0.5
+Procurando exercício 4...
+Exercício 4...
+Compilando...
+g++ -O2 -Wno-unused-result  "ex4.cpp" 
+Teste 1: correto!
+Teste 2: correto!
+Teste 3: correto!
+Teste 4: correto!
+Teste 5: correto!
+Teste 6: correto!
+Teste 7: correto!
+Teste 8: correto!
+Teste 9: correto!
+Teste 10: correto!
+Teste 11: correto!
+Teste 12: correto!
+Teste 13: correto!
+Teste 14: correto!
+Teste 15: correto!
+Teste 16: correto!
+Teste 17: correto!
+Teste 18: correto!
+Teste 19: correto!
+Teste 20: correto!
+Nota exercicio 4: 0.5
+Procurando exercício 5...
+Exercício 5...
+Compilando...
+g++ -O2 -Wno-unused-result  "ex5.cpp" 
+Teste 1: correto!
+Teste 2: correto!
+Teste 3: correto!
+Teste 4: correto!
+Teste 5: correto!
+Teste 6: correto!
+Teste 7: correto!
+Teste 8: correto!
+Teste 9: correto!
+Teste 10: correto!
+Teste 11: correto!
+Teste 12: correto!
+Teste 13: correto!
+Teste 14: correto!
+Teste 15: correto!
+Teste 16: correto!
+Teste 17: correto!
+Teste 18: correto!
+Teste 19: correto!
+Teste 20: correto!
+Nota exercicio 5: 1.0
+Procurando exercício 6...
+Exercício 6...
+Compilando...
+g++ -O2 -Wno-unused-result  "ex6.cpp" 
+Teste 1: correto!
+Teste 2: correto!
+Teste 3: correto!
+Teste 4: correto!
+Teste 5: correto!
+Teste 6: correto!
+Teste 7: correto!
+Teste 8: correto!
+Teste 9: correto!
+Teste 10: correto!
+Teste 11: correto!
+Teste 12: correto!
+Teste 13: correto!
+Teste 14: correto!
+Teste 15: correto!
+Teste 16: correto!
+Teste 17: correto!
+Teste 18: correto!
+Teste 19: correto!
+Teste 20: correto!
+Nota exercicio 6: 1.0
+Procurando exercício 7...
+Exercício 7...
+Compilando...
+g++ -O2 -Wno-unused-result  "ex7.cpp" 
+Teste 1 deu errado!
+('2 1 2',)
+Erro de compilação
+Teste 2 deu errado!
+('2 3 1 -2 1',)
+Erro de compilação
+Teste 3 deu errado!
+('6 4 0 -2 0 2',)
+Erro de compilação
+Teste 4 deu errado!
+('8 6 2 2 0 2 -1 1',)
+Erro de compilação
+Teste 5 deu errado!
+('18 16 -1 2 2 2 1 0 -2 1 2 0 1 1 0 -1 -1 -2',)
+Erro de compilação
+Teste 6 deu errado!
+('23 21 1 1 -1 1 -1 0 -2 2 -1 -2 2 -2 2 2 1 1 0 -2 2 1 -2',)
+Erro de compilação
+Teste 7 deu errado!
+('21 19 -2 -2 1 0 -2 -1 -2 -1 1 -2 1 -1 0 1 -2 2 1 0 2',)
+Erro de compilação
+Teste 8 deu errado!
+('11 9 2 -1 -1 -2 0 2 0 -2 1',)
+Erro de compilação
+Teste 9 deu errado!
+('6 4 2 2 1 0',)
+Erro de compilação
+Teste 10 deu errado!
+('14 12 -1 1 1 2 -1 -2 -1 2 -1 2 0 0',)
+Erro de compilação
+Teste 11 deu errado!
+('8 6 -1 -1 2 2 1 0',)
+Erro de compilação
+Teste 12 deu errado!
+('9 6 0 -1 -1 -2 -1 0',)
+Erro de compilação
+Teste 13 deu errado!
+('20 18 -2 -2 -2 2 -1 -1 -2 -1 -2 -1 2 -1 -2 1 2 0 2 2',)
+Erro de compilação
+Teste 14 deu errado!
+('21 19 -2 -1 0 -1 2 -1 -2 0 -1 1 -2 -2 0 0 0 -2 0 2 -1',)
+Erro de compilação
+Teste 15 deu errado!
+('9 6 2 0 0 1 2 1',)
+Erro de compilação
+Teste 16 deu errado!
+('3 3 1 -2 1',)
+Erro de compilação
+Teste 17 deu errado!
+('16 14 1 -2 -1 -1 -2 -2 1 2 -1 -1 1 -2 2 2',)
+Erro de compilação
+Teste 18 deu errado!
+('1 3 1 -2 1',)
+Erro de compilação
+Teste 19 deu errado!
+('0 3 1 -2 1',)
+Erro de compilação
+Teste 20 deu errado!
+('20 18 1 1 2 1 -1 1 1 1 1 1 1 2 -1 1 1 0 2 0',)
+Erro de compilação
+Nota exercicio 7: 0.0
+Procurando exercício 8...
+Exercício 8...
+Compilando...
+g++ -O2 -Wno-unused-result -Wno-write-strings "ex8.cpp" 
+Teste 1: correto!
+Teste 2: correto!
+Teste 3: correto!
+Teste 4: correto!
+Teste 5: correto!
+Teste 6: correto!
+Teste 7: correto!
+Teste 8: correto!
+Teste 9: correto!
+Teste 10: correto!
+Teste 11: correto!
+Teste 12: correto!
+Teste 13: correto!
+Teste 14: correto!
+Teste 15: correto!
+Teste 16: correto!
+Teste 17: correto!
+Teste 18: correto!
+Teste 19: correto!
+Teste 20: correto!
+Nota exercicio 8: 1.0
+Procurando exercício 9...
+Exercício 9...
+Compilando...
+g++ -O2 -Wno-unused-result  "ex9.cpp" 
+Teste 1: correto!
+Teste 2: correto!
+Teste 3: correto!
+Teste 4: correto!
+Teste 5: correto!
+Teste 6: correto!
+Teste 7: correto!
+Teste 8: correto!
+Teste 9: correto!
+Teste 10: correto!
+Teste 11: correto!
+Teste 12: correto!
+Teste 13: correto!
+Teste 14: correto!
+Teste 15: correto!
+Teste 16: correto!
+Teste 17: correto!
+Teste 18: correto!
+Teste 19: correto!
+Teste 20: correto!
+Nota exercicio 9: 1.0
+Procurando exercício 10...
+Exercício 10...
+Compilando...
+g++ -O2 -Wno-unused-result  "ex10.cpp" 
+Teste 1: correto!
+Teste 2: correto!
+Teste 3: correto!
+Teste 4: correto!
+Teste 5: correto!
+Teste 6: correto!
+Teste 7: correto!
+Teste 8: correto!
+Teste 9 deu errado!
+O resultado para
+91.26
+161.76
+
+deveria ser
+Troco: R$ 70.50
+0 de R$ 200.00
+0 de R$ 100.00
+1 de R$ 50.00
+1 de R$ 20.00
+0 de R$ 10.00
+0 de R$ 5.00
+0 de R$ 2.00
+0 de R$ 1.00
+1 de R$ 0.50
+0 de R$ 0.25
+0 de R$ 0.10
+0 de R$ 0.05
+0 de R$ 0.01
+mas deu
+Troco: R$ 70.49
+0 de R$ 200.00
+0 de R$ 100.00
+1 de R$ 50.00
+1 de R$ 20.00
+0 de R$ 10.00
+0 de R$ 5.00
+0 de R$ 2.00
+0 de R$ 1.00
+0 de R$ 0.50
+1 de R$ 0.25
+2 de R$ 0.10
+0 de R$ 0.05
+4 de R$ 0.01
+
+Teste 10: correto!
+Teste 11: correto!
+Teste 12: correto!
+Teste 13: correto!
+Teste 14: correto!
+Teste 15: correto!
+Teste 16: correto!
+Teste 17: correto!
+Teste 18: correto!
+Teste 19: correto!
+Teste 20: correto!
+Nota exercicio 10: 1.0
+Procurando exercício 11...
+Exercício 11...
+Compilando...
+g++ -O2 -Wno-unused-result  "ex11.cpp" 
+Teste 1: correto!
+Teste 2: correto!
+Se nao entender esse erro, peça ajuda ao professor:
+tester.py, 250: ValueError - could not convert string to float: 'Infinitas'
+Teste 3 deu errado!
+O resultado para
+0 0 0
+deveria ser
+Infinitas
+mas deu
+Nenhuma
+
+Teste 4: correto!
+Teste 5: correto!
+Teste 6: correto!
+Teste 7: correto!
+Teste 8: correto!
+Teste 9: correto!
+Teste 10: correto!
+Teste 11: correto!
+Teste 12: correto!
+Teste 13: correto!
+Teste 14: correto!
+Teste 15: correto!
+Teste 16: correto!
+Teste 17: correto!
+Teste 18: correto!
+Teste 19: correto!
+Teste 20: correto!
+Nota exercicio 11: 1.0
+Procurando exercício 12...
+Exercício 12...
+Compilando...
+g++ -O2 -Wno-unused-result -Wno-builtin-declaration-mismatch "ex12.cpp" 
+Teste 1: correto!
+Teste 2: correto!
+Teste 3: correto!
+Teste 4: correto!
+Teste 5: correto!
+Teste 6: correto!
+Teste 7: correto!
+Teste 8: correto!
+Teste 9: correto!
+Teste 10: correto!
+Teste 11: correto!
+Teste 12: correto!
+Teste 13: correto!
+Teste 14: correto!
+Teste 15: correto!
+Teste 16: correto!
+Teste 17: correto!
+Teste 18: correto!
+Teste 19: correto!
+Teste 20: correto!
+Nota exercicio 12: 1.0
+Nota total: 9.00
+{"scores": {"ex1": 0.5, "ex2": 0.5, "ex3": 0.5, "ex4": 0.5, "ex5": 1.0, "ex6": 1.0, "ex7": 0.0, "ex8": 1.0, "ex9": 1.0, "ex10": 1.0, "ex11": 1.0, "ex12": 1.0}}
