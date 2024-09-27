@@ -1,0 +1,495 @@
+tester.py:56: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+g++ (Ubuntu 13.2.0-23ubuntu4) 13.2.0
+Copyright (C) 2023 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+Versão do G++:
+Varificando data de envio...
+PRAZO MÁXIMO: 2024-09-28T03:00:00-03:00
+Testando sua solucao...
+Procurando exercício 1...
+Exercício 1...
+Compilando...
+g++ -O2 -Wno-unused-result  "ex1.cpp" 
+Teste 1: correto!
+Teste 2: correto!
+Teste 3: correto!
+Teste 4: correto!
+Teste 5: correto!
+Teste 6: correto!
+Teste 7: correto!
+Teste 8: correto!
+Teste 9: correto!
+Teste 10: correto!
+Teste 11: correto!
+Teste 12: correto!
+Teste 13: correto!
+Teste 14: correto!
+Teste 15: correto!
+Teste 16: correto!
+Teste 17: correto!
+Teste 18: correto!
+Teste 19: correto!
+Teste 20: correto!
+Nota exercicio 1: 0.5
+Procurando exercício 2...
+Exercício 2...
+Compilando...
+g++ -O2 -Wno-unused-result  "ex2.cpp" 
+Teste 1: correto!
+Teste 2: correto!
+Teste 3: correto!
+Teste 4: correto!
+Teste 5: correto!
+Teste 6: correto!
+Teste 7: correto!
+Teste 8: correto!
+Teste 9: correto!
+Teste 10: correto!
+Teste 11: correto!
+Teste 12: correto!
+Teste 13: correto!
+Teste 14: correto!
+Teste 15: correto!
+Teste 16: correto!
+Teste 17: correto!
+Teste 18: correto!
+Teste 19: correto!
+Teste 20: correto!
+Nota exercicio 2: 0.5
+Procurando exercício 3...
+Exercício 3...
+Compilando...
+g++ -O2 -Wno-unused-result  "ex3.cpp" 
+Teste 1: correto!
+Teste 2: correto!
+Teste 3: correto!
+Teste 4: correto!
+Teste 5: correto!
+Teste 6: correto!
+Teste 7: correto!
+Teste 8: correto!
+Teste 9: correto!
+Teste 10: correto!
+Teste 11: correto!
+Teste 12: correto!
+Teste 13: correto!
+Teste 14: correto!
+Teste 15: correto!
+Teste 16: correto!
+Teste 17: correto!
+Teste 18: correto!
+Teste 19: correto!
+Teste 20: correto!
+Nota exercicio 3: 0.5
+Procurando exercício 4...
+Exercício 4...
+Compilando...
+g++ -O2 -Wno-unused-result  "ex4.cpp" 
+Teste 1: correto!
+Teste 2: correto!
+Teste 3: correto!
+Teste 4: correto!
+Teste 5: correto!
+Teste 6: correto!
+Teste 7: correto!
+Teste 8: correto!
+Teste 9: correto!
+Teste 10: correto!
+Teste 11: correto!
+Teste 12: correto!
+Teste 13: correto!
+Teste 14: correto!
+Teste 15: correto!
+Teste 16: correto!
+Teste 17: correto!
+Teste 18: correto!
+Teste 19: correto!
+Teste 20: correto!
+Nota exercicio 4: 0.5
+Procurando exercício 5...
+Exercício 5...
+Compilando...
+g++ -O2 -Wno-unused-result  "ex5.cpp" 
+Teste 1: correto!
+Teste 2: correto!
+Teste 3: correto!
+Teste 4: correto!
+Teste 5: correto!
+Teste 6: correto!
+Teste 7: correto!
+Teste 8: correto!
+Teste 9: correto!
+Teste 10: correto!
+Teste 11: correto!
+Teste 12: correto!
+Teste 13: correto!
+Teste 14: correto!
+Teste 15: correto!
+Teste 16: correto!
+Teste 17: correto!
+Teste 18: correto!
+Teste 19: correto!
+Teste 20: correto!
+Nota exercicio 5: 1.0
+Procurando exercício 6...
+Exercício 6...
+Compilando...
+g++ -O2 -Wno-unused-result  "ex6.cpp" 
+Teste 1: correto!
+Teste 2: correto!
+Teste 3: correto!
+Teste 4: correto!
+Teste 5: correto!
+Teste 6: correto!
+Teste 7: correto!
+Teste 8: correto!
+Teste 9: correto!
+Teste 10: correto!
+Teste 11: correto!
+Teste 12: correto!
+Teste 13: correto!
+Teste 14: correto!
+Teste 15: correto!
+Teste 16: correto!
+Teste 17: correto!
+Teste 18: correto!
+Teste 19: correto!
+Teste 20: correto!
+Nota exercicio 6: 1.0
+Procurando exercício 7...
+Exercício 7...
+Compilando...
+g++ -O2 -Wno-unused-result  "ex7.cpp" 
+Teste 1 deu errado!
+O resultado para
+11 9 1 2 -2 0 0 -1 2 -1 -2
+deveria ser
+144016
+mas deu
+14
+Teste 2 deu errado!
+O resultado para
+21 19 1 2 1 -2 -1 1 -1 -1 -1 2 1 -1 -1 2 -1 2 0 -1 1
+deveria ser
+1257758
+mas deu
+28
+Teste 3 deu errado!
+O resultado para
+10 7 0 1 -2 -1 1 0 -2
+deveria ser
+308195576
+mas deu
+6
+Teste 4 deu errado!
+O resultado para
+6 4 0 -1 -1 1
+deveria ser
+155
+mas deu
+2
+Teste 5 deu errado!
+O resultado para
+14 12 -1 2 -2 2 2 2 -1 0 0 1 0 -1
+deveria ser
+359396
+mas deu
+19
+Teste 6 deu errado!
+O resultado para
+8 6 2 0 1 -1 -2 -2
+deveria ser
+42642
+mas deu
+10
+Teste 7 deu errado!
+O resultado para
+4 3 -2 -1 0
+deveria ser
+26
+mas deu
+1
+Teste 8 deu errado!
+O resultado para
+16 14 -1 0 1 -1 1 -2 2 -2 -2 -2 -2 1 -1 -1
+deveria ser
+983072
+mas deu
+30
+Teste 9 deu errado!
+O resultado para
+25 23 -1 1 -2 1 2 1 -2 1 0 0 2 0 -2 0 1 0 1 -1 2 1 -1 -2 0
+deveria ser
+2194841
+mas deu
+36
+Teste 10 deu errado!
+O resultado para
+9 7 2 1 0 0 -1 0 -2
+deveria ser
+11341
+mas deu
+5
+Teste 11 deu errado!
+Teste 12 deu errado!
+Teste 13: correto!
+Teste 14 deu errado!
+Teste 15: correto!
+Teste 16: correto!
+Teste 17 deu errado!
+Teste 18: correto!
+Teste 19 deu errado!
+Teste 20 deu errado!
+Nota exercicio 7: 0.2
+Procurando exercício 8...
+Exercício 8...
+Compilando...
+g++ -O2 -Wno-unused-result -Wno-write-strings "ex8.cpp" 
+Teste 1: correto!
+Teste 2: correto!
+Teste 3: correto!
+Teste 4: correto!
+Teste 5: correto!
+Teste 6: correto!
+Teste 7: correto!
+Teste 8: correto!
+Teste 9: correto!
+Teste 10: correto!
+Teste 11: correto!
+Teste 12: correto!
+Teste 13: correto!
+Teste 14: correto!
+Teste 15: correto!
+Teste 16: correto!
+Teste 17: correto!
+Teste 18: correto!
+Teste 19: correto!
+Teste 20: correto!
+Nota exercicio 8: 1.0
+Procurando exercício 9...
+Exercício 9...
+Compilando...
+g++ -O2 -Wno-unused-result  "ex9.cpp" 
+Teste 1 deu errado!
+O resultado para
+2.16
+-8.72
+-7.57
+-3.79
+
+deveria ser
+10.9077
+mas deu
+10.908
+
+Teste 2: correto!
+Teste 3: correto!
+Teste 4: correto!
+Teste 5 deu errado!
+O resultado para
+-6.91
+4.53
+4.00
+6.33
+
+deveria ser
+11.0575
+mas deu
+11.057
+
+Teste 6 deu errado!
+O resultado para
+-1.44
+-3.12
+9.69
+6.03
+
+deveria ser
+14.4083
+mas deu
+14.408
+
+Teste 7 deu errado!
+O resultado para
+0.0
+0.0
+0.0
+0.0
+
+deveria ser
+0.0000
+mas deu
+0
+
+Teste 8 deu errado!
+O resultado para
+8.94
+-9.20
+-3.77
+9.95
+
+deveria ser
+22.9841
+mas deu
+22.984
+
+Teste 9 deu errado!
+O resultado para
+8.63
+8.26
+0.03
+-0.69
+
+deveria ser
+12.4122
+mas deu
+12.412
+
+Teste 10 deu errado!
+O resultado para
+4.84
+2.42
+-6.43
+-1.57
+
+deveria ser
+11.9555
+mas deu
+11.955
+
+Teste 11: correto!
+Teste 12 deu errado!
+Teste 13 deu errado!
+Teste 14: correto!
+Teste 15: correto!
+Teste 16: correto!
+Teste 17 deu errado!
+Teste 18 deu errado!
+Teste 19: correto!
+Teste 20: correto!
+Nota exercicio 9: 0.4
+Procurando exercício 10...
+Exercício 10...
+Compilando...
+g++ -O2 -Wno-unused-result  "ex10.cpp" 
+Teste 1: correto!
+Teste 2: correto!
+Teste 3: correto!
+Teste 4: correto!
+Teste 5: correto!
+Teste 6: correto!
+Teste 7: correto!
+Teste 8: correto!
+Teste 9: correto!
+Teste 10: correto!
+Teste 11: correto!
+Teste 12: correto!
+Teste 13: correto!
+Teste 14: correto!
+Teste 15 deu errado!
+Teste 16: correto!
+Teste 17: correto!
+Teste 18: correto!
+Teste 19: correto!
+Teste 20: correto!
+Nota exercicio 10: 1.0
+Procurando exercício 11...
+Exercício 11...
+Compilando...
+g++ -O2 -Wno-unused-result  "ex11.cpp" 
+Teste 1: correto!
+Teste 2: correto!
+Teste 3: correto!
+Teste 4 deu errado!
+O resultado para
+0 1 -1
+deveria ser
+1
+mas deu
+-nan e -inf
+
+Teste 5 deu errado!
+O resultado para
+7.8
+7.0
+1.4
+
+deveria ser
+-0.5965713153162922 e -0.30086458211960526
+mas deu
+-0.300865 e -0.596571
+
+Teste 6 deu errado!
+O resultado para
+5.7
+-3.7
+-8.8
+
+deveria ser
+-0.9596503211575275 e 1.6087731281750712
+mas deu
+1.608773 e -0.959650
+
+Se nao entender esse erro, peça ajuda ao professor:
+tester.py, 250: ValueError - could not convert string to float: 'Nenhuma'
+Teste 7 deu errado!
+O resultado para
+0 0 8.6
+deveria ser
+Nenhuma
+mas deu
+-nan e -nan
+
+Teste 8: correto!
+Teste 9 deu errado!
+O resultado para
+4.4
+6.8
+-3.3
+
+deveria ser
+-1.9333768486185188 e 0.38792230316397325
+mas deu
+0.387922 e -1.933377
+
+Teste 10: correto!
+Teste 11 deu errado!
+Teste 12: correto!
+Teste 13: correto!
+Teste 14: correto!
+Teste 15: correto!
+Teste 16 deu errado!
+Teste 17 deu errado!
+Teste 18: correto!
+Teste 19 deu errado!
+Teste 20: correto!
+Nota exercicio 11: 0.5
+Procurando exercício 12...
+Exercício 12...
+Compilando...
+g++ -O2 -Wno-unused-result -Wno-builtin-declaration-mismatch "ex12.cpp" 
+Teste 1: correto!
+Teste 2: correto!
+Teste 3: correto!
+Teste 4: correto!
+Teste 5: correto!
+Teste 6: correto!
+Teste 7: correto!
+Teste 8: correto!
+Teste 9: correto!
+Teste 10: correto!
+Teste 11: correto!
+Teste 12: correto!
+Teste 13: correto!
+Teste 14: correto!
+Teste 15: correto!
+Teste 16: correto!
+Teste 17: correto!
+Teste 18: correto!
+Teste 19: correto!
+Teste 20: correto!
+Nota exercicio 12: 1.0
+Nota total: 8.10
+{"scores": {"ex1": 0.5, "ex2": 0.5, "ex3": 0.5, "ex4": 0.5, "ex5": 1.0, "ex6": 1.0, "ex7": 0.2, "ex8": 1.0, "ex9": 0.4, "ex10": 1.0, "ex11": 0.5, "ex12": 1.0}}
