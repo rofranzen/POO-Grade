@@ -10,8 +10,8 @@ int seq(int n, int k, int *ini){
     int fim;
     
     if (n >= k){
-        for(int i = 0; i<k;i++)
-            resp[i] = ini[i]
+        for(int i = 0; i<k;i++){
+            resp[i] = ini[i];}
 
         
         for(int i = k; i <= n; i++){
@@ -37,8 +37,9 @@ int main()
     int a, b;
 
     cin >>a >> b;
-    for(int i = 0; i<k;i++)
-        cin>>t[i];
+    int t[a];
+    for(int i = 0; i<b;i++){
+        cin>>t[i];}
     
     cout << seq(a,b,t) << endl;
     return 0;
