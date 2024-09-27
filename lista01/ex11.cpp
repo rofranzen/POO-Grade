@@ -15,7 +15,7 @@ std::string raizes(double a, double b, double c){
     if (delta < 0 || (a==0 && b==0)){
         return "Nenhuma";
     }
-    else if (c == 0){
+    else if (c == 0 && delta == 0){
         return "Infinitas";
     }
     else if (a == 0){
