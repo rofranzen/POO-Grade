@@ -28,7 +28,7 @@ std::string raizes(double a, double b, double c){
 
     double x1 = ((-b) + delta)/(2*a);
     double x2 = ((-b)- delta) / (2*a);
-    //cout << x1 << " e " << x2 << endl;
+    //cout << x2 << " e " << x1 << endl;
 
 
     if (x1 == x2){
@@ -37,9 +37,9 @@ std::string raizes(double a, double b, double c){
 
     string resposta;
     
-    resposta.append(to_string(x1));
-    resposta.append(" e ");
     resposta.append(to_string(x2));
+    resposta.append(" e ");
+    resposta.append(to_string(x1));
     return resposta;
 
 }
