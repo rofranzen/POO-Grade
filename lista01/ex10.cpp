@@ -13,7 +13,7 @@ int main()
 
     int gasto = (int)(gastoF*100), dado = (int)(dadoF*100);
 
-    troco = (dadoF - gastoF)/100;
+    troco = (dado - gasto);
     cout << fixed;
     cout << setprecision(2) << "Troco: R$ " << ((float) troco)/100 << endl;
 
