@@ -1,0 +1,1044 @@
+tester.py:56: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+g++ (Ubuntu 13.2.0-23ubuntu4) 13.2.0
+Copyright (C) 2023 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+ex1.cpp: In function ‘int main()’:
+ex1.cpp:5:34: error: ‘endl’ was not declared in this scope; did you mean ‘std::endl’?
+    5 |     std::cout << "Hello World!"<<endl;
+      |                                  ^~~~
+      |                                  std::endl
+In file included from /usr/include/c++/13/iostream:41,
+                 from ex1.cpp:1:
+/usr/include/c++/13/ostream:735:5: note: ‘std::endl’ declared here
+  735 |     endl(basic_ostream<_CharT, _Traits>& __os)
+      |     ^~~~
+ex1.cpp: In function ‘int main()’:
+ex1.cpp:5:34: error: ‘endl’ was not declared in this scope; did you mean ‘std::endl’?
+    5 |     std::cout << "Hello World!"<<endl;
+      |                                  ^~~~
+      |                                  std::endl
+In file included from /usr/include/c++/13/iostream:41,
+                 from ex1.cpp:1:
+/usr/include/c++/13/ostream:735:5: note: ‘std::endl’ declared here
+  735 |     endl(basic_ostream<_CharT, _Traits>& __os)
+      |     ^~~~
+ex1.cpp: In function ‘int main()’:
+ex1.cpp:5:34: error: ‘endl’ was not declared in this scope; did you mean ‘std::endl’?
+    5 |     std::cout << "Hello World!"<<endl;
+      |                                  ^~~~
+      |                                  std::endl
+In file included from /usr/include/c++/13/iostream:41,
+                 from ex1.cpp:1:
+/usr/include/c++/13/ostream:735:5: note: ‘std::endl’ declared here
+  735 |     endl(basic_ostream<_CharT, _Traits>& __os)
+      |     ^~~~
+ex1.cpp: In function ‘int main()’:
+ex1.cpp:5:34: error: ‘endl’ was not declared in this scope; did you mean ‘std::endl’?
+    5 |     std::cout << "Hello World!"<<endl;
+      |                                  ^~~~
+      |                                  std::endl
+In file included from /usr/include/c++/13/iostream:41,
+                 from ex1.cpp:1:
+/usr/include/c++/13/ostream:735:5: note: ‘std::endl’ declared here
+  735 |     endl(basic_ostream<_CharT, _Traits>& __os)
+      |     ^~~~
+ex1.cpp: In function ‘int main()’:
+ex1.cpp:5:34: error: ‘endl’ was not declared in this scope; did you mean ‘std::endl’?
+    5 |     std::cout << "Hello World!"<<endl;
+      |                                  ^~~~
+      |                                  std::endl
+In file included from /usr/include/c++/13/iostream:41,
+                 from ex1.cpp:1:
+/usr/include/c++/13/ostream:735:5: note: ‘std::endl’ declared here
+  735 |     endl(basic_ostream<_CharT, _Traits>& __os)
+      |     ^~~~
+ex1.cpp: In function ‘int main()’:
+ex1.cpp:5:34: error: ‘endl’ was not declared in this scope; did you mean ‘std::endl’?
+    5 |     std::cout << "Hello World!"<<endl;
+      |                                  ^~~~
+      |                                  std::endl
+In file included from /usr/include/c++/13/iostream:41,
+                 from ex1.cpp:1:
+/usr/include/c++/13/ostream:735:5: note: ‘std::endl’ declared here
+  735 |     endl(basic_ostream<_CharT, _Traits>& __os)
+      |     ^~~~
+ex1.cpp: In function ‘int main()’:
+ex1.cpp:5:34: error: ‘endl’ was not declared in this scope; did you mean ‘std::endl’?
+    5 |     std::cout << "Hello World!"<<endl;
+      |                                  ^~~~
+      |                                  std::endl
+In file included from /usr/include/c++/13/iostream:41,
+                 from ex1.cpp:1:
+/usr/include/c++/13/ostream:735:5: note: ‘std::endl’ declared here
+  735 |     endl(basic_ostream<_CharT, _Traits>& __os)
+      |     ^~~~
+ex1.cpp: In function ‘int main()’:
+ex1.cpp:5:34: error: ‘endl’ was not declared in this scope; did you mean ‘std::endl’?
+    5 |     std::cout << "Hello World!"<<endl;
+      |                                  ^~~~
+      |                                  std::endl
+In file included from /usr/include/c++/13/iostream:41,
+                 from ex1.cpp:1:
+/usr/include/c++/13/ostream:735:5: note: ‘std::endl’ declared here
+  735 |     endl(basic_ostream<_CharT, _Traits>& __os)
+      |     ^~~~
+ex1.cpp: In function ‘int main()’:
+ex1.cpp:5:34: error: ‘endl’ was not declared in this scope; did you mean ‘std::endl’?
+    5 |     std::cout << "Hello World!"<<endl;
+      |                                  ^~~~
+      |                                  std::endl
+In file included from /usr/include/c++/13/iostream:41,
+                 from ex1.cpp:1:
+/usr/include/c++/13/ostream:735:5: note: ‘std::endl’ declared here
+  735 |     endl(basic_ostream<_CharT, _Traits>& __os)
+      |     ^~~~
+ex1.cpp: In function ‘int main()’:
+ex1.cpp:5:34: error: ‘endl’ was not declared in this scope; did you mean ‘std::endl’?
+    5 |     std::cout << "Hello World!"<<endl;
+      |                                  ^~~~
+      |                                  std::endl
+In file included from /usr/include/c++/13/iostream:41,
+                 from ex1.cpp:1:
+/usr/include/c++/13/ostream:735:5: note: ‘std::endl’ declared here
+  735 |     endl(basic_ostream<_CharT, _Traits>& __os)
+      |     ^~~~
+ex1.cpp: In function ‘int main()’:
+ex1.cpp:5:34: error: ‘endl’ was not declared in this scope; did you mean ‘std::endl’?
+    5 |     std::cout << "Hello World!"<<endl;
+      |                                  ^~~~
+      |                                  std::endl
+In file included from /usr/include/c++/13/iostream:41,
+                 from ex1.cpp:1:
+/usr/include/c++/13/ostream:735:5: note: ‘std::endl’ declared here
+  735 |     endl(basic_ostream<_CharT, _Traits>& __os)
+      |     ^~~~
+ex1.cpp: In function ‘int main()’:
+ex1.cpp:5:34: error: ‘endl’ was not declared in this scope; did you mean ‘std::endl’?
+    5 |     std::cout << "Hello World!"<<endl;
+      |                                  ^~~~
+      |                                  std::endl
+In file included from /usr/include/c++/13/iostream:41,
+                 from ex1.cpp:1:
+/usr/include/c++/13/ostream:735:5: note: ‘std::endl’ declared here
+  735 |     endl(basic_ostream<_CharT, _Traits>& __os)
+      |     ^~~~
+ex1.cpp: In function ‘int main()’:
+ex1.cpp:5:34: error: ‘endl’ was not declared in this scope; did you mean ‘std::endl’?
+    5 |     std::cout << "Hello World!"<<endl;
+      |                                  ^~~~
+      |                                  std::endl
+In file included from /usr/include/c++/13/iostream:41,
+                 from ex1.cpp:1:
+/usr/include/c++/13/ostream:735:5: note: ‘std::endl’ declared here
+  735 |     endl(basic_ostream<_CharT, _Traits>& __os)
+      |     ^~~~
+ex1.cpp: In function ‘int main()’:
+ex1.cpp:5:34: error: ‘endl’ was not declared in this scope; did you mean ‘std::endl’?
+    5 |     std::cout << "Hello World!"<<endl;
+      |                                  ^~~~
+      |                                  std::endl
+In file included from /usr/include/c++/13/iostream:41,
+                 from ex1.cpp:1:
+/usr/include/c++/13/ostream:735:5: note: ‘std::endl’ declared here
+  735 |     endl(basic_ostream<_CharT, _Traits>& __os)
+      |     ^~~~
+ex1.cpp: In function ‘int main()’:
+ex1.cpp:5:34: error: ‘endl’ was not declared in this scope; did you mean ‘std::endl’?
+    5 |     std::cout << "Hello World!"<<endl;
+      |                                  ^~~~
+      |                                  std::endl
+In file included from /usr/include/c++/13/iostream:41,
+                 from ex1.cpp:1:
+/usr/include/c++/13/ostream:735:5: note: ‘std::endl’ declared here
+  735 |     endl(basic_ostream<_CharT, _Traits>& __os)
+      |     ^~~~
+ex1.cpp: In function ‘int main()’:
+ex1.cpp:5:34: error: ‘endl’ was not declared in this scope; did you mean ‘std::endl’?
+    5 |     std::cout << "Hello World!"<<endl;
+      |                                  ^~~~
+      |                                  std::endl
+In file included from /usr/include/c++/13/iostream:41,
+                 from ex1.cpp:1:
+/usr/include/c++/13/ostream:735:5: note: ‘std::endl’ declared here
+  735 |     endl(basic_ostream<_CharT, _Traits>& __os)
+      |     ^~~~
+ex1.cpp: In function ‘int main()’:
+ex1.cpp:5:34: error: ‘endl’ was not declared in this scope; did you mean ‘std::endl’?
+    5 |     std::cout << "Hello World!"<<endl;
+      |                                  ^~~~
+      |                                  std::endl
+In file included from /usr/include/c++/13/iostream:41,
+                 from ex1.cpp:1:
+/usr/include/c++/13/ostream:735:5: note: ‘std::endl’ declared here
+  735 |     endl(basic_ostream<_CharT, _Traits>& __os)
+      |     ^~~~
+ex1.cpp: In function ‘int main()’:
+ex1.cpp:5:34: error: ‘endl’ was not declared in this scope; did you mean ‘std::endl’?
+    5 |     std::cout << "Hello World!"<<endl;
+      |                                  ^~~~
+      |                                  std::endl
+In file included from /usr/include/c++/13/iostream:41,
+                 from ex1.cpp:1:
+/usr/include/c++/13/ostream:735:5: note: ‘std::endl’ declared here
+  735 |     endl(basic_ostream<_CharT, _Traits>& __os)
+      |     ^~~~
+ex1.cpp: In function ‘int main()’:
+ex1.cpp:5:34: error: ‘endl’ was not declared in this scope; did you mean ‘std::endl’?
+    5 |     std::cout << "Hello World!"<<endl;
+      |                                  ^~~~
+      |                                  std::endl
+In file included from /usr/include/c++/13/iostream:41,
+                 from ex1.cpp:1:
+/usr/include/c++/13/ostream:735:5: note: ‘std::endl’ declared here
+  735 |     endl(basic_ostream<_CharT, _Traits>& __os)
+      |     ^~~~
+ex1.cpp: In function ‘int main()’:
+ex1.cpp:5:34: error: ‘endl’ was not declared in this scope; did you mean ‘std::endl’?
+    5 |     std::cout << "Hello World!"<<endl;
+      |                                  ^~~~
+      |                                  std::endl
+In file included from /usr/include/c++/13/iostream:41,
+                 from ex1.cpp:1:
+/usr/include/c++/13/ostream:735:5: note: ‘std::endl’ declared here
+  735 |     endl(basic_ostream<_CharT, _Traits>& __os)
+      |     ^~~~
+Versão do G++:
+Varificando data de envio...
+PRAZO MÁXIMO: 2024-09-28T03:00:00-03:00
+Testando sua solucao...
+Procurando exercício 1...
+Exercício 1...
+Compilando...
+g++ -O2 -Wno-unused-result  "ex1.cpp" 
+Teste 1 deu errado!
+ 
+Erro de compilação
+Teste 2 deu errado!
+ 
+Erro de compilação
+Teste 3 deu errado!
+ 
+Erro de compilação
+Teste 4 deu errado!
+ 
+Erro de compilação
+Teste 5 deu errado!
+ 
+Erro de compilação
+Teste 6 deu errado!
+ 
+Erro de compilação
+Teste 7 deu errado!
+ 
+Erro de compilação
+Teste 8 deu errado!
+ 
+Erro de compilação
+Teste 9 deu errado!
+ 
+Erro de compilação
+Teste 10 deu errado!
+ 
+Erro de compilação
+Teste 11 deu errado!
+ 
+Erro de compilação
+Teste 12 deu errado!
+ 
+Erro de compilação
+Teste 13 deu errado!
+ 
+Erro de compilação
+Teste 14 deu errado!
+ 
+Erro de compilação
+Teste 15 deu errado!
+ 
+Erro de compilação
+Teste 16 deu errado!
+ 
+Erro de compilação
+Teste 17 deu errado!
+ 
+Erro de compilação
+Teste 18 deu errado!
+ 
+Erro de compilação
+Teste 19 deu errado!
+ 
+Erro de compilação
+Teste 20 deu errado!
+ 
+Erro de compilação
+Nota exercicio 1: 0.0
+Procurando exercício 2...
+Exercício 2...
+Compilando...
+g++ -O2 -Wno-unused-result  "ex2.cpp" 
+Teste 1: correto!
+Teste 2: correto!
+Teste 3: correto!
+Teste 4: correto!
+Teste 5: correto!
+Teste 6: correto!
+Teste 7: correto!
+Teste 8: correto!
+Teste 9: correto!
+Teste 10: correto!
+Teste 11: correto!
+Teste 12: correto!
+Teste 13: correto!
+Teste 14: correto!
+Teste 15: correto!
+Teste 16: correto!
+Teste 17: correto!
+Teste 18: correto!
+Teste 19: correto!
+Teste 20: correto!
+Nota exercicio 2: 0.5
+Procurando exercício 3...
+Exercício 3...
+Compilando...
+g++ -O2 -Wno-unused-result  "ex3.cpp" 
+Teste 1: correto!
+Teste 2: correto!
+Teste 3: correto!
+Teste 4: correto!
+Teste 5: correto!
+Teste 6: correto!
+Teste 7: correto!
+Teste 8: correto!
+Teste 9: correto!
+Teste 10: correto!
+Teste 11: correto!
+Teste 12: correto!
+Teste 13: correto!
+Teste 14: correto!
+Teste 15: correto!
+Teste 16: correto!
+Teste 17: correto!
+Teste 18: correto!
+Teste 19: correto!
+Teste 20: correto!
+Nota exercicio 3: 0.5
+Procurando exercício 4...
+Exercício 4...
+Compilando...
+g++ -O2 -Wno-unused-result  "ex4.cpp" 
+Teste 1: correto!
+Teste 2: correto!
+Teste 3: correto!
+Teste 4: correto!
+Teste 5: correto!
+Teste 6: correto!
+Teste 7: correto!
+Teste 8: correto!
+Teste 9: correto!
+Teste 10: correto!
+Teste 11: correto!
+Teste 12: correto!
+Teste 13: correto!
+Teste 14: correto!
+Teste 15: correto!
+Teste 16: correto!
+Teste 17: correto!
+Teste 18: correto!
+Teste 19: correto!
+Teste 20: correto!
+Nota exercicio 4: 0.5
+Procurando exercício 5...
+Exercício 5...
+Compilando...
+g++ -O2 -Wno-unused-result  "ex5.cpp" 
+Teste 1: correto!
+Teste 2: correto!
+Teste 3: correto!
+Teste 4: correto!
+Teste 5: correto!
+Teste 6: correto!
+Teste 7: correto!
+Teste 8: correto!
+Teste 9: correto!
+Teste 10: correto!
+Teste 11: correto!
+Teste 12: correto!
+Teste 13: correto!
+Teste 14: correto!
+Teste 15: correto!
+Teste 16: correto!
+Teste 17: correto!
+Teste 18: correto!
+Teste 19: correto!
+Teste 20: correto!
+Nota exercicio 5: 1.0
+Procurando exercício 6...
+Exercício 6...
+Compilando...
+g++ -O2 -Wno-unused-result  "ex6.cpp" 
+Teste 1: correto!
+Teste 2: correto!
+Teste 3: correto!
+Teste 4: correto!
+Teste 5: correto!
+Teste 6: correto!
+Teste 7: correto!
+Teste 8: correto!
+Teste 9: correto!
+Teste 10: correto!
+Teste 11: correto!
+Teste 12: correto!
+Teste 13: correto!
+Teste 14: correto!
+Teste 15: correto!
+Teste 16: correto!
+Teste 17: correto!
+Teste 18: correto!
+Teste 19: correto!
+Teste 20: correto!
+Nota exercicio 6: 1.0
+Procurando exercício 7...
+Exercício 7...
+Compilando...
+g++ -O2 -Wno-unused-result  "ex7.cpp" 
+Teste 1 deu errado!
+O resultado para
+24 22 2 2 1 1 2 1 0 -1 -2 2 1 1 1 0 -1 0 1 0 2 2 -1 0
+deveria ser
+2185958
+mas deu
+30
+Teste 2 deu errado!
+O resultado para
+21 19 -1 2 -1 -2 1 0 2 1 2 -2 2 2 1 0 2 2 -2 -1 0
+deveria ser
+4672078
+mas deu
+41
+Teste 3 deu errado!
+O resultado para
+14 12 1 -1 0 0 -2 -1 -1 2 1 0 1 -2
+deveria ser
+116621
+mas deu
+16
+Teste 4 deu errado!
+O resultado para
+9 7 0 1 -1 0 -1 2 -1
+deveria ser
+5255
+mas deu
+7
+Teste 5 deu errado!
+O resultado para
+12 9 -1 -1 -1 0 0 1 0 -1 1
+deveria ser
+2963561
+mas deu
+3
+Teste 6 deu errado!
+O resultado para
+16 14 2 2 -1 2 -2 2 -1 -2 1 1 1 1 -2 -1
+deveria ser
+1578788
+mas deu
+27
+Teste 7: correto!
+Teste 8 deu errado!
+O resultado para
+26 24 -2 2 2 0 0 0 -1 0 -2 2 -2 -1 0 0 0 1 0 -2 0 1 2 2 0 2
+deveria ser
+3906548
+mas deu
+36
+Teste 9 deu errado!
+O resultado para
+9 7 0 1 1 -1 -2 2 -2
+deveria ser
+57839
+mas deu
+14
+Teste 10 deu errado!
+O resultado para
+16 14 1 -1 -1 -2 -1 -2 0 1 0 0 -2 0 2 2
+deveria ser
+421849
+mas deu
+23
+Teste 11: correto!
+Teste 12 deu errado!
+Teste 13 deu errado!
+Teste 14 deu errado!
+Teste 15 deu errado!
+Teste 16: correto!
+Teste 17 deu errado!
+Teste 18 deu errado!
+Teste 19: correto!
+Teste 20 deu errado!
+Nota exercicio 7: 0.2
+Procurando exercício 8...
+Exercício 8...
+Compilando...
+g++ -O2 -Wno-unused-result -Wno-write-strings "ex8.cpp" 
+Teste 1: correto!
+Teste 2: correto!
+Teste 3: correto!
+Teste 4: correto!
+Teste 5: correto!
+Teste 6: correto!
+Teste 7: correto!
+Teste 8: correto!
+Teste 9: correto!
+Teste 10: correto!
+Teste 11: correto!
+Teste 12: correto!
+Teste 13: correto!
+Teste 14: correto!
+Teste 15: correto!
+Teste 16: correto!
+Teste 17: correto!
+Teste 18: correto!
+Teste 19: correto!
+Teste 20: correto!
+Nota exercicio 8: 1.0
+Procurando exercício 9...
+Exercício 9...
+Compilando...
+g++ -O2 -Wno-unused-result  "ex9.cpp" 
+Teste 1 deu errado!
+O resultado para
+-2.33
+9.67
+-5.90
+-6.20
+
+deveria ser
+16.2666
+mas deu
+16.267
+
+Teste 2: correto!
+Teste 3 deu errado!
+O resultado para
+9.99
+4.55
+-7.24
+8.20
+
+deveria ser
+17.6124
+mas deu
+17.612
+
+Teste 4: correto!
+Teste 5: correto!
+Teste 6 deu errado!
+O resultado para
+9.90
+-1.93
+-4.25
+-8.96
+
+deveria ser
+15.8001
+mas deu
+15.8
+
+Teste 7 deu errado!
+O resultado para
+7.93
+-8.19
+-8.48
+-6.66
+
+deveria ser
+16.4812
+mas deu
+16.481
+
+Teste 8: correto!
+Teste 9 deu errado!
+O resultado para
+1.28
+-0.96
+-2.14
+8.80
+
+deveria ser
+10.3419
+mas deu
+10.342
+
+Teste 10: correto!
+Teste 11: correto!
+Teste 12 deu errado!
+Teste 13: correto!
+Teste 14 deu errado!
+Teste 15: correto!
+Teste 16 deu errado!
+Teste 17: correto!
+Teste 18: correto!
+Teste 19 deu errado!
+Teste 20: correto!
+Nota exercicio 9: 0.5
+Procurando exercício 10...
+Exercício 10...
+Compilando...
+g++ -O2 -Wno-unused-result  "ex10.cpp" 
+Teste 1 deu errado!
+O resultado para
+79.59
+861.64
+
+deveria ser
+Troco: R$ 782.05
+3 de R$ 200.00
+1 de R$ 100.00
+1 de R$ 50.00
+1 de R$ 20.00
+1 de R$ 10.00
+0 de R$ 5.00
+1 de R$ 2.00
+0 de R$ 1.00
+0 de R$ 0.50
+0 de R$ 0.25
+0 de R$ 0.10
+1 de R$ 0.05
+0 de R$ 0.01
+mas deu
+Troco: R$ 782.00
+0 de R$ 200.00
+0 de R$ 100.00
+0 de R$ 50.00
+0 de R$ 20.00
+0 de R$ 10.00
+1 de R$ 5.00
+1 de R$ 2.00
+0 de R$ 1.00
+1 de R$ 0.50
+1 de R$ 0.25
+0 de R$ 0.10
+1 de R$ 0.05
+2 de R$ 0.01
+
+Teste 2 deu errado!
+O resultado para
+456.18
+461.78
+
+deveria ser
+Troco: R$ 5.60
+0 de R$ 200.00
+0 de R$ 100.00
+0 de R$ 50.00
+0 de R$ 20.00
+0 de R$ 10.00
+1 de R$ 5.00
+0 de R$ 2.00
+0 de R$ 1.00
+1 de R$ 0.50
+0 de R$ 0.25
+1 de R$ 0.10
+0 de R$ 0.05
+0 de R$ 0.01
+mas deu
+Troco: R$ 5.00
+0 de R$ 200.00
+0 de R$ 100.00
+0 de R$ 50.00
+0 de R$ 20.00
+0 de R$ 10.00
+0 de R$ 5.00
+0 de R$ 2.00
+0 de R$ 1.00
+0 de R$ 0.50
+0 de R$ 0.25
+0 de R$ 0.10
+1 de R$ 0.05
+0 de R$ 0.01
+
+Teste 3 deu errado!
+O resultado para
+400.51
+500.00
+
+deveria ser
+Troco: R$ 99.49
+0 de R$ 200.00
+0 de R$ 100.00
+1 de R$ 50.00
+2 de R$ 20.00
+0 de R$ 10.00
+1 de R$ 5.00
+2 de R$ 2.00
+0 de R$ 1.00
+0 de R$ 0.50
+1 de R$ 0.25
+2 de R$ 0.10
+0 de R$ 0.05
+4 de R$ 0.01
+mas deu
+Troco: R$ 99.00
+0 de R$ 200.00
+0 de R$ 100.00
+0 de R$ 50.00
+0 de R$ 20.00
+0 de R$ 10.00
+0 de R$ 5.00
+0 de R$ 2.00
+0 de R$ 1.00
+1 de R$ 0.50
+1 de R$ 0.25
+2 de R$ 0.10
+0 de R$ 0.05
+4 de R$ 0.01
+
+Teste 4 deu errado!
+O resultado para
+946.27
+973.47
+
+deveria ser
+Troco: R$ 27.20
+0 de R$ 200.00
+0 de R$ 100.00
+0 de R$ 50.00
+1 de R$ 20.00
+0 de R$ 10.00
+1 de R$ 5.00
+1 de R$ 2.00
+0 de R$ 1.00
+0 de R$ 0.50
+0 de R$ 0.25
+2 de R$ 0.10
+0 de R$ 0.05
+0 de R$ 0.01
+mas deu
+Troco: R$ 27.00
+0 de R$ 200.00
+0 de R$ 100.00
+0 de R$ 50.00
+0 de R$ 20.00
+0 de R$ 10.00
+0 de R$ 5.00
+0 de R$ 2.00
+0 de R$ 1.00
+0 de R$ 0.50
+1 de R$ 0.25
+0 de R$ 0.10
+0 de R$ 0.05
+2 de R$ 0.01
+
+Teste 5 deu errado!
+O resultado para
+68.54
+181.74
+
+deveria ser
+Troco: R$ 113.20
+0 de R$ 200.00
+1 de R$ 100.00
+0 de R$ 50.00
+0 de R$ 20.00
+1 de R$ 10.00
+0 de R$ 5.00
+1 de R$ 2.00
+1 de R$ 1.00
+0 de R$ 0.50
+0 de R$ 0.25
+2 de R$ 0.10
+0 de R$ 0.05
+0 de R$ 0.01
+mas deu
+Troco: R$ 113.00
+0 de R$ 200.00
+0 de R$ 100.00
+0 de R$ 50.00
+0 de R$ 20.00
+0 de R$ 10.00
+0 de R$ 5.00
+0 de R$ 2.00
+1 de R$ 1.00
+0 de R$ 0.50
+0 de R$ 0.25
+1 de R$ 0.10
+0 de R$ 0.05
+3 de R$ 0.01
+
+Teste 6 deu errado!
+O resultado para
+350.28
+979.33
+
+deveria ser
+Troco: R$ 629.05
+3 de R$ 200.00
+0 de R$ 100.00
+0 de R$ 50.00
+1 de R$ 20.00
+0 de R$ 10.00
+1 de R$ 5.00
+2 de R$ 2.00
+0 de R$ 1.00
+0 de R$ 0.50
+0 de R$ 0.25
+0 de R$ 0.10
+1 de R$ 0.05
+0 de R$ 0.01
+mas deu
+Troco: R$ 629.00
+0 de R$ 200.00
+0 de R$ 100.00
+0 de R$ 50.00
+0 de R$ 20.00
+0 de R$ 10.00
+1 de R$ 5.00
+0 de R$ 2.00
+1 de R$ 1.00
+0 de R$ 0.50
+1 de R$ 0.25
+0 de R$ 0.10
+0 de R$ 0.05
+4 de R$ 0.01
+
+Teste 7 deu errado!
+O resultado para
+741.97
+784.62
+
+deveria ser
+Troco: R$ 42.65
+0 de R$ 200.00
+0 de R$ 100.00
+0 de R$ 50.00
+2 de R$ 20.00
+0 de R$ 10.00
+0 de R$ 5.00
+1 de R$ 2.00
+0 de R$ 1.00
+1 de R$ 0.50
+0 de R$ 0.25
+1 de R$ 0.10
+1 de R$ 0.05
+0 de R$ 0.01
+mas deu
+Troco: R$ 42.00
+0 de R$ 200.00
+0 de R$ 100.00
+0 de R$ 50.00
+0 de R$ 20.00
+0 de R$ 10.00
+0 de R$ 5.00
+0 de R$ 2.00
+0 de R$ 1.00
+0 de R$ 0.50
+1 de R$ 0.25
+1 de R$ 0.10
+1 de R$ 0.05
+2 de R$ 0.01
+
+Teste 8 deu errado!
+O resultado para
+190.83
+776.23
+
+deveria ser
+Troco: R$ 585.40
+2 de R$ 200.00
+1 de R$ 100.00
+1 de R$ 50.00
+1 de R$ 20.00
+1 de R$ 10.00
+1 de R$ 5.00
+0 de R$ 2.00
+0 de R$ 1.00
+0 de R$ 0.50
+1 de R$ 0.25
+1 de R$ 0.10
+1 de R$ 0.05
+0 de R$ 0.01
+mas deu
+Troco: R$ 585.00
+0 de R$ 200.00
+0 de R$ 100.00
+0 de R$ 50.00
+0 de R$ 20.00
+0 de R$ 10.00
+1 de R$ 5.00
+0 de R$ 2.00
+0 de R$ 1.00
+1 de R$ 0.50
+1 de R$ 0.25
+1 de R$ 0.10
+0 de R$ 0.05
+0 de R$ 0.01
+
+Teste 9 deu errado!
+O resultado para
+528.53
+529.68
+
+deveria ser
+Troco: R$ 1.15
+0 de R$ 200.00
+0 de R$ 100.00
+0 de R$ 50.00
+0 de R$ 20.00
+0 de R$ 10.00
+0 de R$ 5.00
+0 de R$ 2.00
+1 de R$ 1.00
+0 de R$ 0.50
+0 de R$ 0.25
+1 de R$ 0.10
+1 de R$ 0.05
+0 de R$ 0.01
+mas deu
+Troco: R$ 1.00
+0 de R$ 200.00
+0 de R$ 100.00
+0 de R$ 50.00
+0 de R$ 20.00
+0 de R$ 10.00
+0 de R$ 5.00
+0 de R$ 2.00
+0 de R$ 1.00
+0 de R$ 0.50
+0 de R$ 0.25
+0 de R$ 0.10
+0 de R$ 0.05
+1 de R$ 0.01
+
+Teste 10 deu errado!
+O resultado para
+103.65
+652.95
+
+deveria ser
+Troco: R$ 549.30
+2 de R$ 200.00
+1 de R$ 100.00
+0 de R$ 50.00
+2 de R$ 20.00
+0 de R$ 10.00
+1 de R$ 5.00
+2 de R$ 2.00
+0 de R$ 1.00
+0 de R$ 0.50
+1 de R$ 0.25
+0 de R$ 0.10
+1 de R$ 0.05
+0 de R$ 0.01
+mas deu
+Troco: R$ 549.00
+0 de R$ 200.00
+0 de R$ 100.00
+0 de R$ 50.00
+0 de R$ 20.00
+0 de R$ 10.00
+1 de R$ 5.00
+0 de R$ 2.00
+0 de R$ 1.00
+0 de R$ 0.50
+1 de R$ 0.25
+2 de R$ 0.10
+0 de R$ 0.05
+4 de R$ 0.01
+
+Teste 11 deu errado!
+Teste 12 deu errado!
+Teste 13 deu errado!
+Teste 14 deu errado!
+Teste 15 deu errado!
+Teste 16 deu errado!
+Teste 17 deu errado!
+Teste 18 deu errado!
+Teste 19 deu errado!
+Teste 20 deu errado!
+Nota exercicio 10: 0.0
+Procurando exercício 11...
+Exercício 11...
+Compilando...
+g++ -O2 -Wno-unused-result  "ex11.cpp" 
+Teste 1 deu errado!
+O resultado para
+0 1 -2
+deveria ser
+2
+mas deu
+-nan e -inf
+
+Teste 2: correto!
+Teste 3: correto!
+Teste 4 deu errado!
+O resultado para
+7.1
+-0.2
+-9.6
+
+deveria ser
+-1.1488045888714373 e 1.1769736029559443
+mas deu
+1.176974 e -1.148805
+
+Teste 5: correto!
+Teste 6: correto!
+Teste 7 deu errado!
+O resultado para
+0 1 -1
+deveria ser
+1
+mas deu
+-nan e -inf
+
+Teste 8 deu errado!
+O resultado para
+1 -1 0
+deveria ser
+0 e 1
+mas deu
+1.000000 e 0.000000
+
+Teste 9: correto!
+Teste 10: correto!
+Teste 11: correto!
+Teste 12: correto!
+Teste 13: correto!
+Teste 14: correto!
+Se nao entender esse erro, peça ajuda ao professor:
+tester.py, 250: ValueError - could not convert string to float: 'Nenhuma'
+Teste 15 deu errado!
+Teste 16: correto!
+Teste 17 deu errado!
+Teste 18: correto!
+Teste 19: correto!
+Teste 20: correto!
+Nota exercicio 11: 0.7
+Procurando exercício 12...
+Exercício 12...
+Compilando...
+g++ -O2 -Wno-unused-result -Wno-builtin-declaration-mismatch "ex12.cpp" 
+Teste 1: correto!
+Teste 2: correto!
+Teste 3: correto!
+Teste 4: correto!
+Teste 5: correto!
+Teste 6: correto!
+Teste 7: correto!
+Teste 8: correto!
+Teste 9: correto!
+Teste 10: correto!
+Teste 11: correto!
+Teste 12: correto!
+Teste 13: correto!
+Teste 14: correto!
+Teste 15: correto!
+Teste 16: correto!
+Teste 17: correto!
+Teste 18: correto!
+Teste 19: correto!
+Teste 20: correto!
+Nota exercicio 12: 1.0
+Nota total: 6.90
+{"scores": {"ex1": 0.0, "ex2": 0.5, "ex3": 0.5, "ex4": 0.5, "ex5": 1.0, "ex6": 1.0, "ex7": 0.2, "ex8": 1.0, "ex9": 0.5, "ex10": 0.0, "ex11": 0.7, "ex12": 1.0}}
