@@ -7,15 +7,15 @@ using namespace std;
 int main()
 {
     float gastoF, dadoF;
-    float troco;
+    int troco;
     cin >> gastoF;
     cin >> dadoF;
 
     int gasto = (int)(gastoF*100), dado = (int)(dadoF*100);
 
-    troco = (dado - gasto)/100;
+    troco = (dadoF - gastoF)/100;
     cout << fixed;
-    cout << setprecision(2) << "Troco: R$ " << troco << endl;
+    cout << setprecision(2) << "Troco: R$ " << ((float) troco)/100 << endl;
 
     int notas[] = {200*100, 100*100, 50*100, 20*100, 10*100, 5*100, 2*100, 1*100, 50, 25, 10, 5, 1};
     int notasdadas[] = {0,0,0,0,0,0,0,0,0,0,0, 0,0};
