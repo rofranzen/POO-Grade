@@ -1,0 +1,221 @@
+tester.py:56: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+g++ (Ubuntu 13.2.0-23ubuntu4) 13.2.0
+Copyright (C) 2023 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+Versão do G++:
+Varificando data de envio...
+PRAZO MÁXIMO: 2024-09-28T03:00:00-03:00
+Testando sua solucao...
+Procurando exercício 1...
+Exercício 1...
+Compilando...
+g++ -O2 -Wno-unused-result  "ex1.cpp" 
+Teste 1: correto!
+Teste 2: correto!
+Teste 3: correto!
+Teste 4: correto!
+Teste 5: correto!
+Teste 6: correto!
+Teste 7: correto!
+Teste 8: correto!
+Teste 9: correto!
+Teste 10: correto!
+Teste 11: correto!
+Teste 12: correto!
+Teste 13: correto!
+Teste 14: correto!
+Teste 15: correto!
+Teste 16: correto!
+Teste 17: correto!
+Teste 18: correto!
+Teste 19: correto!
+Teste 20: correto!
+Nota exercicio 1: 1.0
+Procurando exercício 2...
+Exercício 2...
+Compilando...
+g++ -O2 -Wno-unused-result  "ex2.cpp" 
+Teste 1: correto!
+Teste 2: correto!
+Teste 3: correto!
+Teste 4: correto!
+Teste 5: correto!
+Teste 6: correto!
+Teste 7: correto!
+Teste 8: correto!
+Teste 9: correto!
+Teste 10: correto!
+Teste 11: correto!
+Teste 12: correto!
+Teste 13: correto!
+Teste 14: correto!
+Teste 15: correto!
+Teste 16: correto!
+Teste 17: correto!
+Teste 18: correto!
+Teste 19: correto!
+Teste 20: correto!
+Nota exercicio 2: 1.0
+Procurando exercício 3...
+Exercício 3...
+Compilando...
+g++ -O2 -Wno-unused-result  "ex3.cpp" 
+Teste 1 deu errado!
+O resultado para
+1
+2
+3
+
+deveria ser
+Menor: 1.636363636
+Maior: 2.160246899
+mas deu
+ma 2 mh 1.63636 mg 1.81712 mq 2.16025
+1.63636
+2.16025
+
+Teste 2 deu errado!
+O resultado para
+1
+1
+1
+
+deveria ser
+Menor: 1
+Maior: 1
+mas deu
+ma 1 mh 1 mg 1 mq 1
+1
+1
+
+Teste 3 deu errado!
+O resultado para
+10
+1
+1
+
+deveria ser
+Menor: 1.42857
+Maior: 5.83095
+mas deu
+ma 4 mh 1.42857 mg 2.15443 mq 5.83095
+1.42857
+5.83095
+
+Teste 4 deu errado!
+O resultado para
+3
+2
+1
+
+deveria ser
+Menor: 1.636363636
+Maior: 2.160246899
+mas deu
+ma 2 mh 1.63636 mg 1.81712 mq 2.16025
+1.63636
+2.16025
+
+Teste 5 deu errado!
+O resultado para
+6.800000000000001
+2.6
+7.7
+
+deveria ser
+Menor: 4.534843437708195
+Maior: 6.118006211176972
+mas deu
+ma 5.7 mh 4.53484 mg 5.14428 mq 6.11801
+4.53484
+6.11801
+
+Teste 6 deu errado!
+O resultado para
+2.5
+7.0
+0.6000000000000001
+
+deveria ser
+Menor: 1.357758620689655
+Maior: 4.305422937025661
+mas deu
+ma 3.36667 mh 1.35776 mg 2.18976 mq 4.30542
+1.35776
+4.30542
+
+Teste 7 deu errado!
+O resultado para
+3.7
+0.4
+6.300000000000001
+
+deveria ser
+Menor: 1.024240205053094
+Maior: 4.224531532213563
+mas deu
+ma 3.46667 mh 1.02424 mg 2.10475 mq 4.22453
+1.02424
+4.22453
+
+Teste 8 deu errado!
+O resultado para
+3.3000000000000003
+1.8
+2.5
+
+deveria ser
+Menor: 2.3836276083467096
+Maior: 2.6064023736432818
+mas deu
+ma 2.53333 mh 2.38363 mg 2.45796 mq 2.6064
+2.38363
+2.6064
+
+Teste 9 deu errado!
+O resultado para
+4.1000000000000005
+1.5
+5.300000000000001
+
+deveria ser
+Menor: 2.7291375941948086
+Maior: 3.964425136973414
+mas deu
+ma 3.63333 mh 2.72914 mg 3.19436 mq 3.96443
+2.72914
+3.96443
+
+Teste 10 deu errado!
+O resultado para
+5.5
+10.0
+5.5
+
+deveria ser
+Menor: 6.470588235294117
+Maior: 7.314369419163897
+mas deu
+ma 7 mh 6.47059 mg 6.71287 mq 7.31437
+6.47059
+7.31437
+
+Teste 11 deu errado!
+Teste 12 deu errado!
+Teste 13 deu errado!
+Teste 14 deu errado!
+Teste 15 deu errado!
+Teste 16 deu errado!
+Teste 17 deu errado!
+Teste 18 deu errado!
+Teste 19 deu errado!
+Teste 20 deu errado!
+Nota exercicio 3: 0.0
+Procurando exercício 4...
+Procurando exercício 5...
+Procurando exercício 6...
+Procurando exercício 7...
+Nota total: 2.00
+{"scores": {"ex1": 1.0, "ex2": 1.0, "ex3": 0.0, "ex4": 0, "ex5": 0, "ex6": 0, "ex7": 0}}
