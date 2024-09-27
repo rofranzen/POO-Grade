@@ -17,7 +17,7 @@ int seq(int n, int k, int *ini){
         for(int i = k; i <= n; i++){
             soma = 0;
             for(int j =0; j<i; j++){
-                soma = soma + (ini[i]*ini[i]);
+                soma = soma + (ini[j]*ini[j]);
             }
             resp[i] = soma;
         }
