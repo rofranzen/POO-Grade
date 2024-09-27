@@ -11,6 +11,6 @@ int main()
     resul = pow(  (  pow((x1-x2), 2) + pow((y1-y2), 2)), 0.5);
 
 
-    cout << setprecision(6) << resul << endl;
+    cout << setprecision(5) << resul << endl;
     return 0;
 }
