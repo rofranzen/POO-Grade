@@ -4,7 +4,6 @@ class Televisao
 {
   bool _ligada;
   int _canal;
-
 public:
   Televisao(bool ligada = false, int canal = 1){
       _ligada = ligada;
