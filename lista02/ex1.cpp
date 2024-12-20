@@ -26,7 +26,7 @@ public:
       }
   };
   friend std::ostream& operator<<(std::ostream &out, const Televisao &tv){
-      out << (tv._ligada ? "ligada" : "desligada") << ", " << tv._canal;
+      out << "(" << (tv._ligada ? "ligada" : "desligada") << ", " << tv._canal << ")";
       return out;
   };
 };
