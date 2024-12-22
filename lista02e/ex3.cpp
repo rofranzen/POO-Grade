@@ -35,7 +35,7 @@ public:
             return _conteudo.substr(inicio, fim - inicio);
         }
     }
-    ~Ãrquivo(){
+    ~Arquivo(){
     //nd aq
     }
 
