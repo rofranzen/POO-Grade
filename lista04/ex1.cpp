@@ -5,11 +5,12 @@
 int elementok(std::stack<int>& pilha, int k) {
     std::stack<int> copia =pilha;
     //Essa pilha esta okays
-    int count; //Sep pq tava bugando no codeblocks não tirar
+    int count;
+    //Sep pq tava bugando no codeblocks não tirar
+    
     count = 0;
 
     while (!copia.empty()  ) {
-        
         int topo = copia.top();
         copia.pop();
 
