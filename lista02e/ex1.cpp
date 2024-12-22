@@ -25,7 +25,9 @@ public:
       _canal = ((-_ligada + _canal) + 100 *_ligada)%100;
   };
   friend std::ostream& operator<<(std::ostream &out, const Televisao &tv){
-      out << "("<<(tv._ligada ? "ligada" : "desligada") << ", " << tv._canal<< ")";
+      const char* estados[] = { "desligada", "ligada" };
+      out << "(" << estados[tv._ligada] << ", " << tv._canal << ")";
+    
       return out;
   };
 };
