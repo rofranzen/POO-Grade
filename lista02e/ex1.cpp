@@ -22,7 +22,7 @@ public:
       //std::cout << "\n Next channel: " << _canal;
   };
   void canal_baixo(){
-      _canal = (_canal - 1*_ligada) % 100;//((-_ligada + _canal) + 100 *_ligada)%100;
+      _canal = (99 + _canal - 1*_ligada ) % 100 +1;
   };
   friend std::ostream& operator<<(std::ostream &out, const Televisao &tv){
       const char* estados[] = { "desligada", "ligada" };
