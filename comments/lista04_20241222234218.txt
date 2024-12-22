@@ -1,0 +1,1748 @@
+Versão do G++:
+g++ (Debian 12.2.0-14) 12.2.0
+Copyright (C) 2022 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+Varificando data de envio...
+AGORA: 2024-12-22 20:43:14.216509-03:00
+PRAZO MÁXIMO: 2024-12-22 23:59:59-03:06
+Testando sua solucao...
+Procurando exercício 1...
+Exercício 1...
+Criando testes aleatórios...
+Testes Criados!
+Compilando...
+g++ -O2 -Wno-unused-result  "ex1.cpp" 
+Teste 1: correto! +0.050
+Teste 2: correto! +0.050
+Teste 3: correto! +0.050
+Teste 4: correto! +0.050
+Teste 5: correto! +0.050
+Teste 6: correto! +0.050
+Teste 7: correto! +0.050
+Teste 8: correto! +0.050
+Teste 9: correto! +0.050
+Teste 10: correto! +0.050
+Teste 11: correto! +0.050
+Teste 12: correto! +0.050
+Teste 13: correto! +0.050
+Teste 14: correto! +0.050
+Teste 15: correto! +0.050
+Teste 16: correto! +0.050
+Teste 17: correto! +0.050
+Teste 18: correto! +0.050
+Teste 19: correto! +0.050
+Teste 20: correto! +0.050
+Nota exercicio 1: 1.0
+Procurando exercício 2...
+Exercício 2...
+Criando testes aleatórios...
+Testes Criados!
+Compilando...
+g++ -O2 -Wno-unused-result  "ex2.cpp" 
+Teste 1: correto! +0.050
+Teste 2 deu errado!
+O resultado para
+#include<stdio.h>
+int main() {
+    std::stack<int> c;
+    std::queue<std::string> j;
+    c.push(13);
+    c.push(3);
+    c.push(1);
+    c.push(3);
+    c.push(14);
+    c.push(1);
+    c.push(8);
+    c.push(15);
+    c.push(3);
+    c.push(4);
+    c.push(13);
+    c.push(1);
+    c.push(10);
+    c.push(10);
+    c.push(4);
+    c.push(8);
+    c.push(2);
+    c.push(9);
+    c.push(5);
+    c.push(4);
+    c.push(1);
+    c.push(15);
+    c.push(2);
+    c.push(4);
+    c.push(7);
+    c.push(11);
+    c.push(13);
+    c.push(8);
+    c.push(15);
+    c.push(3);
+    c.push(9);
+    c.push(1);
+    c.push(2);
+    c.push(8);
+    c.push(3);
+    c.push(2);
+    c.push(2);
+    c.push(2);
+    c.push(10);
+    c.push(6);
+    c.push(12);
+    c.push(1);
+    c.push(13);
+    c.push(9);
+    c.push(3);
+    c.push(1);
+    c.push(5);
+    c.push(4);
+    c.push(13);
+    c.push(3);
+    c.push(4);
+    c.push(1);
+    c.push(11);
+    c.push(7);
+    c.push(12);
+    c.push(10);
+    c.push(9);
+    c.push(5);
+    c.push(9);
+    c.push(12);
+    c.push(6);
+    c.push(15);
+    c.push(7);
+    c.push(3);
+    c.push(11);
+    j.push("maria");
+    j.push("théo");
+    j.push("igor");
+    j.push("sara");
+    j.push("davi");
+    j.push("elisa");
+    j.push("mathias");
+    j.push("guilherme");
+    j.push("ísis");
+    j.push("marcela");
+    j.push("marina");
+    j.push("murilo");
+    j.push("clara");
+    j.push("dom");
+    j.push("apollo");
+    j.push("andré");
+    j.push("clarice");
+    j.push("caio");
+    j.push("dr.");
+    std::cout << jogo(c, j) << std::endl;
+    return 0;
+}
+
+deveria ser
+davi
+mas deu
+igor
+
+Teste 3 deu errado!
+O resultado para
+#include<stdio.h>
+int main() {
+    std::stack<int> c;
+    std::queue<std::string> j;
+    c.push(5);
+    c.push(5);
+    c.push(9);
+    c.push(1);
+    c.push(6);
+    c.push(7);
+    c.push(4);
+    c.push(11);
+    c.push(8);
+    c.push(7);
+    c.push(1);
+    c.push(7);
+    c.push(3);
+    c.push(2);
+    c.push(7);
+    c.push(12);
+    c.push(8);
+    c.push(10);
+    c.push(2);
+    c.push(3);
+    c.push(1);
+    c.push(15);
+    c.push(10);
+    c.push(7);
+    c.push(4);
+    c.push(13);
+    c.push(10);
+    c.push(5);
+    c.push(6);
+    c.push(2);
+    c.push(2);
+    c.push(7);
+    c.push(13);
+    c.push(5);
+    c.push(2);
+    c.push(2);
+    c.push(15);
+    c.push(10);
+    c.push(5);
+    c.push(11);
+    c.push(7);
+    c.push(8);
+    c.push(3);
+    c.push(1);
+    c.push(13);
+    c.push(4);
+    c.push(8);
+    c.push(10);
+    c.push(2);
+    c.push(4);
+    c.push(7);
+    c.push(11);
+    c.push(7);
+    c.push(4);
+    c.push(13);
+    c.push(11);
+    c.push(6);
+    c.push(8);
+    c.push(13);
+    c.push(4);
+    c.push(4);
+    c.push(11);
+    c.push(12);
+    c.push(7);
+    c.push(3);
+    c.push(12);
+    c.push(7);
+    c.push(5);
+    c.push(1);
+    c.push(6);
+    c.push(6);
+    c.push(15);
+    c.push(15);
+    c.push(7);
+    c.push(8);
+    c.push(1);
+    c.push(15);
+    c.push(9);
+    c.push(8);
+    c.push(1);
+    c.push(13);
+    c.push(4);
+    c.push(1);
+    c.push(10);
+    c.push(8);
+    c.push(1);
+    c.push(7);
+    c.push(8);
+    c.push(11);
+    c.push(8);
+    c.push(3);
+    c.push(8);
+    c.push(9);
+    c.push(15);
+    c.push(1);
+    c.push(14);
+    c.push(9);
+    c.push(7);
+    c.push(9);
+    j.push("guilherme");
+    j.push("gustavo");
+    j.push("gabrielly");
+    j.push("luiz");
+    j.push("camila");
+    j.push("srta.");
+    j.push("liz");
+    j.push("dr.");
+    j.push("henrique");
+    j.push("pedro");
+    j.push("mariah");
+    j.push("fernanda");
+    j.push("raul");
+    j.push("murilo");
+    j.push("thomas");
+    std::cout << jogo(c, j) << std::endl;
+    return 0;
+}
+
+deveria ser
+camila
+mas deu
+gustavo
+
+Teste 4 deu errado!
+O resultado para
+#include<stdio.h>
+int main() {
+    std::stack<int> c;
+    std::queue<std::string> j;
+    c.push(15);
+    c.push(15);
+    c.push(7);
+    c.push(1);
+    c.push(4);
+    c.push(8);
+    c.push(4);
+    c.push(15);
+    c.push(14);
+    c.push(7);
+    c.push(13);
+    c.push(6);
+    c.push(5);
+    c.push(15);
+    c.push(4);
+    c.push(12);
+    c.push(12);
+    c.push(13);
+    c.push(3);
+    c.push(12);
+    c.push(2);
+    c.push(3);
+    c.push(4);
+    c.push(7);
+    c.push(2);
+    c.push(10);
+    c.push(9);
+    c.push(10);
+    c.push(10);
+    c.push(6);
+    c.push(2);
+    c.push(9);
+    c.push(15);
+    c.push(1);
+    c.push(7);
+    c.push(4);
+    c.push(9);
+    c.push(12);
+    c.push(8);
+    c.push(2);
+    c.push(3);
+    j.push("sr.");
+    j.push("joana");
+    j.push("otto");
+    j.push("augusto");
+    j.push("anthony");
+    j.push("benjamim");
+    j.push("léo");
+    j.push("heitor");
+    j.push("mirella");
+    j.push("raquel");
+    j.push("davi");
+    j.push("luiz");
+    j.push("mathias");
+    std::cout << jogo(c, j) << std::endl;
+    return 0;
+}
+
+deveria ser
+benjamim
+mas deu
+joana
+
+Teste 5 deu errado!
+O resultado para
+#include<stdio.h>
+int main() {
+    std::stack<int> c;
+    std::queue<std::string> j;
+    c.push(15);
+    c.push(14);
+    c.push(1);
+    c.push(7);
+    c.push(10);
+    c.push(4);
+    c.push(15);
+    c.push(6);
+    c.push(2);
+    c.push(3);
+    c.push(2);
+    c.push(2);
+    c.push(4);
+    c.push(4);
+    c.push(7);
+    c.push(7);
+    c.push(14);
+    c.push(10);
+    c.push(9);
+    c.push(14);
+    c.push(2);
+    c.push(4);
+    c.push(1);
+    c.push(10);
+    c.push(1);
+    c.push(14);
+    c.push(14);
+    c.push(1);
+    c.push(10);
+    c.push(8);
+    c.push(4);
+    c.push(13);
+    c.push(9);
+    c.push(3);
+    c.push(8);
+    c.push(6);
+    c.push(10);
+    c.push(3);
+    c.push(6);
+    c.push(13);
+    c.push(14);
+    c.push(14);
+    c.push(1);
+    c.push(8);
+    c.push(15);
+    c.push(5);
+    c.push(15);
+    c.push(10);
+    c.push(4);
+    c.push(12);
+    c.push(13);
+    c.push(2);
+    c.push(12);
+    c.push(11);
+    c.push(11);
+    c.push(12);
+    c.push(2);
+    c.push(7);
+    c.push(11);
+    c.push(13);
+    c.push(12);
+    c.push(13);
+    c.push(2);
+    c.push(3);
+    c.push(10);
+    c.push(13);
+    c.push(15);
+    c.push(12);
+    c.push(11);
+    c.push(1);
+    c.push(7);
+    c.push(9);
+    c.push(9);
+    c.push(7);
+    c.push(10);
+    c.push(10);
+    c.push(11);
+    c.push(8);
+    c.push(1);
+    c.push(9);
+    c.push(8);
+    c.push(12);
+    c.push(11);
+    j.push("sarah");
+    j.push("luiz");
+    j.push("milena");
+    j.push("thales");
+    j.push("joão");
+    j.push("eloah");
+    j.push("maria");
+    j.push("clarice");
+    j.push("lorena");
+    j.push("laís");
+    std::cout << jogo(c, j) << std::endl;
+    return 0;
+}
+
+deveria ser
+sarah
+mas deu
+luiz
+
+Teste 6: correto! +0.050
+Teste 7 deu errado!
+O resultado para
+#include<stdio.h>
+int main() {
+    std::stack<int> c;
+    std::queue<std::string> j;
+    c.push(9);
+    c.push(10);
+    c.push(15);
+    c.push(11);
+    c.push(6);
+    c.push(15);
+    c.push(14);
+    c.push(9);
+    c.push(3);
+    c.push(6);
+    c.push(9);
+    c.push(14);
+    c.push(4);
+    c.push(5);
+    c.push(7);
+    c.push(13);
+    c.push(14);
+    c.push(13);
+    c.push(1);
+    c.push(9);
+    c.push(14);
+    c.push(10);
+    c.push(6);
+    c.push(13);
+    c.push(15);
+    c.push(12);
+    c.push(3);
+    c.push(2);
+    c.push(8);
+    c.push(8);
+    c.push(9);
+    c.push(3);
+    c.push(11);
+    c.push(8);
+    c.push(8);
+    c.push(8);
+    c.push(5);
+    c.push(15);
+    c.push(5);
+    c.push(9);
+    c.push(12);
+    c.push(7);
+    c.push(6);
+    c.push(4);
+    j.push("isabelly");
+    j.push("luiz");
+    j.push("maria");
+    j.push("dr.");
+    j.push("sabrina");
+    j.push("dra.");
+    j.push("daniela");
+    j.push("guilherme");
+    j.push("hellena");
+    j.push("leonardo");
+    j.push("alice");
+    j.push("sr.");
+    j.push("ravi");
+    j.push("ana");
+    j.push("raul");
+    j.push("bianca");
+    std::cout << jogo(c, j) << std::endl;
+    return 0;
+}
+
+deveria ser
+bianca
+mas deu
+luiz
+
+Teste 8 deu errado!
+O resultado para
+#include<stdio.h>
+int main() {
+    std::stack<int> c;
+    std::queue<std::string> j;
+    c.push(1);
+    c.push(9);
+    c.push(11);
+    c.push(7);
+    c.push(4);
+    c.push(3);
+    c.push(12);
+    c.push(12);
+    c.push(1);
+    c.push(2);
+    c.push(13);
+    c.push(7);
+    c.push(14);
+    c.push(1);
+    c.push(4);
+    c.push(13);
+    c.push(11);
+    c.push(1);
+    c.push(2);
+    c.push(10);
+    c.push(9);
+    c.push(13);
+    c.push(15);
+    c.push(4);
+    c.push(10);
+    c.push(3);
+    c.push(14);
+    c.push(15);
+    c.push(9);
+    c.push(3);
+    c.push(8);
+    c.push(6);
+    c.push(10);
+    c.push(6);
+    c.push(9);
+    c.push(10);
+    c.push(14);
+    c.push(6);
+    c.push(1);
+    c.push(1);
+    c.push(13);
+    c.push(10);
+    c.push(9);
+    c.push(2);
+    c.push(7);
+    c.push(11);
+    c.push(4);
+    c.push(5);
+    c.push(3);
+    c.push(8);
+    c.push(14);
+    c.push(6);
+    c.push(14);
+    j.push("lucca");
+    j.push("yasmin");
+    j.push("sra.");
+    j.push("ágatha");
+    j.push("maria");
+    j.push("stephany");
+    j.push("ravy");
+    j.push("ester");
+    j.push("dra.");
+    j.push("vitor");
+    j.push("luna");
+    std::cout << jogo(c, j) << std::endl;
+    return 0;
+}
+
+deveria ser
+luna
+mas deu
+sra.
+
+Teste 9 deu errado!
+O resultado para
+#include<stdio.h>
+int main() {
+    std::stack<int> c;
+    std::queue<std::string> j;
+    c.push(12);
+    c.push(11);
+    c.push(2);
+    c.push(7);
+    c.push(7);
+    c.push(12);
+    c.push(15);
+    c.push(8);
+    c.push(15);
+    c.push(14);
+    c.push(9);
+    c.push(5);
+    c.push(15);
+    c.push(6);
+    c.push(3);
+    c.push(12);
+    c.push(5);
+    c.push(1);
+    c.push(3);
+    c.push(3);
+    c.push(12);
+    c.push(15);
+    c.push(8);
+    c.push(14);
+    c.push(5);
+    c.push(1);
+    c.push(10);
+    c.push(3);
+    c.push(9);
+    c.push(7);
+    j.push("alexandre");
+    j.push("juan");
+    j.push("sra.");
+    j.push("marcos");
+    j.push("gabriela");
+    j.push("sophie");
+    j.push("isabela");
+    j.push("helena");
+    j.push("laura");
+    j.push("manuela");
+    j.push("lívia");
+    j.push("dra.");
+    j.push("mariane");
+    j.push("sr.");
+    j.push("cauã");
+    std::cout << jogo(c, j) << std::endl;
+    return 0;
+}
+
+deveria ser
+mariane
+mas deu
+juan
+
+Teste 10 deu errado!
+O resultado para
+#include<stdio.h>
+int main() {
+    std::stack<int> c;
+    std::queue<std::string> j;
+    c.push(7);
+    c.push(14);
+    c.push(7);
+    c.push(8);
+    c.push(13);
+    c.push(2);
+    c.push(9);
+    c.push(7);
+    c.push(1);
+    c.push(13);
+    c.push(9);
+    c.push(15);
+    c.push(8);
+    c.push(15);
+    c.push(7);
+    c.push(14);
+    c.push(6);
+    c.push(2);
+    c.push(4);
+    c.push(12);
+    c.push(10);
+    c.push(11);
+    c.push(2);
+    c.push(14);
+    c.push(1);
+    c.push(10);
+    c.push(1);
+    c.push(7);
+    c.push(8);
+    c.push(2);
+    c.push(8);
+    c.push(6);
+    c.push(13);
+    c.push(2);
+    c.push(3);
+    c.push(4);
+    j.push("benjamin");
+    j.push("maria");
+    j.push("ana");
+    j.push("rafaela");
+    j.push("beatriz");
+    j.push("rael");
+    j.push("danilo");
+    j.push("laura");
+    j.push("joão");
+    j.push("mathias");
+    j.push("marcela");
+    j.push("fernando");
+    j.push("helena");
+    std::cout << jogo(c, j) << std::endl;
+    return 0;
+}
+
+deveria ser
+beatriz
+mas deu
+benjamin
+
+Teste 11 deu errado!
+O resultado para
+#include<stdio.h>
+int main() {
+    std::stack<int> c;
+    std::queue<std::string> j;
+    c.push(12);
+    c.push(13);
+    c.push(13);
+    c.push(14);
+    c.push(15);
+    c.push(3);
+    c.push(9);
+    c.push(2);
+    c.push(6);
+    c.push(11);
+    c.push(2);
+    c.push(10);
+    c.push(5);
+    c.push(5);
+    c.push(9);
+    c.push(2);
+    c.push(6);
+    c.push(7);
+    c.push(1);
+    c.push(4);
+    c.push(14);
+    c.push(6);
+    c.push(2);
+    c.push(15);
+    c.push(13);
+    c.push(6);
+    c.push(4);
+    c.push(4);
+    c.push(6);
+    c.push(5);
+    c.push(10);
+    c.push(5);
+    c.push(9);
+    c.push(3);
+    c.push(9);
+    c.push(5);
+    c.push(13);
+    c.push(14);
+    c.push(1);
+    c.push(13);
+    c.push(3);
+    c.push(15);
+    c.push(9);
+    c.push(1);
+    c.push(2);
+    c.push(4);
+    c.push(6);
+    c.push(15);
+    c.push(13);
+    c.push(6);
+    c.push(5);
+    c.push(3);
+    c.push(11);
+    c.push(8);
+    c.push(14);
+    c.push(11);
+    c.push(15);
+    c.push(9);
+    c.push(15);
+    c.push(6);
+    c.push(11);
+    c.push(6);
+    c.push(15);
+    c.push(8);
+    c.push(4);
+    c.push(3);
+    c.push(15);
+    c.push(11);
+    c.push(4);
+    c.push(7);
+    c.push(5);
+    c.push(15);
+    c.push(14);
+    c.push(12);
+    c.push(15);
+    c.push(1);
+    c.push(2);
+    c.push(11);
+    c.push(10);
+    c.push(7);
+    c.push(10);
+    c.push(6);
+    c.push(9);
+    c.push(12);
+    c.push(9);
+    c.push(13);
+    c.push(4);
+    c.push(8);
+    c.push(13);
+    c.push(15);
+    c.push(3);
+    c.push(1);
+    c.push(10);
+    c.push(3);
+    c.push(11);
+    c.push(9);
+    c.push(1);
+    c.push(14);
+    c.push(11);
+    j.push("aylla");
+    j.push("dr.");
+    j.push("yago");
+    j.push("anthony");
+    j.push("ana");
+    j.push("eloah");
+    j.push("dra.");
+    j.push("maria");
+    j.push("guilherme");
+    j.push("bella");
+    j.push("rhavi");
+    j.push("henry");
+    j.push("amanda");
+    j.push("gael");
+    std::cout << jogo(c, j) << std::endl;
+    return 0;
+}
+
+deveria ser
+maria
+mas deu
+dr.
+
+Teste 12 deu errado!
+O resultado para
+#include<stdio.h>
+int main() {
+    std::stack<int> c;
+    std::queue<std::string> j;
+    c.push(9);
+    c.push(9);
+    c.push(10);
+    c.push(9);
+    c.push(13);
+    c.push(6);
+    c.push(12);
+    c.push(12);
+    c.push(15);
+    c.push(10);
+    c.push(10);
+    c.push(13);
+    c.push(5);
+    c.push(2);
+    c.push(4);
+    c.push(1);
+    c.push(15);
+    c.push(9);
+    c.push(10);
+    c.push(9);
+    c.push(5);
+    c.push(7);
+    c.push(5);
+    c.push(8);
+    c.push(5);
+    c.push(13);
+    c.push(15);
+    c.push(9);
+    c.push(6);
+    c.push(15);
+    c.push(5);
+    c.push(8);
+    c.push(3);
+    c.push(9);
+    c.push(15);
+    c.push(14);
+    c.push(14);
+    c.push(7);
+    c.push(2);
+    c.push(8);
+    c.push(15);
+    c.push(11);
+    c.push(4);
+    c.push(11);
+    c.push(9);
+    c.push(9);
+    c.push(14);
+    c.push(3);
+    c.push(9);
+    c.push(2);
+    c.push(7);
+    c.push(2);
+    c.push(10);
+    c.push(13);
+    c.push(6);
+    c.push(10);
+    c.push(1);
+    j.push("lucas");
+    j.push("sr.");
+    j.push("gabrielly");
+    j.push("levi");
+    j.push("sra.");
+    j.push("ana");
+    j.push("davi");
+    j.push("ísis");
+    j.push("ravy");
+    j.push("joão");
+    j.push("melissa");
+    j.push("anna");
+    j.push("maria");
+    std::cout << jogo(c, j) << std::endl;
+    return 0;
+}
+
+deveria ser
+ana
+mas deu
+gabrielly
+
+Teste 13 deu errado!
+O resultado para
+#include<stdio.h>
+int main() {
+    std::stack<int> c;
+    std::queue<std::string> j;
+    c.push(15);
+    c.push(8);
+    c.push(14);
+    c.push(5);
+    c.push(3);
+    c.push(11);
+    c.push(6);
+    c.push(6);
+    c.push(10);
+    c.push(14);
+    c.push(2);
+    c.push(8);
+    c.push(13);
+    c.push(13);
+    c.push(3);
+    c.push(5);
+    c.push(10);
+    c.push(5);
+    c.push(1);
+    c.push(7);
+    c.push(4);
+    c.push(9);
+    c.push(14);
+    c.push(3);
+    c.push(9);
+    c.push(4);
+    c.push(8);
+    c.push(1);
+    c.push(8);
+    c.push(7);
+    c.push(4);
+    c.push(11);
+    j.push("josué");
+    j.push("mariah");
+    j.push("larissa");
+    j.push("sr.");
+    j.push("gabriel");
+    j.push("eloá");
+    j.push("sophia");
+    j.push("vitor");
+    j.push("ryan");
+    j.push("ana");
+    j.push("enrico");
+    j.push("kaique");
+    j.push("alice");
+    std::cout << jogo(c, j) << std::endl;
+    return 0;
+}
+
+deveria ser
+ryan
+mas deu
+larissa
+
+Teste 14 deu errado!
+O resultado para
+#include<stdio.h>
+int main() {
+    std::stack<int> c;
+    std::queue<std::string> j;
+    c.push(5);
+    c.push(6);
+    c.push(10);
+    c.push(8);
+    c.push(14);
+    c.push(1);
+    c.push(6);
+    c.push(13);
+    c.push(6);
+    c.push(15);
+    c.push(15);
+    c.push(9);
+    c.push(7);
+    c.push(8);
+    c.push(2);
+    c.push(8);
+    c.push(2);
+    c.push(4);
+    c.push(4);
+    c.push(8);
+    c.push(14);
+    c.push(3);
+    c.push(6);
+    c.push(9);
+    c.push(14);
+    c.push(8);
+    c.push(6);
+    c.push(11);
+    c.push(9);
+    c.push(9);
+    c.push(15);
+    c.push(2);
+    c.push(11);
+    c.push(2);
+    c.push(5);
+    c.push(13);
+    c.push(1);
+    c.push(8);
+    c.push(9);
+    c.push(9);
+    c.push(4);
+    c.push(8);
+    c.push(8);
+    c.push(4);
+    c.push(14);
+    c.push(13);
+    c.push(12);
+    c.push(13);
+    c.push(9);
+    c.push(2);
+    c.push(4);
+    c.push(4);
+    c.push(6);
+    c.push(1);
+    c.push(3);
+    c.push(2);
+    c.push(6);
+    c.push(1);
+    c.push(12);
+    c.push(1);
+    c.push(13);
+    c.push(9);
+    c.push(4);
+    c.push(1);
+    c.push(4);
+    c.push(5);
+    c.push(1);
+    c.push(1);
+    c.push(2);
+    c.push(6);
+    c.push(4);
+    c.push(3);
+    c.push(15);
+    c.push(13);
+    c.push(4);
+    c.push(4);
+    c.push(5);
+    c.push(6);
+    c.push(9);
+    c.push(11);
+    c.push(11);
+    c.push(11);
+    c.push(11);
+    c.push(2);
+    c.push(6);
+    c.push(8);
+    c.push(2);
+    c.push(4);
+    c.push(13);
+    c.push(6);
+    c.push(1);
+    c.push(13);
+    c.push(10);
+    c.push(3);
+    c.push(13);
+    c.push(1);
+    c.push(8);
+    c.push(14);
+    c.push(11);
+    j.push("maria");
+    j.push("luísa");
+    j.push("srta.");
+    j.push("otto");
+    j.push("bianca");
+    j.push("dr.");
+    j.push("sabrina");
+    j.push("alice");
+    j.push("mirella");
+    j.push("dom");
+    j.push("aylla");
+    j.push("luiza");
+    j.push("juliana");
+    j.push("francisco");
+    j.push("rebeca");
+    j.push("joão");
+    j.push("arthur");
+    j.push("letícia");
+    std::cout << jogo(c, j) << std::endl;
+    return 0;
+}
+
+deveria ser
+francisco
+mas deu
+maria
+
+Teste 15 deu errado!
+O resultado para
+#include<stdio.h>
+int main() {
+    std::stack<int> c;
+    std::queue<std::string> j;
+    c.push(11);
+    c.push(9);
+    c.push(11);
+    c.push(10);
+    c.push(14);
+    c.push(3);
+    c.push(12);
+    c.push(4);
+    c.push(7);
+    c.push(8);
+    c.push(5);
+    c.push(14);
+    c.push(3);
+    c.push(2);
+    c.push(2);
+    c.push(11);
+    c.push(15);
+    c.push(2);
+    c.push(15);
+    c.push(9);
+    c.push(4);
+    c.push(3);
+    c.push(1);
+    c.push(9);
+    c.push(15);
+    c.push(2);
+    c.push(15);
+    c.push(15);
+    c.push(5);
+    c.push(3);
+    c.push(9);
+    c.push(7);
+    c.push(3);
+    c.push(2);
+    c.push(5);
+    c.push(6);
+    c.push(11);
+    c.push(10);
+    c.push(7);
+    c.push(3);
+    c.push(1);
+    c.push(6);
+    c.push(6);
+    c.push(6);
+    c.push(1);
+    c.push(6);
+    c.push(15);
+    c.push(10);
+    c.push(5);
+    c.push(11);
+    c.push(5);
+    c.push(5);
+    c.push(5);
+    c.push(6);
+    c.push(9);
+    c.push(7);
+    c.push(12);
+    c.push(8);
+    c.push(14);
+    c.push(3);
+    c.push(15);
+    c.push(6);
+    c.push(15);
+    c.push(12);
+    c.push(14);
+    c.push(3);
+    c.push(14);
+    c.push(5);
+    c.push(5);
+    c.push(11);
+    c.push(15);
+    c.push(8);
+    c.push(13);
+    c.push(3);
+    c.push(15);
+    c.push(12);
+    c.push(6);
+    c.push(15);
+    c.push(4);
+    c.push(6);
+    c.push(2);
+    c.push(10);
+    c.push(5);
+    c.push(12);
+    c.push(10);
+    c.push(9);
+    c.push(1);
+    c.push(5);
+    c.push(14);
+    c.push(3);
+    c.push(14);
+    c.push(14);
+    c.push(9);
+    c.push(7);
+    j.push("dra.");
+    j.push("arthur");
+    j.push("gustavo");
+    j.push("bento");
+    j.push("isabella");
+    j.push("sr.");
+    j.push("aylla");
+    j.push("ana");
+    j.push("miguel");
+    j.push("lorena");
+    j.push("alexandre");
+    j.push("caleb");
+    j.push("isis");
+    j.push("fernanda");
+    std::cout << jogo(c, j) << std::endl;
+    return 0;
+}
+
+deveria ser
+aylla
+mas deu
+arthur
+
+Teste 16 deu errado!
+O resultado para
+#include<stdio.h>
+int main() {
+    std::stack<int> c;
+    std::queue<std::string> j;
+    c.push(1);
+    c.push(12);
+    c.push(1);
+    c.push(4);
+    c.push(13);
+    c.push(14);
+    c.push(6);
+    c.push(5);
+    c.push(15);
+    c.push(1);
+    c.push(14);
+    c.push(7);
+    c.push(2);
+    c.push(9);
+    c.push(3);
+    c.push(10);
+    c.push(13);
+    c.push(15);
+    c.push(4);
+    c.push(6);
+    c.push(4);
+    c.push(11);
+    c.push(3);
+    c.push(4);
+    c.push(4);
+    c.push(1);
+    c.push(4);
+    c.push(9);
+    c.push(15);
+    c.push(13);
+    c.push(8);
+    c.push(4);
+    c.push(9);
+    c.push(7);
+    c.push(15);
+    c.push(13);
+    c.push(5);
+    c.push(9);
+    c.push(4);
+    c.push(5);
+    c.push(6);
+    c.push(4);
+    c.push(14);
+    c.push(10);
+    c.push(5);
+    c.push(10);
+    c.push(7);
+    c.push(7);
+    c.push(14);
+    c.push(1);
+    c.push(2);
+    c.push(4);
+    c.push(9);
+    c.push(14);
+    c.push(9);
+    c.push(3);
+    c.push(10);
+    c.push(11);
+    c.push(11);
+    c.push(11);
+    c.push(10);
+    c.push(2);
+    c.push(7);
+    c.push(10);
+    c.push(14);
+    c.push(4);
+    c.push(11);
+    c.push(8);
+    c.push(9);
+    c.push(2);
+    c.push(12);
+    c.push(1);
+    c.push(10);
+    c.push(8);
+    c.push(15);
+    c.push(3);
+    c.push(9);
+    c.push(11);
+    c.push(6);
+    c.push(6);
+    c.push(5);
+    c.push(4);
+    c.push(8);
+    c.push(8);
+    c.push(6);
+    c.push(2);
+    c.push(15);
+    c.push(3);
+    c.push(1);
+    c.push(2);
+    c.push(15);
+    c.push(10);
+    c.push(8);
+    c.push(1);
+    c.push(5);
+    c.push(12);
+    c.push(11);
+    c.push(3);
+    c.push(10);
+    j.push("joão");
+    j.push("yago");
+    j.push("caroline");
+    j.push("liz");
+    j.push("srta.");
+    j.push("renan");
+    j.push("maria");
+    j.push("catarina");
+    j.push("ana");
+    j.push("sr.");
+    j.push("evelyn");
+    j.push("aurora");
+    std::cout << jogo(c, j) << std::endl;
+    return 0;
+}
+
+deveria ser
+renan
+mas deu
+caroline
+
+Teste 17 deu errado!
+O resultado para
+#include<stdio.h>
+int main() {
+    std::stack<int> c;
+    std::queue<std::string> j;
+    c.push(5);
+    c.push(1);
+    c.push(11);
+    c.push(4);
+    c.push(11);
+    c.push(7);
+    c.push(11);
+    c.push(10);
+    c.push(4);
+    c.push(9);
+    c.push(5);
+    c.push(4);
+    c.push(5);
+    c.push(3);
+    c.push(12);
+    c.push(1);
+    c.push(14);
+    c.push(10);
+    c.push(6);
+    c.push(11);
+    c.push(11);
+    c.push(10);
+    c.push(13);
+    c.push(7);
+    c.push(2);
+    c.push(14);
+    c.push(10);
+    c.push(14);
+    c.push(2);
+    c.push(6);
+    c.push(8);
+    c.push(4);
+    c.push(8);
+    c.push(9);
+    c.push(2);
+    c.push(5);
+    c.push(4);
+    c.push(12);
+    c.push(7);
+    c.push(14);
+    c.push(8);
+    c.push(3);
+    c.push(1);
+    c.push(13);
+    c.push(14);
+    c.push(8);
+    c.push(5);
+    c.push(5);
+    c.push(14);
+    c.push(5);
+    c.push(3);
+    c.push(9);
+    c.push(9);
+    c.push(9);
+    c.push(4);
+    c.push(5);
+    c.push(5);
+    c.push(5);
+    c.push(6);
+    c.push(15);
+    c.push(12);
+    c.push(7);
+    c.push(13);
+    c.push(15);
+    c.push(2);
+    c.push(3);
+    c.push(1);
+    c.push(7);
+    c.push(3);
+    c.push(11);
+    c.push(12);
+    c.push(11);
+    c.push(2);
+    c.push(4);
+    c.push(3);
+    c.push(5);
+    c.push(3);
+    c.push(3);
+    c.push(6);
+    c.push(12);
+    c.push(9);
+    c.push(4);
+    c.push(9);
+    j.push("maria");
+    j.push("arthur");
+    j.push("apollo");
+    j.push("matteo");
+    j.push("thiago");
+    j.push("calebe");
+    j.push("sra.");
+    j.push("isabela");
+    j.push("dr.");
+    std::cout << jogo(c, j) << std::endl;
+    return 0;
+}
+
+deveria ser
+dr.
+mas deu
+arthur
+
+Teste 18 deu errado!
+O resultado para
+#include<stdio.h>
+int main() {
+    std::stack<int> c;
+    std::queue<std::string> j;
+    c.push(15);
+    c.push(6);
+    c.push(9);
+    c.push(14);
+    c.push(13);
+    c.push(9);
+    c.push(8);
+    c.push(10);
+    c.push(10);
+    c.push(2);
+    c.push(15);
+    c.push(1);
+    c.push(14);
+    c.push(10);
+    c.push(2);
+    c.push(14);
+    c.push(9);
+    c.push(3);
+    c.push(11);
+    c.push(1);
+    c.push(5);
+    c.push(2);
+    c.push(6);
+    c.push(14);
+    c.push(2);
+    c.push(9);
+    c.push(6);
+    c.push(5);
+    c.push(1);
+    c.push(10);
+    c.push(12);
+    c.push(8);
+    c.push(2);
+    c.push(13);
+    c.push(15);
+    c.push(11);
+    c.push(2);
+    c.push(11);
+    c.push(5);
+    c.push(1);
+    c.push(10);
+    c.push(7);
+    c.push(9);
+    c.push(6);
+    j.push("gabriel");
+    j.push("olívia");
+    j.push("maria");
+    j.push("bernardo");
+    j.push("cecilia");
+    j.push("luísa");
+    j.push("dr.");
+    j.push("srta.");
+    j.push("clara");
+    j.push("ana");
+    j.push("josué");
+    std::cout << jogo(c, j) << std::endl;
+    return 0;
+}
+
+deveria ser
+cecilia
+mas deu
+maria
+
+Teste 19 deu errado!
+O resultado para
+#include<stdio.h>
+int main() {
+    std::stack<int> c;
+    std::queue<std::string> j;
+    c.push(4);
+    c.push(11);
+    c.push(11);
+    c.push(12);
+    c.push(15);
+    c.push(1);
+    c.push(2);
+    c.push(15);
+    c.push(14);
+    c.push(5);
+    c.push(3);
+    c.push(9);
+    c.push(13);
+    c.push(10);
+    c.push(15);
+    c.push(15);
+    c.push(9);
+    c.push(13);
+    c.push(13);
+    c.push(1);
+    c.push(8);
+    c.push(2);
+    c.push(5);
+    c.push(12);
+    c.push(2);
+    c.push(6);
+    c.push(1);
+    c.push(6);
+    c.push(10);
+    c.push(3);
+    c.push(5);
+    c.push(6);
+    c.push(6);
+    c.push(7);
+    c.push(13);
+    c.push(11);
+    c.push(6);
+    c.push(10);
+    c.push(10);
+    c.push(8);
+    c.push(3);
+    c.push(3);
+    c.push(11);
+    c.push(8);
+    c.push(15);
+    c.push(7);
+    c.push(6);
+    c.push(12);
+    c.push(12);
+    j.push("sr.");
+    j.push("amanda");
+    j.push("dr.");
+    j.push("gabriela");
+    j.push("elisa");
+    j.push("liz");
+    j.push("ravy");
+    j.push("alexia");
+    j.push("maria");
+    j.push("ana");
+    j.push("pedro");
+    std::cout << jogo(c, j) << std::endl;
+    return 0;
+}
+
+deveria ser
+liz
+mas deu
+sr.
+
+Teste 20 deu errado!
+O resultado para
+#include<stdio.h>
+int main() {
+    std::stack<int> c;
+    std::queue<std::string> j;
+    c.push(6);
+    c.push(6);
+    c.push(14);
+    c.push(7);
+    c.push(6);
+    c.push(7);
+    c.push(8);
+    c.push(11);
+    c.push(2);
+    c.push(5);
+    c.push(13);
+    c.push(11);
+    c.push(13);
+    c.push(14);
+    c.push(10);
+    c.push(7);
+    c.push(10);
+    c.push(12);
+    c.push(9);
+    c.push(6);
+    c.push(15);
+    c.push(4);
+    c.push(8);
+    c.push(9);
+    c.push(12);
+    c.push(11);
+    c.push(8);
+    c.push(11);
+    c.push(13);
+    c.push(8);
+    c.push(13);
+    c.push(5);
+    c.push(12);
+    c.push(8);
+    c.push(14);
+    c.push(15);
+    c.push(11);
+    c.push(1);
+    c.push(9);
+    c.push(15);
+    c.push(15);
+    c.push(7);
+    c.push(13);
+    c.push(14);
+    c.push(6);
+    c.push(15);
+    c.push(4);
+    c.push(4);
+    c.push(8);
+    c.push(10);
+    c.push(12);
+    c.push(5);
+    c.push(8);
+    c.push(13);
+    c.push(15);
+    c.push(5);
+    c.push(11);
+    c.push(5);
+    c.push(8);
+    c.push(2);
+    c.push(12);
+    c.push(9);
+    c.push(2);
+    c.push(14);
+    c.push(5);
+    c.push(11);
+    c.push(11);
+    c.push(12);
+    c.push(12);
+    c.push(10);
+    c.push(5);
+    c.push(2);
+    c.push(3);
+    c.push(2);
+    c.push(5);
+    j.push("stephany");
+    j.push("ana");
+    j.push("catarina");
+    j.push("camila");
+    j.push("ágatha");
+    j.push("natália");
+    j.push("joão");
+    j.push("lunna");
+    j.push("henry");
+    j.push("maria");
+    j.push("carolina");
+    j.push("marcela");
+    std::cout << jogo(c, j) << std::endl;
+    return 0;
+}
+
+deveria ser
+camila
+mas deu
+ana
+
+Nota exercicio 2: 0.1
+Procurando exercício 3...
+Procurando exercício 4...
+Procurando exercício 5...
+Procurando exercício 6...
+Procurando exercício 7...
+Procurando exercício 8...
+Procurando exercício 9...
+Procurando exercício 10...
+Procurando exercício 11...
+Nota total: 1.10
+{"scores": {"ex1": 1.0, "ex2": 0.1, "ex3": 0.0, "ex4": 0.0, "ex5": 0.0, "ex6": 0.0, "ex7": 0.0, "ex8": 0.0, "ex9": 0.0, "ex10": 0.0, "ex11": 0.0}}
