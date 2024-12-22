@@ -1,0 +1,3061 @@
+Versão do G++:
+g++ (Debian 12.2.0-14) 12.2.0
+Copyright (C) 2022 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+Varificando data de envio...
+AGORA: 2024-12-22 15:03:49.913718-03:00
+PRAZO MÁXIMO: 2024-12-22 23:59:59-03:06
+Testando sua solucao...
+Procurando exercício 1...
+Exercício 1...
+Criando testes aleatórios...
+Testes Criados!
+Compilando...
+g++ -O2 -Wno-unused-result  "ex1.cpp" 
+Teste 1: correto! +0.050
+Teste 2: correto! +0.050
+Teste 3: correto! +0.050
+Teste 4: correto! +0.050
+Teste 5: correto! +0.050
+Teste 6: correto! +0.050
+Teste 7: correto! +0.050
+Teste 8: correto! +0.050
+Teste 9: correto! +0.050
+Teste 10: correto! +0.050
+Teste 11: correto! +0.050
+Teste 12: correto! +0.050
+Teste 13: correto! +0.050
+Teste 14: correto! +0.050
+Teste 15: correto! +0.050
+Teste 16: correto! +0.050
+Teste 17: correto! +0.050
+Teste 18: correto! +0.050
+Teste 19: correto! +0.050
+Teste 20: correto! +0.050
+Nota exercicio 1: 1.0
+Procurando exercício 2...
+Procurando exercício 3...
+Exercício 3...
+Criando testes aleatórios...
+Testes Criados!
+Compilando...
+g++ -O2 -Wno-unused-result  "ex3.cpp" 
+Teste 1 deu errado! +0.043
+O resultado para
+#include<iostream>
+int main() {
+    Vetor v(-1, 3);
+    std::cout << v << std::endl;
+    v = v + Vetor(1,2);
+    std::cout << v << std::endl;
+    v = v + Vetor(1,2);
+    std::cout << v << std::endl;
+    v = v - Vetor(1,6);
+    std::cout << v << std::endl;
+    std::cout << v * Vetor(3, 2) << std::endl; 
+    std::cout << (v ^ Vetor(-4501,9002)) << std::endl;
+    std::cout << v.abs() << std::endl;
+    return 0;
+}
+
+deveria ser
+(-1,3)
+(0,5)
+(1,7)
+(0,1)
+2
+4501
+1.0
+mas deu
+(-1,3)
+(0,5)
+(1,7)
+(0,1)
+2
+4501
+1
+
+Teste 2: correto! +0.050
+Teste 3: correto! +0.050
+Teste 4: correto! +0.050
+Teste 5: correto! +0.050
+Teste 6: correto! +0.050
+Teste 7: correto! +0.050
+Teste 8: correto! +0.050
+Teste 9: correto! +0.050
+Teste 10: correto! +0.050
+Teste 11: correto! +0.050
+Teste 12: correto! +0.050
+Teste 13: correto! +0.050
+Teste 14: correto! +0.050
+Teste 15: correto! +0.050
+Teste 16: correto! +0.050
+Teste 17: correto! +0.050
+Teste 18: correto! +0.050
+Teste 19: correto! +0.050
+Teste 20: correto! +0.050
+Nota exercicio 3: 1.0
+Procurando exercício 4...
+Exercício 4...
+Criando testes aleatórios...
+Testes Criados!
+Compilando...
+g++ -O2 -Wno-unused-result  "ex4.cpp" 
+Teste 1: correto! +0.050
+Teste 2: correto! +0.050
+Teste 3: correto! +0.050
+Teste 4: correto! +0.050
+Teste 5: correto! +0.050
+Teste 6: correto! +0.050
+Teste 7: correto! +0.050
+Teste 8: correto! +0.050
+Teste 9: correto! +0.050
+Teste 10: correto! +0.050
+Teste 11: correto! +0.050
+Teste 12: correto! +0.050
+Teste 13: correto! +0.050
+Teste 14: correto! +0.050
+Teste 15: correto! +0.050
+Teste 16 deu errado! +0.001
+O resultado para
+#include<iostream>
+int main() {
+    for(int i=0; i<100; i++) {
+        Polinomio2 p(0, 483513300, 1850638499);
+        std::cout << p(2) << " ";
+    }
+    return 0;
+}
+deveria ser
+RANDOM 100
+mas deu
++09 2.81767e+09 2.81767e+09 2.81767e+09 2.81767e+09 2.81767e+09 2.81767e+09 2.81767e+09 2.81767e+09 2.81767e+09 2.81767e+09 2.81767e+09 2.81767e+09 2.81767e+09 2.81767e+09 2.81767e+09 2.81767e+09 2.81767e+09 2.81767e+09 2.81767e+09 2.81767e+09 2.81767e+09 2.81767e+09 2.81767e+09 2.81767e+09 2.81767e+09 2.81767e+09 2.81767e+09 2.81767e+09 2.81767e+09 2.81767e+09 2.81767e+09 2.81767e+09 2.81767e+09 2.81767e+09 2.81767e+09 2.81767e+09 2.81767e+09 2.81767e+09 2.81767e+09 2.81767e+09 2.81767e+09 2.81767e+09 2.81767e+09 2.81767e+09 2.81767e+09 2.81767e+09 2.81767e+09 2.81767e+09 2.81767e+09 2.81767e+09 2.81767e+09 2.81767e+09 2.81767e+09 2.81767e+09 2.81767e+09 2.81767e+09 2.81767e+09 2.81767e+09 2.81767e+09 2.81767e+09 2.81767e+09 2.81767e+09 2.81767e+09 2.81767e+09 2.81767e+09 2.81767e+09 2.81767e+09 2.81767e+09 2.81767e+09 2.81767e+09 2.81767e+09 2.81767e+09 2.81767e+09 2.81767e+09 2.81767e+09 2.81767e+09 2.81767e+09 2.81767e+09 2.81767e+09 2.81767e+09 2.81767e+09 2.81767e+09 2.81767e+09 
+Teste 17: correto! +0.050
+Teste 18: correto! +0.050
+Teste 19: correto! +0.050
+Teste 20: correto! +0.050
+Nota exercicio 4: 1.0
+Procurando exercício 5...
+Exercício 5...
+Criando testes aleatórios...
+Testes Criados!
+Compilando...
+g++ -O2 -Wno-unused-result  "ex5.cpp" 
+Teste 1: correto! +0.050
+Teste 2: correto! +0.050
+Teste 3: correto! +0.050
+Teste 4: correto! +0.050
+Teste 5: correto! +0.050
+Teste 6: correto! +0.050
+Teste 7: correto! +0.050
+Teste 8: correto! +0.050
+Teste 9: correto! +0.050
+Teste 10: correto! +0.050
+Teste 11: correto! +0.050
+Teste 12: correto! +0.050
+Teste 13: correto! +0.050
+Teste 14: correto! +0.050
+Teste 15: correto! +0.050
+Teste 16: correto! +0.050
+Teste 17: correto! +0.050
+Teste 18: correto! +0.050
+Teste 19: correto! +0.050
+Teste 20: correto! +0.050
+Nota exercicio 5: 1.0
+Procurando exercício 6...
+Procurando exercício 7...
+Exercício 7...
+Criando testes aleatórios...
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+Testes Criados!
+Compilando...
+g++ -O2 -Wno-unused-result  "ex7.cpp" 
+#include<iostream>
+int main() {
+    Fracao f(BigInt(409519269), BigInt(1284018090));
+    f = f - Fracao(BigInt(2040949810), BigInt(1149306912));
+    f = f + Fracao(BigInt(-435307607), BigInt(212206814));
+    f = f / Fracao(BigInt(-2128277039), BigInt(606909898));
+    f = f + Fracao(BigInt(1552608270), BigInt(855409199));
+    f = f - Fracao(BigInt(-580515733), BigInt(1595946819));
+    std::cout << f << std::endl;
+    f = f * Fracao(BigInt(-1271532452), BigInt(1962113691));
+    std::cout << f << std::endl;
+    f = f + Fracao(BigInt(-976776001), BigInt(159559711));
+    f = f / Fracao(BigInt(1223048317), BigInt(1012839545));
+    std::cout << f << std::endl;
+    f = f + Fracao(BigInt(476365931), BigInt(1760891299));
+    f = f * Fracao(BigInt(585683327), BigInt(299812408));
+    f = f / Fracao(BigInt(229365538), BigInt(1900290497));
+    f = f - Fracao(BigInt(158812998), BigInt(1943336386));
+    f = f / Fracao(BigInt(1931887330), BigInt(1026805437));
+    f = f * Fracao(BigInt(-487477951), BigInt(1863312743));
+    std::cout << f << std::endl;
+    f = f * Fracao(BigInt(-2093291884), BigInt(1136823565));
+    f = f + Fracao(BigInt(212814548), BigInt(244327887));
+    std::cout << f << std::endl;
+    f = f + Fracao(BigInt(-1515883650), BigInt(18323384));
+    f = f - Fracao(BigInt(63709589), BigInt(854461526));
+    std::cout << f << std::endl;
+    f = f - Fracao(BigInt(-9802593), BigInt(1362123168));
+    f = f / Fracao(BigInt(-465641545), BigInt(1675043979));
+    f = f * Fracao(BigInt(-1171241140), BigInt(407875680));
+    f = f - Fracao(BigInt(651755848), BigInt(135270024));
+    f = f + Fracao(BigInt(-1068542697), BigInt(309334976));
+    f = f / Fracao(BigInt(758218198), BigInt(2027407975));
+    f = f * Fracao(BigInt(-42197265), BigInt(566910428));
+    f = f + Fracao(BigInt(296394400), BigInt(1485026671));
+    f = f / Fracao(BigInt(297374252), BigInt(607505162));
+    f = f - Fracao(BigInt(-1917775356), BigInt(482076214));
+    std::cout << f << std::endl;
+    f = f - Fracao(BigInt(410205161), BigInt(1758098663));
+    f = f / Fracao(BigInt(1257823285), BigInt(1937749290));
+    f = f * Fracao(BigInt(738542205), BigInt(2099754657));
+    f = f + Fracao(BigInt(-1694151225), BigInt(1707733824));
+    f = f * Fracao(BigInt(946749444), BigInt(1364726542));
+    std::cout << f << std::endl;
+    f = f - Fracao(BigInt(1989882275), BigInt(77827945));
+    f = f + Fracao(BigInt(611347937), BigInt(2101104369));
+    std::cout << f << std::endl;
+    f = f / Fracao(BigInt(959484219), BigInt(1942983082));
+    f = f + Fracao(BigInt(-2030267975), BigInt(553287344));
+    return 0;
+}
+main -> fugit
+ERRO: Erro de compilação: 256
+ex7.cpp:5:3: error: ‘BigInt’ does not name a type
+    5 |   BigInt _numerador;
+      |   ^~~~~~
+ex7.cpp:6:3: error: ‘BigInt’ does not name a type
+    6 |   BigInt _denominador;
+      |   ^~~~~~
+ex7.cpp:9:18: error: expected ‘)’ before ‘numerador’
+    9 |     Fracao(BigInt numerador = 0, BigInt denominador = 1): _numerador(0), _denominador(1){
+      |           ~      ^~~~~~~~~~
+      |                  )
+ex7.cpp: In function ‘Fracao operator/(const Fracao&, const Fracao&)’:
+ex7.cpp:14:9: error: ‘BigInt’ was not declared in this scope
+   14 |         BigInt den = a._denominador * b._numerador;
+      |         ^~~~~~
+ex7.cpp:15:16: error: expected ‘;’ before ‘num’
+   15 |         BigInt num = b._denominador * a._numerador;
+      |                ^~~
+ex7.cpp:18:18: error: ‘num’ was not declared in this scope; did you mean ‘enum’?
+   18 |         Fracao f(num, den);
+      |                  ^~~
+      |                  enum
+ex7.cpp:18:23: error: ‘den’ was not declared in this scope
+   18 |         Fracao f(num, den);
+      |                       ^~~
+ex7.cpp: In function ‘Fracao operator*(const Fracao&, const Fracao&)’:
+ex7.cpp:22:9: error: ‘BigInt’ was not declared in this scope
+   22 |         BigInt den = a._denominador * b._denominador;
+      |         ^~~~~~
+ex7.cpp:23:16: error: expected ‘;’ before ‘num’
+   23 |         BigInt num = b._numerador * a._numerador;
+      |                ^~~
+ex7.cpp:26:18: error: ‘num’ was not declared in this scope; did you mean ‘enum’?
+   26 |         Fracao f(num, den);
+      |                  ^~~
+      |                  enum
+ex7.cpp:26:23: error: ‘den’ was not declared in this scope
+   26 |         Fracao f(num, den);
+      |                       ^~~
+ex7.cpp: In function ‘Fracao operator+(const Fracao&, const Fracao&)’:
+ex7.cpp:30:9: error: ‘BigInt’ was not declared in this scope
+   30 |         BigInt num = b._numerador * a._denominador + a._numerador * b._denominador;
+      |         ^~~~~~
+ex7.cpp:31:16: error: expected ‘;’ before ‘den’
+   31 |         BigInt den = a._denominador * b._denominador;
+      |                ^~~
+ex7.cpp:33:18: error: ‘num’ was not declared in this scope; did you mean ‘enum’?
+   33 |         Fracao f(num, den);
+      |                  ^~~
+      |                  enum
+ex7.cpp:33:23: error: ‘den’ was not declared in this scope
+   33 |         Fracao f(num, den);
+      |                       ^~~
+ex7.cpp: In function ‘Fracao operator-(const Fracao&, const Fracao&)’:
+ex7.cpp:37:9: error: ‘BigInt’ was not declared in this scope
+   37 |         BigInt num = -b._numerador * a._denominador + a._numerador * b._denominador;
+      |         ^~~~~~
+ex7.cpp:38:16: error: expected ‘;’ before ‘den’
+   38 |         BigInt den = a._denominador * b._denominador;
+      |                ^~~
+ex7.cpp:40:18: error: ‘num’ was not declared in this scope; did you mean ‘enum’?
+   40 |         Fracao f(num, den);
+      |                  ^~~
+      |                  enum
+ex7.cpp:40:23: error: ‘den’ was not declared in this scope
+   40 |         Fracao f(num, den);
+      |                       ^~~
+ex7.cpp: In function ‘std::ostream& operator<<(std::ostream&, const Fracao&)’:
+ex7.cpp:46:18: error: ‘const class Fracao’ has no member named ‘_numerador’
+   46 |         out << a._numerador << "/" << a._denominador;
+      |                  ^~~~~~~~~~
+ex7.cpp:46:41: error: ‘const class Fracao’ has no member named ‘_denominador’
+   46 |         out << a._numerador << "/" << a._denominador;
+      |                                         ^~~~~~~~~~~~
+ex7.cpp: In function ‘int main()’:
+ex7.cpp:52:14: error: ‘BigInt’ was not declared in this scope
+   52 |     Fracao f(BigInt(409519269), BigInt(1284018090));
+      |              ^~~~~~
+
+#include<iostream>
+int main() {
+    Fracao f(BigInt(-362297740), BigInt(869208576));
+    f = f + Fracao(BigInt(1279369743), BigInt(1675095570));
+    f = f - Fracao(BigInt(-1727492658), BigInt(1833714276));
+    f = f / Fracao(BigInt(-722949972), BigInt(1023742757));
+    f = f * Fracao(BigInt(1481982359), BigInt(906015725));
+    f = f - Fracao(BigInt(-1282685057), BigInt(337135600));
+    std::cout << f << std::endl;
+    f = f / Fracao(BigInt(960309156), BigInt(477708513));
+    f = f * Fracao(BigInt(676316790), BigInt(2011237018));
+    f = f - Fracao(BigInt(-1757840405), BigInt(1204938926));
+    f = f * Fracao(BigInt(23735615), BigInt(339252500));
+    f = f - Fracao(BigInt(1023655395), BigInt(1733749367));
+    f = f + Fracao(BigInt(739720964), BigInt(1307422161));
+    f = f - Fracao(BigInt(934946396), BigInt(1399757423));
+    f = f / Fracao(BigInt(-291761402), BigInt(576837436));
+    f = f + Fracao(BigInt(-267875351), BigInt(1465507045));
+    f = f / Fracao(BigInt(-2059711943), BigInt(496894986));
+    f = f + Fracao(BigInt(-697646834), BigInt(2109791062));
+    f = f - Fracao(BigInt(12182846), BigInt(122701946));
+    std::cout << f << std::endl;
+    f = f + Fracao(BigInt(1117208661), BigInt(994185776));
+    f = f * Fracao(BigInt(-1209929746), BigInt(2045286859));
+    std::cout << f << std::endl;
+    f = f - Fracao(BigInt(-1584592449), BigInt(811995969));
+    f = f / Fracao(BigInt(-2010124246), BigInt(1351563036));
+    f = f + Fracao(BigInt(-512910162), BigInt(1459487094));
+    f = f - Fracao(BigInt(1495855833), BigInt(1193152486));
+    f = f * Fracao(BigInt(-297253318), BigInt(1241879847));
+    std::cout << f << std::endl;
+    f = f * Fracao(BigInt(-425704175), BigInt(342992657));
+    f = f / Fracao(BigInt(-1212153495), BigInt(812084408));
+    f = f * Fracao(BigInt(1213068416), BigInt(686287986));
+    std::cout << f << std::endl;
+    f = f + Fracao(BigInt(1190817997), BigInt(1345337247));
+    f = f / Fracao(BigInt(1691344227), BigInt(978593963));
+    f = f + Fracao(BigInt(1553082447), BigInt(562114462));
+    f = f - Fracao(BigInt(-1778611409), BigInt(1572119560));
+    f = f * Fracao(BigInt(1205416718), BigInt(1871793588));
+    f = f + Fracao(BigInt(-30849066), BigInt(692892395));
+    std::cout << f << std::endl;
+    f = f + Fracao(BigInt(2050043969), BigInt(669788075));
+    std::cout << f << std::endl;
+    f = f - Fracao(BigInt(-900959353), BigInt(1993871438));
+    f = f * Fracao(BigInt(-1629750317), BigInt(274535011));
+    f = f + Fracao(BigInt(-971174757), BigInt(916006894));
+    f = f / Fracao(BigInt(1540217879), BigInt(1714844543));
+    f = f - Fracao(BigInt(1623067388), BigInt(1565966742));
+    f = f * Fracao(BigInt(879574641), BigInt(2044362489));
+    f = f + Fracao(BigInt(543958079), BigInt(978677945));
+    f = f / Fracao(BigInt(-1063955640), BigInt(1614887329));
+    f = f + Fracao(BigInt(-616691732), BigInt(1924412990));
+    f = f / Fracao(BigInt(917688208), BigInt(626453705));
+    f = f + Fracao(BigInt(-1926946714), BigInt(858853878));
+    f = f - Fracao(BigInt(578760322), BigInt(629078099));
+    f = f + Fracao(BigInt(-514357228), BigInt(1095548645));
+    f = f * Fracao(BigInt(1873620908), BigInt(942818469));
+    f = f + Fracao(BigInt(-331028653), BigInt(79466582));
+    f = f * Fracao(BigInt(-754306338), BigInt(684455734));
+    f = f / Fracao(BigInt(1438350832), BigInt(947910653));
+    f = f + Fracao(BigInt(-2112643868), BigInt(434250592));
+    f = f * Fracao(BigInt(-2070160670), BigInt(40962307));
+    f = f - Fracao(BigInt(-1736322519), BigInt(385065095));
+    std::cout << f << std::endl;
+    f = f * Fracao(BigInt(1928365803), BigInt(1905955340));
+    f = f / Fracao(BigInt(1828351348), BigInt(827011662));
+    f = f * Fracao(BigInt(-1847292306), BigInt(1288435686));
+    std::cout << f << std::endl;
+    f = f * Fracao(BigInt(-1721232746), BigInt(661209124));
+    f = f / Fracao(BigInt(271236286), BigInt(2005519208));
+    std::cout << f << std::endl;
+    f = f - Fracao(BigInt(-468842812), BigInt(1092461848));
+    f = f * Fracao(BigInt(-652484635), BigInt(278068388));
+    f = f + Fracao(BigInt(752990595), BigInt(1748202629));
+    std::cout << f << std::endl;
+    f = f - Fracao(BigInt(2207825), BigInt(2134143092));
+    f = f / Fracao(BigInt(113173361), BigInt(42981690));
+    f = f - Fracao(BigInt(-2099472087), BigInt(2012568179));
+    f = f + Fracao(BigInt(1632523835), BigInt(786202626));
+    std::cout << f << std::endl;
+    f = f - Fracao(BigInt(441481305), BigInt(958781020));
+    f = f + Fracao(BigInt(-31361064), BigInt(1657124403));
+    f = f / Fracao(BigInt(1856885451), BigInt(935680147));
+    std::cout << f << std::endl;
+    f = f / Fracao(BigInt(172214287), BigInt(824932441));
+    std::cout << f << std::endl;
+    f = f * Fracao(BigInt(764474276), BigInt(1750230047));
+    std::cout << f << std::endl;
+    f = f - Fracao(BigInt(-1484898938), BigInt(758541448));
+    f = f + Fracao(BigInt(-1195297946), BigInt(85941220));
+    f = f * Fracao(BigInt(1290175524), BigInt(1131687913));
+    f = f + Fracao(BigInt(1536148785), BigInt(288099206));
+    std::cout << f << std::endl;
+    f = f + Fracao(BigInt(1245645529), BigInt(1747997897));
+    f = f * Fracao(BigInt(-516196529), BigInt(1430319403));
+    return 0;
+}
+main -> aspernatur
+ERRO: Erro de compilação: 256
+ex7.cpp:5:3: error: ‘BigInt’ does not name a type
+    5 |   BigInt _numerador;
+      |   ^~~~~~
+ex7.cpp:6:3: error: ‘BigInt’ does not name a type
+    6 |   BigInt _denominador;
+      |   ^~~~~~
+ex7.cpp:9:18: error: expected ‘)’ before ‘numerador’
+    9 |     Fracao(BigInt numerador = 0, BigInt denominador = 1): _numerador(0), _denominador(1){
+      |           ~      ^~~~~~~~~~
+      |                  )
+ex7.cpp: In function ‘Fracao operator/(const Fracao&, const Fracao&)’:
+ex7.cpp:14:9: error: ‘BigInt’ was not declared in this scope
+   14 |         BigInt den = a._denominador * b._numerador;
+      |         ^~~~~~
+ex7.cpp:15:16: error: expected ‘;’ before ‘num’
+   15 |         BigInt num = b._denominador * a._numerador;
+      |                ^~~
+ex7.cpp:18:18: error: ‘num’ was not declared in this scope; did you mean ‘enum’?
+   18 |         Fracao f(num, den);
+      |                  ^~~
+      |                  enum
+ex7.cpp:18:23: error: ‘den’ was not declared in this scope
+   18 |         Fracao f(num, den);
+      |                       ^~~
+ex7.cpp: In function ‘Fracao operator*(const Fracao&, const Fracao&)’:
+ex7.cpp:22:9: error: ‘BigInt’ was not declared in this scope
+   22 |         BigInt den = a._denominador * b._denominador;
+      |         ^~~~~~
+ex7.cpp:23:16: error: expected ‘;’ before ‘num’
+   23 |         BigInt num = b._numerador * a._numerador;
+      |                ^~~
+ex7.cpp:26:18: error: ‘num’ was not declared in this scope; did you mean ‘enum’?
+   26 |         Fracao f(num, den);
+      |                  ^~~
+      |                  enum
+ex7.cpp:26:23: error: ‘den’ was not declared in this scope
+   26 |         Fracao f(num, den);
+      |                       ^~~
+ex7.cpp: In function ‘Fracao operator+(const Fracao&, const Fracao&)’:
+ex7.cpp:30:9: error: ‘BigInt’ was not declared in this scope
+   30 |         BigInt num = b._numerador * a._denominador + a._numerador * b._denominador;
+      |         ^~~~~~
+ex7.cpp:31:16: error: expected ‘;’ before ‘den’
+   31 |         BigInt den = a._denominador * b._denominador;
+      |                ^~~
+ex7.cpp:33:18: error: ‘num’ was not declared in this scope; did you mean ‘enum’?
+   33 |         Fracao f(num, den);
+      |                  ^~~
+      |                  enum
+ex7.cpp:33:23: error: ‘den’ was not declared in this scope
+   33 |         Fracao f(num, den);
+      |                       ^~~
+ex7.cpp: In function ‘Fracao operator-(const Fracao&, const Fracao&)’:
+ex7.cpp:37:9: error: ‘BigInt’ was not declared in this scope
+   37 |         BigInt num = -b._numerador * a._denominador + a._numerador * b._denominador;
+      |         ^~~~~~
+ex7.cpp:38:16: error: expected ‘;’ before ‘den’
+   38 |         BigInt den = a._denominador * b._denominador;
+      |                ^~~
+ex7.cpp:40:18: error: ‘num’ was not declared in this scope; did you mean ‘enum’?
+   40 |         Fracao f(num, den);
+      |                  ^~~
+      |                  enum
+ex7.cpp:40:23: error: ‘den’ was not declared in this scope
+   40 |         Fracao f(num, den);
+      |                       ^~~
+ex7.cpp: In function ‘std::ostream& operator<<(std::ostream&, const Fracao&)’:
+ex7.cpp:46:18: error: ‘const class Fracao’ has no member named ‘_numerador’
+   46 |         out << a._numerador << "/" << a._denominador;
+      |                  ^~~~~~~~~~
+ex7.cpp:46:41: error: ‘const class Fracao’ has no member named ‘_denominador’
+   46 |         out << a._numerador << "/" << a._denominador;
+      |                                         ^~~~~~~~~~~~
+ex7.cpp: In function ‘int main()’:
+ex7.cpp:52:14: error: ‘BigInt’ was not declared in this scope
+   52 |     Fracao f(BigInt(-362297740), BigInt(869208576));
+      |              ^~~~~~
+
+#include<iostream>
+int main() {
+    Fracao f(BigInt(136519008), BigInt(1136395306));
+    f = f / Fracao(BigInt(-772506076), BigInt(1459361671));
+    f = f * Fracao(BigInt(-1102893435), BigInt(551715772));
+    f = f - Fracao(BigInt(-563059016), BigInt(954554832));
+    std::cout << f << std::endl;
+    f = f - Fracao(BigInt(1375532751), BigInt(1900868487));
+    f = f + Fracao(BigInt(827750870), BigInt(1529453366));
+    f = f * Fracao(BigInt(-112592450), BigInt(173046709));
+    std::cout << f << std::endl;
+    f = f * Fracao(BigInt(-536751487), BigInt(532225425));
+    f = f / Fracao(BigInt(-638808777), BigInt(1314436179));
+    f = f - Fracao(BigInt(303351232), BigInt(1070346475));
+    f = f / Fracao(BigInt(-953388372), BigInt(129627161));
+    f = f * Fracao(BigInt(-890298846), BigInt(256152442));
+    f = f - Fracao(BigInt(-1827254095), BigInt(1226705860));
+    f = f + Fracao(BigInt(-1594078686), BigInt(2077770426));
+    std::cout << f << std::endl;
+    f = f * Fracao(BigInt(-1046992587), BigInt(1842484990));
+    std::cout << f << std::endl;
+    f = f / Fracao(BigInt(1925127260), BigInt(254358386));
+    f = f * Fracao(BigInt(-1467881408), BigInt(1339264679));
+    f = f / Fracao(BigInt(1071587207), BigInt(571534683));
+    f = f * Fracao(BigInt(-1766723043), BigInt(706324218));
+    std::cout << f << std::endl;
+    f = f - Fracao(BigInt(-823297621), BigInt(2006326014));
+    std::cout << f << std::endl;
+    f = f + Fracao(BigInt(-1722728835), BigInt(882877235));
+    f = f - Fracao(BigInt(-556988513), BigInt(410960304));
+    f = f + Fracao(BigInt(-1158975283), BigInt(563064915));
+    f = f * Fracao(BigInt(-480530616), BigInt(2033430778));
+    std::cout << f << std::endl;
+    f = f * Fracao(BigInt(-981533751), BigInt(1038779244));
+    f = f / Fracao(BigInt(39503493), BigInt(1870911238));
+    f = f * Fracao(BigInt(-1351665290), BigInt(327361329));
+    std::cout << f << std::endl;
+    f = f - Fracao(BigInt(-294512371), BigInt(404634232));
+    return 0;
+}
+main -> iste
+ERRO: Erro de compilação: 256
+ex7.cpp:5:3: error: ‘BigInt’ does not name a type
+    5 |   BigInt _numerador;
+      |   ^~~~~~
+ex7.cpp:6:3: error: ‘BigInt’ does not name a type
+    6 |   BigInt _denominador;
+      |   ^~~~~~
+ex7.cpp:9:18: error: expected ‘)’ before ‘numerador’
+    9 |     Fracao(BigInt numerador = 0, BigInt denominador = 1): _numerador(0), _denominador(1){
+      |           ~      ^~~~~~~~~~
+      |                  )
+ex7.cpp: In function ‘Fracao operator/(const Fracao&, const Fracao&)’:
+ex7.cpp:14:9: error: ‘BigInt’ was not declared in this scope
+   14 |         BigInt den = a._denominador * b._numerador;
+      |         ^~~~~~
+ex7.cpp:15:16: error: expected ‘;’ before ‘num’
+   15 |         BigInt num = b._denominador * a._numerador;
+      |                ^~~
+ex7.cpp:18:18: error: ‘num’ was not declared in this scope; did you mean ‘enum’?
+   18 |         Fracao f(num, den);
+      |                  ^~~
+      |                  enum
+ex7.cpp:18:23: error: ‘den’ was not declared in this scope
+   18 |         Fracao f(num, den);
+      |                       ^~~
+ex7.cpp: In function ‘Fracao operator*(const Fracao&, const Fracao&)’:
+ex7.cpp:22:9: error: ‘BigInt’ was not declared in this scope
+   22 |         BigInt den = a._denominador * b._denominador;
+      |         ^~~~~~
+ex7.cpp:23:16: error: expected ‘;’ before ‘num’
+   23 |         BigInt num = b._numerador * a._numerador;
+      |                ^~~
+ex7.cpp:26:18: error: ‘num’ was not declared in this scope; did you mean ‘enum’?
+   26 |         Fracao f(num, den);
+      |                  ^~~
+      |                  enum
+ex7.cpp:26:23: error: ‘den’ was not declared in this scope
+   26 |         Fracao f(num, den);
+      |                       ^~~
+ex7.cpp: In function ‘Fracao operator+(const Fracao&, const Fracao&)’:
+ex7.cpp:30:9: error: ‘BigInt’ was not declared in this scope
+   30 |         BigInt num = b._numerador * a._denominador + a._numerador * b._denominador;
+      |         ^~~~~~
+ex7.cpp:31:16: error: expected ‘;’ before ‘den’
+   31 |         BigInt den = a._denominador * b._denominador;
+      |                ^~~
+ex7.cpp:33:18: error: ‘num’ was not declared in this scope; did you mean ‘enum’?
+   33 |         Fracao f(num, den);
+      |                  ^~~
+      |                  enum
+ex7.cpp:33:23: error: ‘den’ was not declared in this scope
+   33 |         Fracao f(num, den);
+      |                       ^~~
+ex7.cpp: In function ‘Fracao operator-(const Fracao&, const Fracao&)’:
+ex7.cpp:37:9: error: ‘BigInt’ was not declared in this scope
+   37 |         BigInt num = -b._numerador * a._denominador + a._numerador * b._denominador;
+      |         ^~~~~~
+ex7.cpp:38:16: error: expected ‘;’ before ‘den’
+   38 |         BigInt den = a._denominador * b._denominador;
+      |                ^~~
+ex7.cpp:40:18: error: ‘num’ was not declared in this scope; did you mean ‘enum’?
+   40 |         Fracao f(num, den);
+      |                  ^~~
+      |                  enum
+ex7.cpp:40:23: error: ‘den’ was not declared in this scope
+   40 |         Fracao f(num, den);
+      |                       ^~~
+ex7.cpp: In function ‘std::ostream& operator<<(std::ostream&, const Fracao&)’:
+ex7.cpp:46:18: error: ‘const class Fracao’ has no member named ‘_numerador’
+   46 |         out << a._numerador << "/" << a._denominador;
+      |                  ^~~~~~~~~~
+ex7.cpp:46:41: error: ‘const class Fracao’ has no member named ‘_denominador’
+   46 |         out << a._numerador << "/" << a._denominador;
+      |                                         ^~~~~~~~~~~~
+ex7.cpp: In function ‘int main()’:
+ex7.cpp:52:14: error: ‘BigInt’ was not declared in this scope
+   52 |     Fracao f(BigInt(136519008), BigInt(1136395306));
+      |              ^~~~~~
+
+#include<iostream>
+int main() {
+    Fracao f(BigInt(1746767800), BigInt(713548951));
+    f = f + Fracao(BigInt(1291499595), BigInt(951637454));
+    f = f / Fracao(BigInt(-1430139213), BigInt(22583304));
+    f = f * Fracao(BigInt(-1337730243), BigInt(1728164038));
+    f = f - Fracao(BigInt(-2117585410), BigInt(666390199));
+    std::cout << f << std::endl;
+    f = f * Fracao(BigInt(-1858481952), BigInt(695479941));
+    f = f + Fracao(BigInt(-143412856), BigInt(433146372));
+    f = f / Fracao(BigInt(-1305022455), BigInt(1567044100));
+    f = f - Fracao(BigInt(1290584900), BigInt(1496111129));
+    f = f + Fracao(BigInt(-1903632762), BigInt(784917756));
+    f = f - Fracao(BigInt(-1430709591), BigInt(400673268));
+    f = f / Fracao(BigInt(-1065978878), BigInt(1755267395));
+    f = f + Fracao(BigInt(-1885501026), BigInt(1358467855));
+    f = f / Fracao(BigInt(-1483445866), BigInt(703988492));
+    f = f - Fracao(BigInt(86542325), BigInt(335609854));
+    f = f + Fracao(BigInt(1380316028), BigInt(840108942));
+    f = f * Fracao(BigInt(-594785049), BigInt(2035796091));
+    std::cout << f << std::endl;
+    f = f + Fracao(BigInt(287524009), BigInt(753460512));
+    f = f - Fracao(BigInt(807163092), BigInt(1983216155));
+    f = f * Fracao(BigInt(-588250366), BigInt(980917672));
+    f = f - Fracao(BigInt(341015065), BigInt(1776177780));
+    f = f + Fracao(BigInt(-188645824), BigInt(721655192));
+    f = f / Fracao(BigInt(-303920881), BigInt(94282280));
+    f = f - Fracao(BigInt(-104413239), BigInt(1004667498));
+    f = f * Fracao(BigInt(-397157266), BigInt(123518560));
+    f = f - Fracao(BigInt(1925966598), BigInt(471550287));
+    f = f * Fracao(BigInt(-1238092682), BigInt(1807045383));
+    f = f / Fracao(BigInt(939053817), BigInt(2070767789));
+    f = f * Fracao(BigInt(882409311), BigInt(226427565));
+    f = f + Fracao(BigInt(-385871130), BigInt(154002291));
+    f = f - Fracao(BigInt(1835394648), BigInt(788294940));
+    std::cout << f << std::endl;
+    f = f + Fracao(BigInt(-1555137012), BigInt(703181760));
+    std::cout << f << std::endl;
+    f = f - Fracao(BigInt(1384500948), BigInt(750576494));
+    f = f + Fracao(BigInt(1073021842), BigInt(453771237));
+    std::cout << f << std::endl;
+    f = f * Fracao(BigInt(563535499), BigInt(676646282));
+    f = f - Fracao(BigInt(652062465), BigInt(1551933871));
+    f = f * Fracao(BigInt(1574633067), BigInt(1961619404));
+    std::cout << f << std::endl;
+    f = f / Fracao(BigInt(-404041901), BigInt(114751707));
+    f = f - Fracao(BigInt(-330644657), BigInt(977589618));
+    f = f + Fracao(BigInt(351928461), BigInt(1555002082));
+    f = f / Fracao(BigInt(-1465893425), BigInt(65186221));
+    f = f - Fracao(BigInt(979033846), BigInt(1961112707));
+    f = f + Fracao(BigInt(21634535), BigInt(1833212977));
+    f = f - Fracao(BigInt(-557844631), BigInt(2072292691));
+    std::cout << f << std::endl;
+    f = f * Fracao(BigInt(-757479455), BigInt(1014299186));
+    std::cout << f << std::endl;
+    f = f + Fracao(BigInt(469903050), BigInt(1289799854));
+    f = f - Fracao(BigInt(1454929879), BigInt(420959754));
+    f = f / Fracao(BigInt(-439750882), BigInt(1718738880));
+    f = f * Fracao(BigInt(-1348869686), BigInt(666713841));
+    f = f / Fracao(BigInt(-980919899), BigInt(290086414));
+    f = f - Fracao(BigInt(263945335), BigInt(1977867854));
+    std::cout << f << std::endl;
+    f = f - Fracao(BigInt(-278670878), BigInt(58960492));
+    f = f + Fracao(BigInt(1467904862), BigInt(1573769278));
+    f = f - Fracao(BigInt(783526021), BigInt(1788111959));
+    std::cout << f << std::endl;
+    f = f / Fracao(BigInt(-486081791), BigInt(711722256));
+    f = f - Fracao(BigInt(2105761208), BigInt(1167727190));
+    f = f / Fracao(BigInt(173514108), BigInt(400687391));
+    f = f * Fracao(BigInt(-147467516), BigInt(539874286));
+    return 0;
+}
+main -> harum
+ERRO: Erro de compilação: 256
+ex7.cpp:5:3: error: ‘BigInt’ does not name a type
+    5 |   BigInt _numerador;
+      |   ^~~~~~
+ex7.cpp:6:3: error: ‘BigInt’ does not name a type
+    6 |   BigInt _denominador;
+      |   ^~~~~~
+ex7.cpp:9:18: error: expected ‘)’ before ‘numerador’
+    9 |     Fracao(BigInt numerador = 0, BigInt denominador = 1): _numerador(0), _denominador(1){
+      |           ~      ^~~~~~~~~~
+      |                  )
+ex7.cpp: In function ‘Fracao operator/(const Fracao&, const Fracao&)’:
+ex7.cpp:14:9: error: ‘BigInt’ was not declared in this scope
+   14 |         BigInt den = a._denominador * b._numerador;
+      |         ^~~~~~
+ex7.cpp:15:16: error: expected ‘;’ before ‘num’
+   15 |         BigInt num = b._denominador * a._numerador;
+      |                ^~~
+ex7.cpp:18:18: error: ‘num’ was not declared in this scope; did you mean ‘enum’?
+   18 |         Fracao f(num, den);
+      |                  ^~~
+      |                  enum
+ex7.cpp:18:23: error: ‘den’ was not declared in this scope
+   18 |         Fracao f(num, den);
+      |                       ^~~
+ex7.cpp: In function ‘Fracao operator*(const Fracao&, const Fracao&)’:
+ex7.cpp:22:9: error: ‘BigInt’ was not declared in this scope
+   22 |         BigInt den = a._denominador * b._denominador;
+      |         ^~~~~~
+ex7.cpp:23:16: error: expected ‘;’ before ‘num’
+   23 |         BigInt num = b._numerador * a._numerador;
+      |                ^~~
+ex7.cpp:26:18: error: ‘num’ was not declared in this scope; did you mean ‘enum’?
+   26 |         Fracao f(num, den);
+      |                  ^~~
+      |                  enum
+ex7.cpp:26:23: error: ‘den’ was not declared in this scope
+   26 |         Fracao f(num, den);
+      |                       ^~~
+ex7.cpp: In function ‘Fracao operator+(const Fracao&, const Fracao&)’:
+ex7.cpp:30:9: error: ‘BigInt’ was not declared in this scope
+   30 |         BigInt num = b._numerador * a._denominador + a._numerador * b._denominador;
+      |         ^~~~~~
+ex7.cpp:31:16: error: expected ‘;’ before ‘den’
+   31 |         BigInt den = a._denominador * b._denominador;
+      |                ^~~
+ex7.cpp:33:18: error: ‘num’ was not declared in this scope; did you mean ‘enum’?
+   33 |         Fracao f(num, den);
+      |                  ^~~
+      |                  enum
+ex7.cpp:33:23: error: ‘den’ was not declared in this scope
+   33 |         Fracao f(num, den);
+      |                       ^~~
+ex7.cpp: In function ‘Fracao operator-(const Fracao&, const Fracao&)’:
+ex7.cpp:37:9: error: ‘BigInt’ was not declared in this scope
+   37 |         BigInt num = -b._numerador * a._denominador + a._numerador * b._denominador;
+      |         ^~~~~~
+ex7.cpp:38:16: error: expected ‘;’ before ‘den’
+   38 |         BigInt den = a._denominador * b._denominador;
+      |                ^~~
+ex7.cpp:40:18: error: ‘num’ was not declared in this scope; did you mean ‘enum’?
+   40 |         Fracao f(num, den);
+      |                  ^~~
+      |                  enum
+ex7.cpp:40:23: error: ‘den’ was not declared in this scope
+   40 |         Fracao f(num, den);
+      |                       ^~~
+ex7.cpp: In function ‘std::ostream& operator<<(std::ostream&, const Fracao&)’:
+ex7.cpp:46:18: error: ‘const class Fracao’ has no member named ‘_numerador’
+   46 |         out << a._numerador << "/" << a._denominador;
+      |                  ^~~~~~~~~~
+ex7.cpp:46:41: error: ‘const class Fracao’ has no member named ‘_denominador’
+   46 |         out << a._numerador << "/" << a._denominador;
+      |                                         ^~~~~~~~~~~~
+ex7.cpp: In function ‘int main()’:
+ex7.cpp:52:14: error: ‘BigInt’ was not declared in this scope
+   52 |     Fracao f(BigInt(1746767800), BigInt(713548951));
+      |              ^~~~~~
+
+#include<iostream>
+int main() {
+    Fracao f(BigInt(0));
+    std::cout << f << std::endl;
+    f = f+Fracao(BigInt(1), BigInt(2));
+    std::cout << f << std::endl;
+    f = f+Fracao(BigInt(1), BigInt(2));
+    std::cout << f << std::endl;
+    f = f*Fracao(BigInt(3), BigInt(2));
+    std::cout << f << std::endl;
+    f = f/Fracao(BigInt(3), BigInt(4));
+    std::cout << f << std::endl;
+    f = f-Fracao(BigInt(1), BigInt(6));
+    std::cout << f << std::endl;
+    f = f*Fracao(BigInt(0), BigInt("999999999999999999"));
+    std::cout << f << std::endl;
+    return 0;
+}
+
+main -> dolores
+ERRO: Erro de compilação: 256
+ex7.cpp:5:3: error: ‘BigInt’ does not name a type
+    5 |   BigInt _numerador;
+      |   ^~~~~~
+ex7.cpp:6:3: error: ‘BigInt’ does not name a type
+    6 |   BigInt _denominador;
+      |   ^~~~~~
+ex7.cpp:9:18: error: expected ‘)’ before ‘numerador’
+    9 |     Fracao(BigInt numerador = 0, BigInt denominador = 1): _numerador(0), _denominador(1){
+      |           ~      ^~~~~~~~~~
+      |                  )
+ex7.cpp: In function ‘Fracao operator/(const Fracao&, const Fracao&)’:
+ex7.cpp:14:9: error: ‘BigInt’ was not declared in this scope
+   14 |         BigInt den = a._denominador * b._numerador;
+      |         ^~~~~~
+ex7.cpp:15:16: error: expected ‘;’ before ‘num’
+   15 |         BigInt num = b._denominador * a._numerador;
+      |                ^~~
+ex7.cpp:18:18: error: ‘num’ was not declared in this scope; did you mean ‘enum’?
+   18 |         Fracao f(num, den);
+      |                  ^~~
+      |                  enum
+ex7.cpp:18:23: error: ‘den’ was not declared in this scope
+   18 |         Fracao f(num, den);
+      |                       ^~~
+ex7.cpp: In function ‘Fracao operator*(const Fracao&, const Fracao&)’:
+ex7.cpp:22:9: error: ‘BigInt’ was not declared in this scope
+   22 |         BigInt den = a._denominador * b._denominador;
+      |         ^~~~~~
+ex7.cpp:23:16: error: expected ‘;’ before ‘num’
+   23 |         BigInt num = b._numerador * a._numerador;
+      |                ^~~
+ex7.cpp:26:18: error: ‘num’ was not declared in this scope; did you mean ‘enum’?
+   26 |         Fracao f(num, den);
+      |                  ^~~
+      |                  enum
+ex7.cpp:26:23: error: ‘den’ was not declared in this scope
+   26 |         Fracao f(num, den);
+      |                       ^~~
+ex7.cpp: In function ‘Fracao operator+(const Fracao&, const Fracao&)’:
+ex7.cpp:30:9: error: ‘BigInt’ was not declared in this scope
+   30 |         BigInt num = b._numerador * a._denominador + a._numerador * b._denominador;
+      |         ^~~~~~
+ex7.cpp:31:16: error: expected ‘;’ before ‘den’
+   31 |         BigInt den = a._denominador * b._denominador;
+      |                ^~~
+ex7.cpp:33:18: error: ‘num’ was not declared in this scope; did you mean ‘enum’?
+   33 |         Fracao f(num, den);
+      |                  ^~~
+      |                  enum
+ex7.cpp:33:23: error: ‘den’ was not declared in this scope
+   33 |         Fracao f(num, den);
+      |                       ^~~
+ex7.cpp: In function ‘Fracao operator-(const Fracao&, const Fracao&)’:
+ex7.cpp:37:9: error: ‘BigInt’ was not declared in this scope
+   37 |         BigInt num = -b._numerador * a._denominador + a._numerador * b._denominador;
+      |         ^~~~~~
+ex7.cpp:38:16: error: expected ‘;’ before ‘den’
+   38 |         BigInt den = a._denominador * b._denominador;
+      |                ^~~
+ex7.cpp:40:18: error: ‘num’ was not declared in this scope; did you mean ‘enum’?
+   40 |         Fracao f(num, den);
+      |                  ^~~
+      |                  enum
+ex7.cpp:40:23: error: ‘den’ was not declared in this scope
+   40 |         Fracao f(num, den);
+      |                       ^~~
+ex7.cpp: In function ‘std::ostream& operator<<(std::ostream&, const Fracao&)’:
+ex7.cpp:46:18: error: ‘const class Fracao’ has no member named ‘_numerador’
+   46 |         out << a._numerador << "/" << a._denominador;
+      |                  ^~~~~~~~~~
+ex7.cpp:46:41: error: ‘const class Fracao’ has no member named ‘_denominador’
+   46 |         out << a._numerador << "/" << a._denominador;
+      |                                         ^~~~~~~~~~~~
+ex7.cpp: In function ‘int main()’:
+ex7.cpp:52:14: error: ‘BigInt’ was not declared in this scope
+   52 |     Fracao f(BigInt(0));
+      |              ^~~~~~
+
+#include<iostream>
+int main() {
+    Fracao f(BigInt(1454973483), BigInt(2138555452));
+    f = f / Fracao(BigInt(-504934279), BigInt(244498972));
+    f = f + Fracao(BigInt(422958541), BigInt(912072417));
+    f = f * Fracao(BigInt(-8121984), BigInt(985991896));
+    f = f / Fracao(BigInt(-2047621892), BigInt(2052216302));
+    f = f - Fracao(BigInt(1679363031), BigInt(1226214941));
+    f = f / Fracao(BigInt(1381754760), BigInt(924170563));
+    std::cout << f << std::endl;
+    f = f - Fracao(BigInt(1212526050), BigInt(1842589231));
+    std::cout << f << std::endl;
+    f = f + Fracao(BigInt(799704484), BigInt(2096806565));
+    f = f - Fracao(BigInt(1919377613), BigInt(545650538));
+    f = f + Fracao(BigInt(931066553), BigInt(823401554));
+    std::cout << f << std::endl;
+    f = f - Fracao(BigInt(1147962439), BigInt(1468778705));
+    f = f + Fracao(BigInt(1017526317), BigInt(1453275345));
+    f = f * Fracao(BigInt(-1299466891), BigInt(416914114));
+    f = f + Fracao(BigInt(-1424378012), BigInt(1353539919));
+    f = f * Fracao(BigInt(1335159244), BigInt(1039652813));
+    f = f / Fracao(BigInt(272907984), BigInt(34247272));
+    f = f + Fracao(BigInt(599856575), BigInt(1235931232));
+    std::cout << f << std::endl;
+    f = f * Fracao(BigInt(-331555042), BigInt(1555003518));
+    f = f - Fracao(BigInt(881981260), BigInt(593412125));
+    f = f / Fracao(BigInt(1175779403), BigInt(1418642058));
+    f = f - Fracao(BigInt(1938292157), BigInt(513127784));
+    std::cout << f << std::endl;
+    f = f + Fracao(BigInt(1913812513), BigInt(226875881));
+    f = f / Fracao(BigInt(-233966492), BigInt(1905923196));
+    f = f + Fracao(BigInt(983776929), BigInt(567863344));
+    f = f / Fracao(BigInt(-595969859), BigInt(698967293));
+    f = f - Fracao(BigInt(1358051435), BigInt(1504666184));
+    std::cout << f << std::endl;
+    f = f / Fracao(BigInt(987506108), BigInt(1660774221));
+    f = f + Fracao(BigInt(761352792), BigInt(133888705));
+    f = f - Fracao(BigInt(-1224249381), BigInt(19780123));
+    std::cout << f << std::endl;
+    f = f - Fracao(BigInt(649261122), BigInt(1674742714));
+    f = f + Fracao(BigInt(-109123696), BigInt(1368326714));
+    f = f * Fracao(BigInt(-641161129), BigInt(1078785693));
+    f = f / Fracao(BigInt(319309431), BigInt(765785367));
+    f = f + Fracao(BigInt(-1679943035), BigInt(1176271715));
+    std::cout << f << std::endl;
+    f = f - Fracao(BigInt(165798001), BigInt(1113859948));
+    f = f / Fracao(BigInt(508314726), BigInt(1141286749));
+    f = f * Fracao(BigInt(-1881096394), BigInt(548305531));
+    f = f + Fracao(BigInt(1289502559), BigInt(1632553803));
+    std::cout << f << std::endl;
+    f = f + Fracao(BigInt(-287186528), BigInt(2080717307));
+    f = f / Fracao(BigInt(610361440), BigInt(1203751390));
+    f = f + Fracao(BigInt(1616000656), BigInt(1392625675));
+    f = f * Fracao(BigInt(1899031396), BigInt(1952590049));
+    std::cout << f << std::endl;
+    f = f / Fracao(BigInt(1186579665), BigInt(685231561));
+    f = f * Fracao(BigInt(681522726), BigInt(1943156388));
+    f = f - Fracao(BigInt(300103894), BigInt(320451971));
+    f = f + Fracao(BigInt(-64636252), BigInt(136623653));
+    std::cout << f << std::endl;
+    f = f - Fracao(BigInt(1988594578), BigInt(1590412617));
+    std::cout << f << std::endl;
+    f = f + Fracao(BigInt(1443355615), BigInt(445142703));
+    f = f / Fracao(BigInt(958082777), BigInt(1938283013));
+    std::cout << f << std::endl;
+    f = f * Fracao(BigInt(-888382857), BigInt(1997642100));
+    f = f + Fracao(BigInt(-374557646), BigInt(1552216734));
+    f = f * Fracao(BigInt(-1152081871), BigInt(1550308604));
+    f = f - Fracao(BigInt(6885558), BigInt(401144413));
+    f = f + Fracao(BigInt(-199612832), BigInt(1308501667));
+    f = f / Fracao(BigInt(1075715182), BigInt(441106216));
+    std::cout << f << std::endl;
+    f = f / Fracao(BigInt(-8940002), BigInt(1148647697));
+    f = f * Fracao(BigInt(372024798), BigInt(754578158));
+    f = f / Fracao(BigInt(481165073), BigInt(1731722422));
+    f = f - Fracao(BigInt(1974666664), BigInt(982629230));
+    std::cout << f << std::endl;
+    return 0;
+}
+main -> quasi
+ERRO: Erro de compilação: 256
+ex7.cpp:5:3: error: ‘BigInt’ does not name a type
+    5 |   BigInt _numerador;
+      |   ^~~~~~
+ex7.cpp:6:3: error: ‘BigInt’ does not name a type
+    6 |   BigInt _denominador;
+      |   ^~~~~~
+ex7.cpp:9:18: error: expected ‘)’ before ‘numerador’
+    9 |     Fracao(BigInt numerador = 0, BigInt denominador = 1): _numerador(0), _denominador(1){
+      |           ~      ^~~~~~~~~~
+      |                  )
+ex7.cpp: In function ‘Fracao operator/(const Fracao&, const Fracao&)’:
+ex7.cpp:14:9: error: ‘BigInt’ was not declared in this scope
+   14 |         BigInt den = a._denominador * b._numerador;
+      |         ^~~~~~
+ex7.cpp:15:16: error: expected ‘;’ before ‘num’
+   15 |         BigInt num = b._denominador * a._numerador;
+      |                ^~~
+ex7.cpp:18:18: error: ‘num’ was not declared in this scope; did you mean ‘enum’?
+   18 |         Fracao f(num, den);
+      |                  ^~~
+      |                  enum
+ex7.cpp:18:23: error: ‘den’ was not declared in this scope
+   18 |         Fracao f(num, den);
+      |                       ^~~
+ex7.cpp: In function ‘Fracao operator*(const Fracao&, const Fracao&)’:
+ex7.cpp:22:9: error: ‘BigInt’ was not declared in this scope
+   22 |         BigInt den = a._denominador * b._denominador;
+      |         ^~~~~~
+ex7.cpp:23:16: error: expected ‘;’ before ‘num’
+   23 |         BigInt num = b._numerador * a._numerador;
+      |                ^~~
+ex7.cpp:26:18: error: ‘num’ was not declared in this scope; did you mean ‘enum’?
+   26 |         Fracao f(num, den);
+      |                  ^~~
+      |                  enum
+ex7.cpp:26:23: error: ‘den’ was not declared in this scope
+   26 |         Fracao f(num, den);
+      |                       ^~~
+ex7.cpp: In function ‘Fracao operator+(const Fracao&, const Fracao&)’:
+ex7.cpp:30:9: error: ‘BigInt’ was not declared in this scope
+   30 |         BigInt num = b._numerador * a._denominador + a._numerador * b._denominador;
+      |         ^~~~~~
+ex7.cpp:31:16: error: expected ‘;’ before ‘den’
+   31 |         BigInt den = a._denominador * b._denominador;
+      |                ^~~
+ex7.cpp:33:18: error: ‘num’ was not declared in this scope; did you mean ‘enum’?
+   33 |         Fracao f(num, den);
+      |                  ^~~
+      |                  enum
+ex7.cpp:33:23: error: ‘den’ was not declared in this scope
+   33 |         Fracao f(num, den);
+      |                       ^~~
+ex7.cpp: In function ‘Fracao operator-(const Fracao&, const Fracao&)’:
+ex7.cpp:37:9: error: ‘BigInt’ was not declared in this scope
+   37 |         BigInt num = -b._numerador * a._denominador + a._numerador * b._denominador;
+      |         ^~~~~~
+ex7.cpp:38:16: error: expected ‘;’ before ‘den’
+   38 |         BigInt den = a._denominador * b._denominador;
+      |                ^~~
+ex7.cpp:40:18: error: ‘num’ was not declared in this scope; did you mean ‘enum’?
+   40 |         Fracao f(num, den);
+      |                  ^~~
+      |                  enum
+ex7.cpp:40:23: error: ‘den’ was not declared in this scope
+   40 |         Fracao f(num, den);
+      |                       ^~~
+ex7.cpp: In function ‘std::ostream& operator<<(std::ostream&, const Fracao&)’:
+ex7.cpp:46:18: error: ‘const class Fracao’ has no member named ‘_numerador’
+   46 |         out << a._numerador << "/" << a._denominador;
+      |                  ^~~~~~~~~~
+ex7.cpp:46:41: error: ‘const class Fracao’ has no member named ‘_denominador’
+   46 |         out << a._numerador << "/" << a._denominador;
+      |                                         ^~~~~~~~~~~~
+ex7.cpp: In function ‘int main()’:
+ex7.cpp:52:14: error: ‘BigInt’ was not declared in this scope
+   52 |     Fracao f(BigInt(1454973483), BigInt(2138555452));
+      |              ^~~~~~
+
+#include<iostream>
+int main() {
+    Fracao f(BigInt(472961836), BigInt(405395416));
+    f = f - Fracao(BigInt(1793261100), BigInt(877601481));
+    f = f * Fracao(BigInt(-1185777146), BigInt(2030531406));
+    f = f / Fracao(BigInt(-1177219363), BigInt(1497121395));
+    f = f + Fracao(BigInt(1657446049), BigInt(1010513392));
+    f = f * Fracao(BigInt(-214481053), BigInt(94739789));
+    f = f + Fracao(BigInt(-743522652), BigInt(1269686162));
+    std::cout << f << std::endl;
+    f = f + Fracao(BigInt(-1233254650), BigInt(1721155241));
+    f = f * Fracao(BigInt(960536785), BigInt(1266513699));
+    std::cout << f << std::endl;
+    f = f * Fracao(BigInt(-2086779423), BigInt(210687913));
+    f = f - Fracao(BigInt(718695145), BigInt(1253836698));
+    std::cout << f << std::endl;
+    f = f / Fracao(BigInt(-496566600), BigInt(886195120));
+    std::cout << f << std::endl;
+    f = f - Fracao(BigInt(2141203255), BigInt(334528156));
+    f = f * Fracao(BigInt(-726080790), BigInt(170103606));
+    f = f / Fracao(BigInt(452019174), BigInt(1648249993));
+    std::cout << f << std::endl;
+    f = f * Fracao(BigInt(-1392923312), BigInt(598035701));
+    f = f - Fracao(BigInt(1800307872), BigInt(878900416));
+    f = f / Fracao(BigInt(240673197), BigInt(1409536586));
+    std::cout << f << std::endl;
+    f = f + Fracao(BigInt(-753536868), BigInt(143752970));
+    std::cout << f << std::endl;
+    f = f - Fracao(BigInt(-1232509905), BigInt(518732240));
+    f = f * Fracao(BigInt(1224274575), BigInt(1647631314));
+    f = f + Fracao(BigInt(-80175583), BigInt(1431135023));
+    return 0;
+}
+main -> expedita
+ERRO: Erro de compilação: 256
+ex7.cpp:5:3: error: ‘BigInt’ does not name a type
+    5 |   BigInt _numerador;
+      |   ^~~~~~
+ex7.cpp:6:3: error: ‘BigInt’ does not name a type
+    6 |   BigInt _denominador;
+      |   ^~~~~~
+ex7.cpp:9:18: error: expected ‘)’ before ‘numerador’
+    9 |     Fracao(BigInt numerador = 0, BigInt denominador = 1): _numerador(0), _denominador(1){
+      |           ~      ^~~~~~~~~~
+      |                  )
+ex7.cpp: In function ‘Fracao operator/(const Fracao&, const Fracao&)’:
+ex7.cpp:14:9: error: ‘BigInt’ was not declared in this scope
+   14 |         BigInt den = a._denominador * b._numerador;
+      |         ^~~~~~
+ex7.cpp:15:16: error: expected ‘;’ before ‘num’
+   15 |         BigInt num = b._denominador * a._numerador;
+      |                ^~~
+ex7.cpp:18:18: error: ‘num’ was not declared in this scope; did you mean ‘enum’?
+   18 |         Fracao f(num, den);
+      |                  ^~~
+      |                  enum
+ex7.cpp:18:23: error: ‘den’ was not declared in this scope
+   18 |         Fracao f(num, den);
+      |                       ^~~
+ex7.cpp: In function ‘Fracao operator*(const Fracao&, const Fracao&)’:
+ex7.cpp:22:9: error: ‘BigInt’ was not declared in this scope
+   22 |         BigInt den = a._denominador * b._denominador;
+      |         ^~~~~~
+ex7.cpp:23:16: error: expected ‘;’ before ‘num’
+   23 |         BigInt num = b._numerador * a._numerador;
+      |                ^~~
+ex7.cpp:26:18: error: ‘num’ was not declared in this scope; did you mean ‘enum’?
+   26 |         Fracao f(num, den);
+      |                  ^~~
+      |                  enum
+ex7.cpp:26:23: error: ‘den’ was not declared in this scope
+   26 |         Fracao f(num, den);
+      |                       ^~~
+ex7.cpp: In function ‘Fracao operator+(const Fracao&, const Fracao&)’:
+ex7.cpp:30:9: error: ‘BigInt’ was not declared in this scope
+   30 |         BigInt num = b._numerador * a._denominador + a._numerador * b._denominador;
+      |         ^~~~~~
+ex7.cpp:31:16: error: expected ‘;’ before ‘den’
+   31 |         BigInt den = a._denominador * b._denominador;
+      |                ^~~
+ex7.cpp:33:18: error: ‘num’ was not declared in this scope; did you mean ‘enum’?
+   33 |         Fracao f(num, den);
+      |                  ^~~
+      |                  enum
+ex7.cpp:33:23: error: ‘den’ was not declared in this scope
+   33 |         Fracao f(num, den);
+      |                       ^~~
+ex7.cpp: In function ‘Fracao operator-(const Fracao&, const Fracao&)’:
+ex7.cpp:37:9: error: ‘BigInt’ was not declared in this scope
+   37 |         BigInt num = -b._numerador * a._denominador + a._numerador * b._denominador;
+      |         ^~~~~~
+ex7.cpp:38:16: error: expected ‘;’ before ‘den’
+   38 |         BigInt den = a._denominador * b._denominador;
+      |                ^~~
+ex7.cpp:40:18: error: ‘num’ was not declared in this scope; did you mean ‘enum’?
+   40 |         Fracao f(num, den);
+      |                  ^~~
+      |                  enum
+ex7.cpp:40:23: error: ‘den’ was not declared in this scope
+   40 |         Fracao f(num, den);
+      |                       ^~~
+ex7.cpp: In function ‘std::ostream& operator<<(std::ostream&, const Fracao&)’:
+ex7.cpp:46:18: error: ‘const class Fracao’ has no member named ‘_numerador’
+   46 |         out << a._numerador << "/" << a._denominador;
+      |                  ^~~~~~~~~~
+ex7.cpp:46:41: error: ‘const class Fracao’ has no member named ‘_denominador’
+   46 |         out << a._numerador << "/" << a._denominador;
+      |                                         ^~~~~~~~~~~~
+ex7.cpp: In function ‘int main()’:
+ex7.cpp:52:14: error: ‘BigInt’ was not declared in this scope
+   52 |     Fracao f(BigInt(472961836), BigInt(405395416));
+      |              ^~~~~~
+
+#include<iostream>
+int main() {
+    Fracao f(BigInt(-1555601106), BigInt(739584388));
+    f = f + Fracao(BigInt(-144482799), BigInt(1677833868));
+    f = f * Fracao(BigInt(1651581529), BigInt(1300983842));
+    f = f / Fracao(BigInt(1442046891), BigInt(250429932));
+    std::cout << f << std::endl;
+    f = f * Fracao(BigInt(947138235), BigInt(122746557));
+    f = f - Fracao(BigInt(464512528), BigInt(1008215108));
+    f = f * Fracao(BigInt(-922620683), BigInt(19662318));
+    f = f + Fracao(BigInt(-1548367968), BigInt(1568920592));
+    std::cout << f << std::endl;
+    f = f - Fracao(BigInt(-54618304), BigInt(1191963994));
+    f = f * Fracao(BigInt(785304941), BigInt(2032926807));
+    f = f - Fracao(BigInt(-1978231868), BigInt(786842588));
+    f = f + Fracao(BigInt(-2108523911), BigInt(2137753772));
+    f = f * Fracao(BigInt(-1731253736), BigInt(111970383));
+    f = f - Fracao(BigInt(-759688774), BigInt(1903047636));
+    f = f / Fracao(BigInt(547027086), BigInt(1394449917));
+    f = f * Fracao(BigInt(-348870794), BigInt(510919558));
+    f = f + Fracao(BigInt(533719941), BigInt(740952200));
+    std::cout << f << std::endl;
+    f = f + Fracao(BigInt(1595336460), BigInt(826834990));
+    f = f * Fracao(BigInt(-614923327), BigInt(1354769627));
+    f = f - Fracao(BigInt(-111124568), BigInt(125854737));
+    f = f / Fracao(BigInt(2033956854), BigInt(1450746377));
+    f = f * Fracao(BigInt(-1509363411), BigInt(1825536350));
+    f = f / Fracao(BigInt(-1061829225), BigInt(1338422300));
+    std::cout << f << std::endl;
+    f = f - Fracao(BigInt(-1812458989), BigInt(1965711627));
+    f = f / Fracao(BigInt(-1804148383), BigInt(1308667081));
+    std::cout << f << std::endl;
+    f = f * Fracao(BigInt(2139036103), BigInt(831172295));
+    f = f + Fracao(BigInt(-1816181070), BigInt(572168078));
+    f = f * Fracao(BigInt(1845546050), BigInt(1853019523));
+    f = f / Fracao(BigInt(-738629002), BigInt(898475063));
+    f = f - Fracao(BigInt(-1438332360), BigInt(1204016775));
+    f = f + Fracao(BigInt(-258308660), BigInt(1354205837));
+    std::cout << f << std::endl;
+    f = f * Fracao(BigInt(-1851740049), BigInt(767572776));
+    f = f - Fracao(BigInt(1742611205), BigInt(1244672032));
+    f = f + Fracao(BigInt(1912793066), BigInt(856709561));
+    f = f * Fracao(BigInt(-1919405198), BigInt(876838441));
+    f = f + Fracao(BigInt(600571646), BigInt(789534036));
+    f = f - Fracao(BigInt(-536303417), BigInt(781174873));
+    f = f / Fracao(BigInt(1153535810), BigInt(1164002705));
+    f = f + Fracao(BigInt(-2125685574), BigInt(1645372374));
+    f = f / Fracao(BigInt(-1768897189), BigInt(896715929));
+    std::cout << f << std::endl;
+    f = f / Fracao(BigInt(579800560), BigInt(1609787162));
+    f = f - Fracao(BigInt(-2008099587), BigInt(93186218));
+    std::cout << f << std::endl;
+    f = f * Fracao(BigInt(938020661), BigInt(1484117725));
+    std::cout << f << std::endl;
+    f = f * Fracao(BigInt(1607751953), BigInt(937715269));
+    f = f / Fracao(BigInt(-1459365602), BigInt(390655689));
+    f = f * Fracao(BigInt(1465735025), BigInt(1022240431));
+    f = f / Fracao(BigInt(1950876683), BigInt(2132400883));
+    f = f + Fracao(BigInt(-1942788448), BigInt(1441920140));
+    std::cout << f << std::endl;
+    f = f / Fracao(BigInt(-1991414851), BigInt(507142032));
+    f = f * Fracao(BigInt(-73391979), BigInt(1124725990));
+    f = f / Fracao(BigInt(-1570086339), BigInt(1302728699));
+    std::cout << f << std::endl;
+    f = f / Fracao(BigInt(577926094), BigInt(1869194443));
+    std::cout << f << std::endl;
+    f = f / Fracao(BigInt(-785748681), BigInt(182371577));
+    f = f + Fracao(BigInt(-2080358082), BigInt(1798086771));
+    f = f - Fracao(BigInt(1782887157), BigInt(55314336));
+    f = f / Fracao(BigInt(681434037), BigInt(102400292));
+    f = f - Fracao(BigInt(-940298268), BigInt(1221436669));
+    f = f * Fracao(BigInt(-1280910805), BigInt(563426643));
+    std::cout << f << std::endl;
+    f = f * Fracao(BigInt(-1893858716), BigInt(89508126));
+    std::cout << f << std::endl;
+    f = f - Fracao(BigInt(-369476557), BigInt(534852085));
+    f = f / Fracao(BigInt(854275317), BigInt(235509451));
+    f = f - Fracao(BigInt(-580343909), BigInt(492021612));
+    f = f / Fracao(BigInt(-2093862923), BigInt(2105864151));
+    f = f - Fracao(BigInt(960237327), BigInt(908300226));
+    f = f * Fracao(BigInt(259533835), BigInt(609894213));
+    f = f - Fracao(BigInt(-1645684523), BigInt(807074691));
+    f = f * Fracao(BigInt(-258912438), BigInt(517775434));
+    f = f + Fracao(BigInt(2069032889), BigInt(1260187868));
+    f = f / Fracao(BigInt(760126010), BigInt(983467065));
+    f = f * Fracao(BigInt(1066408556), BigInt(1567584474));
+    std::cout << f << std::endl;
+    f = f * Fracao(BigInt(1667368333), BigInt(174016223));
+    f = f + Fracao(BigInt(-778452515), BigInt(1970996941));
+    f = f - Fracao(BigInt(1485127278), BigInt(1207217375));
+    f = f * Fracao(BigInt(517615118), BigInt(1841881375));
+    f = f + Fracao(BigInt(1623303903), BigInt(1728747139));
+    f = f * Fracao(BigInt(-1776725992), BigInt(463025262));
+    std::cout << f << std::endl;
+    f = f - Fracao(BigInt(676163622), BigInt(761008623));
+    f = f + Fracao(BigInt(-2118691909), BigInt(1285336622));
+    std::cout << f << std::endl;
+    return 0;
+}
+main -> voluptas
+ERRO: Erro de compilação: 256
+ex7.cpp:5:3: error: ‘BigInt’ does not name a type
+    5 |   BigInt _numerador;
+      |   ^~~~~~
+ex7.cpp:6:3: error: ‘BigInt’ does not name a type
+    6 |   BigInt _denominador;
+      |   ^~~~~~
+ex7.cpp:9:18: error: expected ‘)’ before ‘numerador’
+    9 |     Fracao(BigInt numerador = 0, BigInt denominador = 1): _numerador(0), _denominador(1){
+      |           ~      ^~~~~~~~~~
+      |                  )
+ex7.cpp: In function ‘Fracao operator/(const Fracao&, const Fracao&)’:
+ex7.cpp:14:9: error: ‘BigInt’ was not declared in this scope
+   14 |         BigInt den = a._denominador * b._numerador;
+      |         ^~~~~~
+ex7.cpp:15:16: error: expected ‘;’ before ‘num’
+   15 |         BigInt num = b._denominador * a._numerador;
+      |                ^~~
+ex7.cpp:18:18: error: ‘num’ was not declared in this scope; did you mean ‘enum’?
+   18 |         Fracao f(num, den);
+      |                  ^~~
+      |                  enum
+ex7.cpp:18:23: error: ‘den’ was not declared in this scope
+   18 |         Fracao f(num, den);
+      |                       ^~~
+ex7.cpp: In function ‘Fracao operator*(const Fracao&, const Fracao&)’:
+ex7.cpp:22:9: error: ‘BigInt’ was not declared in this scope
+   22 |         BigInt den = a._denominador * b._denominador;
+      |         ^~~~~~
+ex7.cpp:23:16: error: expected ‘;’ before ‘num’
+   23 |         BigInt num = b._numerador * a._numerador;
+      |                ^~~
+ex7.cpp:26:18: error: ‘num’ was not declared in this scope; did you mean ‘enum’?
+   26 |         Fracao f(num, den);
+      |                  ^~~
+      |                  enum
+ex7.cpp:26:23: error: ‘den’ was not declared in this scope
+   26 |         Fracao f(num, den);
+      |                       ^~~
+ex7.cpp: In function ‘Fracao operator+(const Fracao&, const Fracao&)’:
+ex7.cpp:30:9: error: ‘BigInt’ was not declared in this scope
+   30 |         BigInt num = b._numerador * a._denominador + a._numerador * b._denominador;
+      |         ^~~~~~
+ex7.cpp:31:16: error: expected ‘;’ before ‘den’
+   31 |         BigInt den = a._denominador * b._denominador;
+      |                ^~~
+ex7.cpp:33:18: error: ‘num’ was not declared in this scope; did you mean ‘enum’?
+   33 |         Fracao f(num, den);
+      |                  ^~~
+      |                  enum
+ex7.cpp:33:23: error: ‘den’ was not declared in this scope
+   33 |         Fracao f(num, den);
+      |                       ^~~
+ex7.cpp: In function ‘Fracao operator-(const Fracao&, const Fracao&)’:
+ex7.cpp:37:9: error: ‘BigInt’ was not declared in this scope
+   37 |         BigInt num = -b._numerador * a._denominador + a._numerador * b._denominador;
+      |         ^~~~~~
+ex7.cpp:38:16: error: expected ‘;’ before ‘den’
+   38 |         BigInt den = a._denominador * b._denominador;
+      |                ^~~
+ex7.cpp:40:18: error: ‘num’ was not declared in this scope; did you mean ‘enum’?
+   40 |         Fracao f(num, den);
+      |                  ^~~
+      |                  enum
+ex7.cpp:40:23: error: ‘den’ was not declared in this scope
+   40 |         Fracao f(num, den);
+      |                       ^~~
+ex7.cpp: In function ‘std::ostream& operator<<(std::ostream&, const Fracao&)’:
+ex7.cpp:46:18: error: ‘const class Fracao’ has no member named ‘_numerador’
+   46 |         out << a._numerador << "/" << a._denominador;
+      |                  ^~~~~~~~~~
+ex7.cpp:46:41: error: ‘const class Fracao’ has no member named ‘_denominador’
+   46 |         out << a._numerador << "/" << a._denominador;
+      |                                         ^~~~~~~~~~~~
+ex7.cpp: In function ‘int main()’:
+ex7.cpp:52:14: error: ‘BigInt’ was not declared in this scope
+   52 |     Fracao f(BigInt(-1555601106), BigInt(739584388));
+      |              ^~~~~~
+
+#include<iostream>
+int main() {
+    Fracao f(BigInt(29889934), BigInt(1523188183));
+    f = f * Fracao(BigInt(-139837520), BigInt(330659528));
+    std::cout << f << std::endl;
+    f = f / Fracao(BigInt(404793740), BigInt(1963884787));
+    f = f + Fracao(BigInt(152722390), BigInt(2020557022));
+    f = f - Fracao(BigInt(-816349394), BigInt(428231745));
+    f = f + Fracao(BigInt(-931066363), BigInt(461059222));
+    f = f / Fracao(BigInt(985035796), BigInt(52522684));
+    std::cout << f << std::endl;
+    f = f + Fracao(BigInt(-764283965), BigInt(344968795));
+    f = f * Fracao(BigInt(-1848071223), BigInt(895054192));
+    f = f / Fracao(BigInt(-688329952), BigInt(658561684));
+    f = f * Fracao(BigInt(123818368), BigInt(277427745));
+    f = f + Fracao(BigInt(1552878892), BigInt(464573986));
+    f = f * Fracao(BigInt(-67832837), BigInt(1021335736));
+    std::cout << f << std::endl;
+    f = f / Fracao(BigInt(57485955), BigInt(1213144510));
+    f = f - Fracao(BigInt(-984642175), BigInt(209300878));
+    f = f + Fracao(BigInt(-981091815), BigInt(652828333));
+    f = f - Fracao(BigInt(-1671959778), BigInt(522881530));
+    f = f + Fracao(BigInt(-752782495), BigInt(2100897460));
+    std::cout << f << std::endl;
+    f = f / Fracao(BigInt(1449015829), BigInt(1555889693));
+    f = f + Fracao(BigInt(-830810660), BigInt(1062616348));
+    f = f / Fracao(BigInt(977709186), BigInt(1891848698));
+    f = f + Fracao(BigInt(2035578564), BigInt(1445474599));
+    f = f * Fracao(BigInt(-836452395), BigInt(1593296512));
+    std::cout << f << std::endl;
+    f = f * Fracao(BigInt(-1594291339), BigInt(272861216));
+    f = f / Fracao(BigInt(564553559), BigInt(748486910));
+    std::cout << f << std::endl;
+    f = f / Fracao(BigInt(-1529413421), BigInt(669799054));
+    f = f - Fracao(BigInt(-860859114), BigInt(1326915730));
+    f = f + Fracao(BigInt(-1509648759), BigInt(475988596));
+    f = f - Fracao(BigInt(1280912537), BigInt(291315761));
+    std::cout << f << std::endl;
+    f = f + Fracao(BigInt(1651922923), BigInt(1571129155));
+    f = f - Fracao(BigInt(2097597390), BigInt(436407361));
+    f = f * Fracao(BigInt(-1683368040), BigInt(537476639));
+    f = f / Fracao(BigInt(350969725), BigInt(2101770326));
+    f = f + Fracao(BigInt(-1071013352), BigInt(1859154011));
+    f = f / Fracao(BigInt(504399367), BigInt(476189254));
+    std::cout << f << std::endl;
+    f = f - Fracao(BigInt(488386448), BigInt(1534070040));
+    std::cout << f << std::endl;
+    f = f + Fracao(BigInt(829267449), BigInt(1116237051));
+    f = f / Fracao(BigInt(-1575243302), BigInt(503401691));
+    f = f * Fracao(BigInt(1112211686), BigInt(1111943156));
+    f = f + Fracao(BigInt(810715888), BigInt(802617757));
+    std::cout << f << std::endl;
+    f = f - Fracao(BigInt(-988525755), BigInt(1843114417));
+    f = f / Fracao(BigInt(-1420883543), BigInt(858854669));
+    std::cout << f << std::endl;
+    f = f - Fracao(BigInt(-1206117039), BigInt(1658050705));
+    std::cout << f << std::endl;
+    f = f + Fracao(BigInt(1080710433), BigInt(842821637));
+    f = f * Fracao(BigInt(1546926930), BigInt(647597724));
+    std::cout << f << std::endl;
+    f = f - Fracao(BigInt(-960986310), BigInt(80253840));
+    f = f * Fracao(BigInt(-598841696), BigInt(1096850086));
+    std::cout << f << std::endl;
+    f = f / Fracao(BigInt(167448708), BigInt(1678198610));
+    f = f * Fracao(BigInt(-1385615559), BigInt(158116435));
+    f = f - Fracao(BigInt(-1864636639), BigInt(1044494230));
+    f = f + Fracao(BigInt(-1597024738), BigInt(442852872));
+    f = f * Fracao(BigInt(-677984573), BigInt(1959572718));
+    std::cout << f << std::endl;
+    f = f / Fracao(BigInt(16483870), BigInt(300767465));
+    f = f * Fracao(BigInt(1274721090), BigInt(442243760));
+    f = f - Fracao(BigInt(979500047), BigInt(1942998288));
+    std::cout << f << std::endl;
+    f = f * Fracao(BigInt(-476345474), BigInt(1308385045));
+    f = f - Fracao(BigInt(-1293171129), BigInt(486685470));
+    f = f + Fracao(BigInt(1637813483), BigInt(1868900584));
+    std::cout << f << std::endl;
+    f = f + Fracao(BigInt(-1844048420), BigInt(1454657755));
+    f = f - Fracao(BigInt(1374270314), BigInt(2086327348));
+    f = f * Fracao(BigInt(-1567095765), BigInt(1074139458));
+    f = f - Fracao(BigInt(1061562683), BigInt(1325040181));
+    std::cout << f << std::endl;
+    f = f / Fracao(BigInt(908110977), BigInt(2041718442));
+    f = f * Fracao(BigInt(-646893755), BigInt(386732052));
+    f = f + Fracao(BigInt(-1336568383), BigInt(1461672499));
+    f = f * Fracao(BigInt(1734598456), BigInt(425265607));
+    std::cout << f << std::endl;
+    f = f - Fracao(BigInt(1564484459), BigInt(2048622438));
+    f = f / Fracao(BigInt(46046359), BigInt(948522322));
+    std::cout << f << std::endl;
+    f = f - Fracao(BigInt(661282515), BigInt(379320703));
+    std::cout << f << std::endl;
+    f = f * Fracao(BigInt(-1194493014), BigInt(2027640580));
+    f = f / Fracao(BigInt(-27735922), BigInt(2014305267));
+    f = f - Fracao(BigInt(1406562063), BigInt(907149320));
+    f = f / Fracao(BigInt(1746976679), BigInt(887542285));
+    f = f * Fracao(BigInt(-4475659), BigInt(1619521092));
+    return 0;
+}
+main -> mollitia
+ERRO: Erro de compilação: 256
+ex7.cpp:5:3: error: ‘BigInt’ does not name a type
+    5 |   BigInt _numerador;
+      |   ^~~~~~
+ex7.cpp:6:3: error: ‘BigInt’ does not name a type
+    6 |   BigInt _denominador;
+      |   ^~~~~~
+ex7.cpp:9:18: error: expected ‘)’ before ‘numerador’
+    9 |     Fracao(BigInt numerador = 0, BigInt denominador = 1): _numerador(0), _denominador(1){
+      |           ~      ^~~~~~~~~~
+      |                  )
+ex7.cpp: In function ‘Fracao operator/(const Fracao&, const Fracao&)’:
+ex7.cpp:14:9: error: ‘BigInt’ was not declared in this scope
+   14 |         BigInt den = a._denominador * b._numerador;
+      |         ^~~~~~
+ex7.cpp:15:16: error: expected ‘;’ before ‘num’
+   15 |         BigInt num = b._denominador * a._numerador;
+      |                ^~~
+ex7.cpp:18:18: error: ‘num’ was not declared in this scope; did you mean ‘enum’?
+   18 |         Fracao f(num, den);
+      |                  ^~~
+      |                  enum
+ex7.cpp:18:23: error: ‘den’ was not declared in this scope
+   18 |         Fracao f(num, den);
+      |                       ^~~
+ex7.cpp: In function ‘Fracao operator*(const Fracao&, const Fracao&)’:
+ex7.cpp:22:9: error: ‘BigInt’ was not declared in this scope
+   22 |         BigInt den = a._denominador * b._denominador;
+      |         ^~~~~~
+ex7.cpp:23:16: error: expected ‘;’ before ‘num’
+   23 |         BigInt num = b._numerador * a._numerador;
+      |                ^~~
+ex7.cpp:26:18: error: ‘num’ was not declared in this scope; did you mean ‘enum’?
+   26 |         Fracao f(num, den);
+      |                  ^~~
+      |                  enum
+ex7.cpp:26:23: error: ‘den’ was not declared in this scope
+   26 |         Fracao f(num, den);
+      |                       ^~~
+ex7.cpp: In function ‘Fracao operator+(const Fracao&, const Fracao&)’:
+ex7.cpp:30:9: error: ‘BigInt’ was not declared in this scope
+   30 |         BigInt num = b._numerador * a._denominador + a._numerador * b._denominador;
+      |         ^~~~~~
+ex7.cpp:31:16: error: expected ‘;’ before ‘den’
+   31 |         BigInt den = a._denominador * b._denominador;
+      |                ^~~
+ex7.cpp:33:18: error: ‘num’ was not declared in this scope; did you mean ‘enum’?
+   33 |         Fracao f(num, den);
+      |                  ^~~
+      |                  enum
+ex7.cpp:33:23: error: ‘den’ was not declared in this scope
+   33 |         Fracao f(num, den);
+      |                       ^~~
+ex7.cpp: In function ‘Fracao operator-(const Fracao&, const Fracao&)’:
+ex7.cpp:37:9: error: ‘BigInt’ was not declared in this scope
+   37 |         BigInt num = -b._numerador * a._denominador + a._numerador * b._denominador;
+      |         ^~~~~~
+ex7.cpp:38:16: error: expected ‘;’ before ‘den’
+   38 |         BigInt den = a._denominador * b._denominador;
+      |                ^~~
+ex7.cpp:40:18: error: ‘num’ was not declared in this scope; did you mean ‘enum’?
+   40 |         Fracao f(num, den);
+      |                  ^~~
+      |                  enum
+ex7.cpp:40:23: error: ‘den’ was not declared in this scope
+   40 |         Fracao f(num, den);
+      |                       ^~~
+ex7.cpp: In function ‘std::ostream& operator<<(std::ostream&, const Fracao&)’:
+ex7.cpp:46:18: error: ‘const class Fracao’ has no member named ‘_numerador’
+   46 |         out << a._numerador << "/" << a._denominador;
+      |                  ^~~~~~~~~~
+ex7.cpp:46:41: error: ‘const class Fracao’ has no member named ‘_denominador’
+   46 |         out << a._numerador << "/" << a._denominador;
+      |                                         ^~~~~~~~~~~~
+ex7.cpp: In function ‘int main()’:
+ex7.cpp:52:14: error: ‘BigInt’ was not declared in this scope
+   52 |     Fracao f(BigInt(29889934), BigInt(1523188183));
+      |              ^~~~~~
+
+#include<iostream>
+int main() {
+    Fracao f(BigInt(-1355919664), BigInt(1738709528));
+    f = f / Fracao(BigInt(-1713688547), BigInt(1149089980));
+    f = f + Fracao(BigInt(-982311291), BigInt(548890437));
+    f = f * Fracao(BigInt(-494663279), BigInt(1580305289));
+    f = f / Fracao(BigInt(2002514189), BigInt(1604431296));
+    f = f - Fracao(BigInt(492537846), BigInt(1438392932));
+    f = f + Fracao(BigInt(905685), BigInt(1426144758));
+    f = f * Fracao(BigInt(784282494), BigInt(565309811));
+    f = f / Fracao(BigInt(1743031324), BigInt(1043494114));
+    f = f * Fracao(BigInt(-1231302387), BigInt(17180113));
+    std::cout << f << std::endl;
+    f = f - Fracao(BigInt(-142687026), BigInt(943682654));
+    f = f * Fracao(BigInt(-1408570720), BigInt(657721173));
+    f = f - Fracao(BigInt(1952066271), BigInt(776973662));
+    f = f / Fracao(BigInt(-1617277475), BigInt(835175792));
+    f = f - Fracao(BigInt(-2138312814), BigInt(2082233409));
+    std::cout << f << std::endl;
+    f = f - Fracao(BigInt(1369949352), BigInt(953537446));
+    f = f * Fracao(BigInt(1603099683), BigInt(994070027));
+    f = f / Fracao(BigInt(-1127969282), BigInt(191157144));
+    std::cout << f << std::endl;
+    f = f - Fracao(BigInt(1719532466), BigInt(772450629));
+    f = f * Fracao(BigInt(99965622), BigInt(1064750381));
+    f = f - Fracao(BigInt(1568583422), BigInt(2030089882));
+    return 0;
+}
+main -> doloribus
+ERRO: Erro de compilação: 256
+ex7.cpp:5:3: error: ‘BigInt’ does not name a type
+    5 |   BigInt _numerador;
+      |   ^~~~~~
+ex7.cpp:6:3: error: ‘BigInt’ does not name a type
+    6 |   BigInt _denominador;
+      |   ^~~~~~
+ex7.cpp:9:18: error: expected ‘)’ before ‘numerador’
+    9 |     Fracao(BigInt numerador = 0, BigInt denominador = 1): _numerador(0), _denominador(1){
+      |           ~      ^~~~~~~~~~
+      |                  )
+ex7.cpp: In function ‘Fracao operator/(const Fracao&, const Fracao&)’:
+ex7.cpp:14:9: error: ‘BigInt’ was not declared in this scope
+   14 |         BigInt den = a._denominador * b._numerador;
+      |         ^~~~~~
+ex7.cpp:15:16: error: expected ‘;’ before ‘num’
+   15 |         BigInt num = b._denominador * a._numerador;
+      |                ^~~
+ex7.cpp:18:18: error: ‘num’ was not declared in this scope; did you mean ‘enum’?
+   18 |         Fracao f(num, den);
+      |                  ^~~
+      |                  enum
+ex7.cpp:18:23: error: ‘den’ was not declared in this scope
+   18 |         Fracao f(num, den);
+      |                       ^~~
+ex7.cpp: In function ‘Fracao operator*(const Fracao&, const Fracao&)’:
+ex7.cpp:22:9: error: ‘BigInt’ was not declared in this scope
+   22 |         BigInt den = a._denominador * b._denominador;
+      |         ^~~~~~
+ex7.cpp:23:16: error: expected ‘;’ before ‘num’
+   23 |         BigInt num = b._numerador * a._numerador;
+      |                ^~~
+ex7.cpp:26:18: error: ‘num’ was not declared in this scope; did you mean ‘enum’?
+   26 |         Fracao f(num, den);
+      |                  ^~~
+      |                  enum
+ex7.cpp:26:23: error: ‘den’ was not declared in this scope
+   26 |         Fracao f(num, den);
+      |                       ^~~
+ex7.cpp: In function ‘Fracao operator+(const Fracao&, const Fracao&)’:
+ex7.cpp:30:9: error: ‘BigInt’ was not declared in this scope
+   30 |         BigInt num = b._numerador * a._denominador + a._numerador * b._denominador;
+      |         ^~~~~~
+ex7.cpp:31:16: error: expected ‘;’ before ‘den’
+   31 |         BigInt den = a._denominador * b._denominador;
+      |                ^~~
+ex7.cpp:33:18: error: ‘num’ was not declared in this scope; did you mean ‘enum’?
+   33 |         Fracao f(num, den);
+      |                  ^~~
+      |                  enum
+ex7.cpp:33:23: error: ‘den’ was not declared in this scope
+   33 |         Fracao f(num, den);
+      |                       ^~~
+ex7.cpp: In function ‘Fracao operator-(const Fracao&, const Fracao&)’:
+ex7.cpp:37:9: error: ‘BigInt’ was not declared in this scope
+   37 |         BigInt num = -b._numerador * a._denominador + a._numerador * b._denominador;
+      |         ^~~~~~
+ex7.cpp:38:16: error: expected ‘;’ before ‘den’
+   38 |         BigInt den = a._denominador * b._denominador;
+      |                ^~~
+ex7.cpp:40:18: error: ‘num’ was not declared in this scope; did you mean ‘enum’?
+   40 |         Fracao f(num, den);
+      |                  ^~~
+      |                  enum
+ex7.cpp:40:23: error: ‘den’ was not declared in this scope
+   40 |         Fracao f(num, den);
+      |                       ^~~
+ex7.cpp: In function ‘std::ostream& operator<<(std::ostream&, const Fracao&)’:
+ex7.cpp:46:18: error: ‘const class Fracao’ has no member named ‘_numerador’
+   46 |         out << a._numerador << "/" << a._denominador;
+      |                  ^~~~~~~~~~
+ex7.cpp:46:41: error: ‘const class Fracao’ has no member named ‘_denominador’
+   46 |         out << a._numerador << "/" << a._denominador;
+      |                                         ^~~~~~~~~~~~
+ex7.cpp: In function ‘int main()’:
+ex7.cpp:52:14: error: ‘BigInt’ was not declared in this scope
+   52 |     Fracao f(BigInt(-1355919664), BigInt(1738709528));
+      |              ^~~~~~
+
+#include<iostream>
+int main() {
+    Fracao f(BigInt(1892065405), BigInt(173530574));
+    f = f * Fracao(BigInt(469570959), BigInt(1116860832));
+    f = f + Fracao(BigInt(447791829), BigInt(128567498));
+    f = f - Fracao(BigInt(-57404657), BigInt(1853727407));
+    f = f + Fracao(BigInt(-1208369038), BigInt(1510499604));
+    f = f - Fracao(BigInt(445627628), BigInt(1897802259));
+    f = f + Fracao(BigInt(-755956448), BigInt(1157063191));
+    f = f * Fracao(BigInt(1872503084), BigInt(219889716));
+    f = f - Fracao(BigInt(1236776772), BigInt(1056909222));
+    f = f / Fracao(BigInt(-1373862365), BigInt(957565756));
+    f = f + Fracao(BigInt(1167222835), BigInt(1002130010));
+    f = f * Fracao(BigInt(1009095026), BigInt(457711060));
+    f = f - Fracao(BigInt(-565483373), BigInt(821087983));
+    f = f * Fracao(BigInt(-1642578025), BigInt(131527027));
+    f = f / Fracao(BigInt(-1378678334), BigInt(1691904507));
+    std::cout << f << std::endl;
+    f = f + Fracao(BigInt(2090444369), BigInt(365208411));
+    f = f - Fracao(BigInt(-2135662275), BigInt(21424420));
+    std::cout << f << std::endl;
+    f = f * Fracao(BigInt(-1634305219), BigInt(1141377712));
+    f = f + Fracao(BigInt(656290166), BigInt(450781713));
+    f = f - Fracao(BigInt(806166626), BigInt(1622903729));
+    f = f / Fracao(BigInt(-2126515003), BigInt(1670847206));
+    f = f + Fracao(BigInt(-828756348), BigInt(601237957));
+    f = f - Fracao(BigInt(-867898413), BigInt(1159602441));
+    f = f / Fracao(BigInt(-555449304), BigInt(975259494));
+    std::cout << f << std::endl;
+    f = f + Fracao(BigInt(-1791178612), BigInt(854205901));
+    f = f * Fracao(BigInt(1276667557), BigInt(2038061443));
+    f = f - Fracao(BigInt(986493543), BigInt(168272802));
+    std::cout << f << std::endl;
+    f = f - Fracao(BigInt(-1411262571), BigInt(1541239141));
+    f = f * Fracao(BigInt(1074132987), BigInt(1286712571));
+    f = f - Fracao(BigInt(-2114533617), BigInt(1788677971));
+    f = f * Fracao(BigInt(1089470418), BigInt(922908643));
+    std::cout << f << std::endl;
+    f = f * Fracao(BigInt(1721432340), BigInt(184734330));
+    f = f / Fracao(BigInt(-649632164), BigInt(1901549464));
+    std::cout << f << std::endl;
+    f = f + Fracao(BigInt(643512448), BigInt(1746583114));
+    f = f * Fracao(BigInt(-981619464), BigInt(1945627119));
+    f = f / Fracao(BigInt(-931533059), BigInt(616386040));
+    std::cout << f << std::endl;
+    f = f * Fracao(BigInt(-1866394125), BigInt(1809044578));
+    f = f / Fracao(BigInt(1746317763), BigInt(1063947159));
+    f = f + Fracao(BigInt(697894453), BigInt(631331652));
+    f = f * Fracao(BigInt(-167890911), BigInt(895794387));
+    f = f / Fracao(BigInt(-1660325406), BigInt(592385892));
+    f = f + Fracao(BigInt(-1790987178), BigInt(1694493556));
+    f = f / Fracao(BigInt(954445153), BigInt(1324105771));
+    f = f * Fracao(BigInt(-1910663622), BigInt(1000371097));
+    std::cout << f << std::endl;
+    f = f - Fracao(BigInt(-487615695), BigInt(173759626));
+    std::cout << f << std::endl;
+    f = f * Fracao(BigInt(842185819), BigInt(1849565237));
+    f = f - Fracao(BigInt(14241547), BigInt(865234997));
+    f = f + Fracao(BigInt(-1327532075), BigInt(166548053));
+    f = f * Fracao(BigInt(-1385198610), BigInt(138469530));
+    std::cout << f << std::endl;
+    f = f - Fracao(BigInt(90257340), BigInt(46807247));
+    f = f * Fracao(BigInt(-1529162823), BigInt(1102891978));
+    f = f + Fracao(BigInt(1595197123), BigInt(944799696));
+    f = f - Fracao(BigInt(-370378760), BigInt(1599531213));
+    f = f / Fracao(BigInt(-358007392), BigInt(368085324));
+    f = f - Fracao(BigInt(1656230904), BigInt(138471721));
+    f = f * Fracao(BigInt(-536831777), BigInt(155594808));
+    f = f - Fracao(BigInt(-981294743), BigInt(2034905958));
+    std::cout << f << std::endl;
+    f = f + Fracao(BigInt(-1155413575), BigInt(937683372));
+    f = f / Fracao(BigInt(2126894467), BigInt(1959308393));
+    f = f - Fracao(BigInt(-754232283), BigInt(2140506631));
+    std::cout << f << std::endl;
+    f = f / Fracao(BigInt(-1493113403), BigInt(1110502299));
+    std::cout << f << std::endl;
+    f = f + Fracao(BigInt(738951404), BigInt(1314573376));
+    f = f - Fracao(BigInt(2080925773), BigInt(613060155));
+    f = f + Fracao(BigInt(-1296086980), BigInt(30270023));
+    std::cout << f << std::endl;
+    f = f * Fracao(BigInt(-103649814), BigInt(2013692950));
+    std::cout << f << std::endl;
+    f = f - Fracao(BigInt(-1187267531), BigInt(1755419142));
+    f = f / Fracao(BigInt(1991643744), BigInt(848458362));
+    std::cout << f << std::endl;
+    f = f - Fracao(BigInt(628102825), BigInt(193837956));
+    f = f / Fracao(BigInt(958929377), BigInt(741988959));
+    std::cout << f << std::endl;
+    f = f / Fracao(BigInt(-195039344), BigInt(1370519818));
+    f = f - Fracao(BigInt(481534012), BigInt(1698786388));
+    std::cout << f << std::endl;
+    f = f / Fracao(BigInt(-1398926388), BigInt(1695342109));
+    return 0;
+}
+main -> ut
+ERRO: Erro de compilação: 256
+ex7.cpp:5:3: error: ‘BigInt’ does not name a type
+    5 |   BigInt _numerador;
+      |   ^~~~~~
+ex7.cpp:6:3: error: ‘BigInt’ does not name a type
+    6 |   BigInt _denominador;
+      |   ^~~~~~
+ex7.cpp:9:18: error: expected ‘)’ before ‘numerador’
+    9 |     Fracao(BigInt numerador = 0, BigInt denominador = 1): _numerador(0), _denominador(1){
+      |           ~      ^~~~~~~~~~
+      |                  )
+ex7.cpp: In function ‘Fracao operator/(const Fracao&, const Fracao&)’:
+ex7.cpp:14:9: error: ‘BigInt’ was not declared in this scope
+   14 |         BigInt den = a._denominador * b._numerador;
+      |         ^~~~~~
+ex7.cpp:15:16: error: expected ‘;’ before ‘num’
+   15 |         BigInt num = b._denominador * a._numerador;
+      |                ^~~
+ex7.cpp:18:18: error: ‘num’ was not declared in this scope; did you mean ‘enum’?
+   18 |         Fracao f(num, den);
+      |                  ^~~
+      |                  enum
+ex7.cpp:18:23: error: ‘den’ was not declared in this scope
+   18 |         Fracao f(num, den);
+      |                       ^~~
+ex7.cpp: In function ‘Fracao operator*(const Fracao&, const Fracao&)’:
+ex7.cpp:22:9: error: ‘BigInt’ was not declared in this scope
+   22 |         BigInt den = a._denominador * b._denominador;
+      |         ^~~~~~
+ex7.cpp:23:16: error: expected ‘;’ before ‘num’
+   23 |         BigInt num = b._numerador * a._numerador;
+      |                ^~~
+ex7.cpp:26:18: error: ‘num’ was not declared in this scope; did you mean ‘enum’?
+   26 |         Fracao f(num, den);
+      |                  ^~~
+      |                  enum
+ex7.cpp:26:23: error: ‘den’ was not declared in this scope
+   26 |         Fracao f(num, den);
+      |                       ^~~
+ex7.cpp: In function ‘Fracao operator+(const Fracao&, const Fracao&)’:
+ex7.cpp:30:9: error: ‘BigInt’ was not declared in this scope
+   30 |         BigInt num = b._numerador * a._denominador + a._numerador * b._denominador;
+      |         ^~~~~~
+ex7.cpp:31:16: error: expected ‘;’ before ‘den’
+   31 |         BigInt den = a._denominador * b._denominador;
+      |                ^~~
+ex7.cpp:33:18: error: ‘num’ was not declared in this scope; did you mean ‘enum’?
+   33 |         Fracao f(num, den);
+      |                  ^~~
+      |                  enum
+ex7.cpp:33:23: error: ‘den’ was not declared in this scope
+   33 |         Fracao f(num, den);
+      |                       ^~~
+ex7.cpp: In function ‘Fracao operator-(const Fracao&, const Fracao&)’:
+ex7.cpp:37:9: error: ‘BigInt’ was not declared in this scope
+   37 |         BigInt num = -b._numerador * a._denominador + a._numerador * b._denominador;
+      |         ^~~~~~
+ex7.cpp:38:16: error: expected ‘;’ before ‘den’
+   38 |         BigInt den = a._denominador * b._denominador;
+      |                ^~~
+ex7.cpp:40:18: error: ‘num’ was not declared in this scope; did you mean ‘enum’?
+   40 |         Fracao f(num, den);
+      |                  ^~~
+      |                  enum
+ex7.cpp:40:23: error: ‘den’ was not declared in this scope
+   40 |         Fracao f(num, den);
+      |                       ^~~
+ex7.cpp: In function ‘std::ostream& operator<<(std::ostream&, const Fracao&)’:
+ex7.cpp:46:18: error: ‘const class Fracao’ has no member named ‘_numerador’
+   46 |         out << a._numerador << "/" << a._denominador;
+      |                  ^~~~~~~~~~
+ex7.cpp:46:41: error: ‘const class Fracao’ has no member named ‘_denominador’
+   46 |         out << a._numerador << "/" << a._denominador;
+      |                                         ^~~~~~~~~~~~
+ex7.cpp: In function ‘int main()’:
+ex7.cpp:52:14: error: ‘BigInt’ was not declared in this scope
+   52 |     Fracao f(BigInt(1892065405), BigInt(173530574));
+      |              ^~~~~~
+
+#include<iostream>
+int main() {
+    Fracao f(BigInt(-1325893915), BigInt(1117461460));
+    f = f + Fracao(BigInt(-1309709860), BigInt(1868026892));
+    f = f / Fracao(BigInt(1158540205), BigInt(1460577574));
+    f = f * Fracao(BigInt(568331052), BigInt(1531621281));
+    f = f + Fracao(BigInt(-1251287149), BigInt(1660497198));
+    f = f - Fracao(BigInt(34089059), BigInt(160789523));
+    f = f * Fracao(BigInt(931409754), BigInt(1361591094));
+    std::cout << f << std::endl;
+    f = f + Fracao(BigInt(-1556682808), BigInt(896667011));
+    f = f * Fracao(BigInt(532628645), BigInt(2128778731));
+    f = f - Fracao(BigInt(-692052734), BigInt(969581606));
+    f = f * Fracao(BigInt(890641480), BigInt(1310460864));
+    std::cout << f << std::endl;
+    f = f + Fracao(BigInt(-1302891148), BigInt(1215185595));
+    std::cout << f << std::endl;
+    f = f * Fracao(BigInt(-18489790), BigInt(940355033));
+    f = f + Fracao(BigInt(1479174690), BigInt(1591435342));
+    f = f / Fracao(BigInt(965440145), BigInt(1678635066));
+    f = f * Fracao(BigInt(1040216249), BigInt(2012106453));
+    f = f - Fracao(BigInt(-2116422415), BigInt(1534555065));
+    f = f / Fracao(BigInt(-1131747690), BigInt(2051796162));
+    f = f * Fracao(BigInt(-700168094), BigInt(1952400497));
+    f = f + Fracao(BigInt(-1674915417), BigInt(1622944139));
+    f = f / Fracao(BigInt(-2061153895), BigInt(1956584465));
+    f = f + Fracao(BigInt(-1958838530), BigInt(402414508));
+    std::cout << f << std::endl;
+    f = f - Fracao(BigInt(-1678988533), BigInt(822159772));
+    f = f * Fracao(BigInt(150769440), BigInt(1855241356));
+    std::cout << f << std::endl;
+    f = f + Fracao(BigInt(-364829752), BigInt(894824528));
+    f = f - Fracao(BigInt(-2043388693), BigInt(716741227));
+    f = f / Fracao(BigInt(-1353747273), BigInt(1953813839));
+    f = f + Fracao(BigInt(1992520438), BigInt(591482689));
+    f = f - Fracao(BigInt(-1282734612), BigInt(1248213312));
+    f = f / Fracao(BigInt(-1564321551), BigInt(811060209));
+    f = f * Fracao(BigInt(-798059057), BigInt(458053982));
+    f = f / Fracao(BigInt(196861765), BigInt(1189875758));
+    f = f + Fracao(BigInt(330628098), BigInt(433143804));
+    f = f - Fracao(BigInt(1130836355), BigInt(1518355485));
+    f = f + Fracao(BigInt(-703290433), BigInt(1249077214));
+    std::cout << f << std::endl;
+    f = f - Fracao(BigInt(-1538318701), BigInt(1858384374));
+    f = f + Fracao(BigInt(-31105454), BigInt(1316790561));
+    f = f - Fracao(BigInt(95385032), BigInt(571280854));
+    f = f / Fracao(BigInt(-722899477), BigInt(11201250));
+    f = f - Fracao(BigInt(1746536091), BigInt(500431607));
+    std::cout << f << std::endl;
+    f = f + Fracao(BigInt(437862365), BigInt(1719189561));
+    f = f - Fracao(BigInt(-603334109), BigInt(932013939));
+    f = f * Fracao(BigInt(-828803815), BigInt(1889720710));
+    f = f + Fracao(BigInt(1992415217), BigInt(1254004544));
+    f = f * Fracao(BigInt(-1248487650), BigInt(1203203760));
+    f = f - Fracao(BigInt(-971301743), BigInt(351537685));
+    f = f / Fracao(BigInt(-261953097), BigInt(37207803));
+    f = f - Fracao(BigInt(1536580370), BigInt(2067605665));
+    f = f + Fracao(BigInt(-193874475), BigInt(118092078));
+    f = f - Fracao(BigInt(-1035583903), BigInt(1331994104));
+    std::cout << f << std::endl;
+    f = f * Fracao(BigInt(-2028447856), BigInt(1335575797));
+    f = f - Fracao(BigInt(-187828621), BigInt(357086777));
+    f = f / Fracao(BigInt(438584110), BigInt(1434498604));
+    f = f + Fracao(BigInt(-377279239), BigInt(2040447529));
+    std::cout << f << std::endl;
+    f = f * Fracao(BigInt(-32257371), BigInt(1020481493));
+    std::cout << f << std::endl;
+    f = f + Fracao(BigInt(105272837), BigInt(753440724));
+    f = f / Fracao(BigInt(915173959), BigInt(1187048388));
+    f = f * Fracao(BigInt(631386251), BigInt(175739996));
+    f = f + Fracao(BigInt(-1115738008), BigInt(1291557492));
+    std::cout << f << std::endl;
+    f = f / Fracao(BigInt(346416609), BigInt(1258258278));
+    f = f - Fracao(BigInt(977864261), BigInt(50186885));
+    f = f + Fracao(BigInt(447039361), BigInt(964727840));
+    f = f - Fracao(BigInt(607061169), BigInt(758626362));
+    f = f * Fracao(BigInt(724757547), BigInt(1805877872));
+    f = f + Fracao(BigInt(192071675), BigInt(1333714162));
+    f = f / Fracao(BigInt(463341162), BigInt(459661005));
+    f = f + Fracao(BigInt(-481260176), BigInt(378206951));
+    std::cout << f << std::endl;
+    f = f / Fracao(BigInt(17187323), BigInt(652870724));
+    f = f - Fracao(BigInt(713744296), BigInt(1741463384));
+    f = f + Fracao(BigInt(671964790), BigInt(1252144636));
+    f = f * Fracao(BigInt(-1577788135), BigInt(1810576853));
+    return 0;
+}
+main -> deserunt
+ERRO: Erro de compilação: 256
+ex7.cpp:5:3: error: ‘BigInt’ does not name a type
+    5 |   BigInt _numerador;
+      |   ^~~~~~
+ex7.cpp:6:3: error: ‘BigInt’ does not name a type
+    6 |   BigInt _denominador;
+      |   ^~~~~~
+ex7.cpp:9:18: error: expected ‘)’ before ‘numerador’
+    9 |     Fracao(BigInt numerador = 0, BigInt denominador = 1): _numerador(0), _denominador(1){
+      |           ~      ^~~~~~~~~~
+      |                  )
+ex7.cpp: In function ‘Fracao operator/(const Fracao&, const Fracao&)’:
+ex7.cpp:14:9: error: ‘BigInt’ was not declared in this scope
+   14 |         BigInt den = a._denominador * b._numerador;
+      |         ^~~~~~
+ex7.cpp:15:16: error: expected ‘;’ before ‘num’
+   15 |         BigInt num = b._denominador * a._numerador;
+      |                ^~~
+ex7.cpp:18:18: error: ‘num’ was not declared in this scope; did you mean ‘enum’?
+   18 |         Fracao f(num, den);
+      |                  ^~~
+      |                  enum
+ex7.cpp:18:23: error: ‘den’ was not declared in this scope
+   18 |         Fracao f(num, den);
+      |                       ^~~
+ex7.cpp: In function ‘Fracao operator*(const Fracao&, const Fracao&)’:
+ex7.cpp:22:9: error: ‘BigInt’ was not declared in this scope
+   22 |         BigInt den = a._denominador * b._denominador;
+      |         ^~~~~~
+ex7.cpp:23:16: error: expected ‘;’ before ‘num’
+   23 |         BigInt num = b._numerador * a._numerador;
+      |                ^~~
+ex7.cpp:26:18: error: ‘num’ was not declared in this scope; did you mean ‘enum’?
+   26 |         Fracao f(num, den);
+      |                  ^~~
+      |                  enum
+ex7.cpp:26:23: error: ‘den’ was not declared in this scope
+   26 |         Fracao f(num, den);
+      |                       ^~~
+ex7.cpp: In function ‘Fracao operator+(const Fracao&, const Fracao&)’:
+ex7.cpp:30:9: error: ‘BigInt’ was not declared in this scope
+   30 |         BigInt num = b._numerador * a._denominador + a._numerador * b._denominador;
+      |         ^~~~~~
+ex7.cpp:31:16: error: expected ‘;’ before ‘den’
+   31 |         BigInt den = a._denominador * b._denominador;
+      |                ^~~
+ex7.cpp:33:18: error: ‘num’ was not declared in this scope; did you mean ‘enum’?
+   33 |         Fracao f(num, den);
+      |                  ^~~
+      |                  enum
+ex7.cpp:33:23: error: ‘den’ was not declared in this scope
+   33 |         Fracao f(num, den);
+      |                       ^~~
+ex7.cpp: In function ‘Fracao operator-(const Fracao&, const Fracao&)’:
+ex7.cpp:37:9: error: ‘BigInt’ was not declared in this scope
+   37 |         BigInt num = -b._numerador * a._denominador + a._numerador * b._denominador;
+      |         ^~~~~~
+ex7.cpp:38:16: error: expected ‘;’ before ‘den’
+   38 |         BigInt den = a._denominador * b._denominador;
+      |                ^~~
+ex7.cpp:40:18: error: ‘num’ was not declared in this scope; did you mean ‘enum’?
+   40 |         Fracao f(num, den);
+      |                  ^~~
+      |                  enum
+ex7.cpp:40:23: error: ‘den’ was not declared in this scope
+   40 |         Fracao f(num, den);
+      |                       ^~~
+ex7.cpp: In function ‘std::ostream& operator<<(std::ostream&, const Fracao&)’:
+ex7.cpp:46:18: error: ‘const class Fracao’ has no member named ‘_numerador’
+   46 |         out << a._numerador << "/" << a._denominador;
+      |                  ^~~~~~~~~~
+ex7.cpp:46:41: error: ‘const class Fracao’ has no member named ‘_denominador’
+   46 |         out << a._numerador << "/" << a._denominador;
+      |                                         ^~~~~~~~~~~~
+ex7.cpp: In function ‘int main()’:
+ex7.cpp:52:14: error: ‘BigInt’ was not declared in this scope
+   52 |     Fracao f(BigInt(-1325893915), BigInt(1117461460));
+      |              ^~~~~~
+
+#include<iostream>
+int main() {
+    Fracao f(BigInt(-1503669460), BigInt(156591811));
+    f = f / Fracao(BigInt(-614716402), BigInt(728756565));
+    f = f - Fracao(BigInt(624173745), BigInt(1858203858));
+    f = f / Fracao(BigInt(703874406), BigInt(387481189));
+    std::cout << f << std::endl;
+    f = f * Fracao(BigInt(1720474163), BigInt(1982856122));
+    f = f - Fracao(BigInt(-1754031328), BigInt(1534423812));
+    f = f * Fracao(BigInt(-1709371302), BigInt(2053519886));
+    std::cout << f << std::endl;
+    f = f * Fracao(BigInt(-56807516), BigInt(1953713348));
+    std::cout << f << std::endl;
+    f = f + Fracao(BigInt(1839771252), BigInt(1597679298));
+    std::cout << f << std::endl;
+    f = f / Fracao(BigInt(-1007461919), BigInt(1648655522));
+    std::cout << f << std::endl;
+    f = f + Fracao(BigInt(1390255433), BigInt(1577520079));
+    f = f * Fracao(BigInt(164913158), BigInt(41277041));
+    f = f / Fracao(BigInt(-113051529), BigInt(31281199));
+    std::cout << f << std::endl;
+    f = f / Fracao(BigInt(611888255), BigInt(778874325));
+    f = f + Fracao(BigInt(1228276958), BigInt(1881424511));
+    f = f * Fracao(BigInt(-128784044), BigInt(1769282325));
+    f = f / Fracao(BigInt(-710109760), BigInt(2082512757));
+    std::cout << f << std::endl;
+    f = f / Fracao(BigInt(-1861930408), BigInt(1087967469));
+    f = f - Fracao(BigInt(-568259840), BigInt(557261457));
+    std::cout << f << std::endl;
+    f = f * Fracao(BigInt(-1275718747), BigInt(853748024));
+    std::cout << f << std::endl;
+    f = f * Fracao(BigInt(-1521804309), BigInt(327942660));
+    f = f / Fracao(BigInt(-166648348), BigInt(1507063459));
+    f = f - Fracao(BigInt(661570119), BigInt(580522504));
+    f = f * Fracao(BigInt(-1905323822), BigInt(673386373));
+    f = f + Fracao(BigInt(-156471641), BigInt(656696324));
+    f = f * Fracao(BigInt(358727939), BigInt(1603658674));
+    f = f - Fracao(BigInt(1999671708), BigInt(348644166));
+    f = f / Fracao(BigInt(-1406262189), BigInt(720796005));
+    f = f * Fracao(BigInt(-1091295848), BigInt(1025869335));
+    f = f - Fracao(BigInt(-1079774583), BigInt(822115274));
+    std::cout << f << std::endl;
+    f = f + Fracao(BigInt(1048958683), BigInt(1048587408));
+    f = f / Fracao(BigInt(-1267518714), BigInt(1738408321));
+    std::cout << f << std::endl;
+    f = f + Fracao(BigInt(-312867279), BigInt(770478548));
+    f = f / Fracao(BigInt(-1665315459), BigInt(1729638751));
+    std::cout << f << std::endl;
+    f = f * Fracao(BigInt(1075122697), BigInt(89462065));
+    f = f - Fracao(BigInt(-1762185760), BigInt(1048631620));
+    f = f * Fracao(BigInt(1597194523), BigInt(2012834309));
+    std::cout << f << std::endl;
+    f = f / Fracao(BigInt(-1153394769), BigInt(1691975661));
+    std::cout << f << std::endl;
+    f = f + Fracao(BigInt(753108009), BigInt(494451524));
+    f = f - Fracao(BigInt(-388963812), BigInt(978345142));
+    std::cout << f << std::endl;
+    f = f / Fracao(BigInt(-1021345791), BigInt(956262649));
+    f = f + Fracao(BigInt(1240300581), BigInt(1113417774));
+    std::cout << f << std::endl;
+    f = f * Fracao(BigInt(-1646337017), BigInt(908068177));
+    f = f / Fracao(BigInt(-871937531), BigInt(412111157));
+    f = f * Fracao(BigInt(1910731062), BigInt(2143785977));
+    f = f / Fracao(BigInt(-946571616), BigInt(1257876837));
+    f = f * Fracao(BigInt(-1795926317), BigInt(1560960365));
+    f = f + Fracao(BigInt(471316799), BigInt(1992766136));
+    f = f / Fracao(BigInt(443478399), BigInt(569436398));
+    f = f + Fracao(BigInt(-349044511), BigInt(2003841928));
+    std::cout << f << std::endl;
+    f = f * Fracao(BigInt(663807556), BigInt(520724483));
+    f = f / Fracao(BigInt(-597901047), BigInt(750722550));
+    f = f - Fracao(BigInt(-520946466), BigInt(863899468));
+    std::cout << f << std::endl;
+    f = f * Fracao(BigInt(-1200574826), BigInt(548149125));
+    f = f / Fracao(BigInt(185809879), BigInt(1843740128));
+    f = f + Fracao(BigInt(-1097303650), BigInt(55429002));
+    return 0;
+}
+main -> repellendus
+ERRO: Erro de compilação: 256
+ex7.cpp:5:3: error: ‘BigInt’ does not name a type
+    5 |   BigInt _numerador;
+      |   ^~~~~~
+ex7.cpp:6:3: error: ‘BigInt’ does not name a type
+    6 |   BigInt _denominador;
+      |   ^~~~~~
+ex7.cpp:9:18: error: expected ‘)’ before ‘numerador’
+    9 |     Fracao(BigInt numerador = 0, BigInt denominador = 1): _numerador(0), _denominador(1){
+      |           ~      ^~~~~~~~~~
+      |                  )
+ex7.cpp: In function ‘Fracao operator/(const Fracao&, const Fracao&)’:
+ex7.cpp:14:9: error: ‘BigInt’ was not declared in this scope
+   14 |         BigInt den = a._denominador * b._numerador;
+      |         ^~~~~~
+ex7.cpp:15:16: error: expected ‘;’ before ‘num’
+   15 |         BigInt num = b._denominador * a._numerador;
+      |                ^~~
+ex7.cpp:18:18: error: ‘num’ was not declared in this scope; did you mean ‘enum’?
+   18 |         Fracao f(num, den);
+      |                  ^~~
+      |                  enum
+ex7.cpp:18:23: error: ‘den’ was not declared in this scope
+   18 |         Fracao f(num, den);
+      |                       ^~~
+ex7.cpp: In function ‘Fracao operator*(const Fracao&, const Fracao&)’:
+ex7.cpp:22:9: error: ‘BigInt’ was not declared in this scope
+   22 |         BigInt den = a._denominador * b._denominador;
+      |         ^~~~~~
+ex7.cpp:23:16: error: expected ‘;’ before ‘num’
+   23 |         BigInt num = b._numerador * a._numerador;
+      |                ^~~
+ex7.cpp:26:18: error: ‘num’ was not declared in this scope; did you mean ‘enum’?
+   26 |         Fracao f(num, den);
+      |                  ^~~
+      |                  enum
+ex7.cpp:26:23: error: ‘den’ was not declared in this scope
+   26 |         Fracao f(num, den);
+      |                       ^~~
+ex7.cpp: In function ‘Fracao operator+(const Fracao&, const Fracao&)’:
+ex7.cpp:30:9: error: ‘BigInt’ was not declared in this scope
+   30 |         BigInt num = b._numerador * a._denominador + a._numerador * b._denominador;
+      |         ^~~~~~
+ex7.cpp:31:16: error: expected ‘;’ before ‘den’
+   31 |         BigInt den = a._denominador * b._denominador;
+      |                ^~~
+ex7.cpp:33:18: error: ‘num’ was not declared in this scope; did you mean ‘enum’?
+   33 |         Fracao f(num, den);
+      |                  ^~~
+      |                  enum
+ex7.cpp:33:23: error: ‘den’ was not declared in this scope
+   33 |         Fracao f(num, den);
+      |                       ^~~
+ex7.cpp: In function ‘Fracao operator-(const Fracao&, const Fracao&)’:
+ex7.cpp:37:9: error: ‘BigInt’ was not declared in this scope
+   37 |         BigInt num = -b._numerador * a._denominador + a._numerador * b._denominador;
+      |         ^~~~~~
+ex7.cpp:38:16: error: expected ‘;’ before ‘den’
+   38 |         BigInt den = a._denominador * b._denominador;
+      |                ^~~
+ex7.cpp:40:18: error: ‘num’ was not declared in this scope; did you mean ‘enum’?
+   40 |         Fracao f(num, den);
+      |                  ^~~
+      |                  enum
+ex7.cpp:40:23: error: ‘den’ was not declared in this scope
+   40 |         Fracao f(num, den);
+      |                       ^~~
+ex7.cpp: In function ‘std::ostream& operator<<(std::ostream&, const Fracao&)’:
+ex7.cpp:46:18: error: ‘const class Fracao’ has no member named ‘_numerador’
+   46 |         out << a._numerador << "/" << a._denominador;
+      |                  ^~~~~~~~~~
+ex7.cpp:46:41: error: ‘const class Fracao’ has no member named ‘_denominador’
+   46 |         out << a._numerador << "/" << a._denominador;
+      |                                         ^~~~~~~~~~~~
+ex7.cpp: In function ‘int main()’:
+ex7.cpp:52:14: error: ‘BigInt’ was not declared in this scope
+   52 |     Fracao f(BigInt(-1503669460), BigInt(156591811));
+      |              ^~~~~~
+
+#include<iostream>
+int main() {
+    Fracao f;
+    std::cout << f << std::endl;
+    f = f+Fracao(BigInt(1), BigInt(2));
+    std::cout << f << std::endl;
+    f = f+Fracao(BigInt(1), BigInt(2));
+    std::cout << f << std::endl;
+    f = f*Fracao(BigInt(3), BigInt(2));
+    std::cout << f << std::endl;
+    f = f/Fracao(BigInt(3), BigInt(4));
+    std::cout << f << std::endl;
+    f = f-Fracao(BigInt(1), BigInt(6));
+    std::cout << f << std::endl;
+    f = f*Fracao(BigInt(0), BigInt("999999999999999999"));
+    std::cout << f << std::endl;
+    return 0;
+}
+
+main -> veniam
+ERRO: Erro de compilação: 256
+ex7.cpp:5:3: error: ‘BigInt’ does not name a type
+    5 |   BigInt _numerador;
+      |   ^~~~~~
+ex7.cpp:6:3: error: ‘BigInt’ does not name a type
+    6 |   BigInt _denominador;
+      |   ^~~~~~
+ex7.cpp:9:18: error: expected ‘)’ before ‘numerador’
+    9 |     Fracao(BigInt numerador = 0, BigInt denominador = 1): _numerador(0), _denominador(1){
+      |           ~      ^~~~~~~~~~
+      |                  )
+ex7.cpp: In function ‘Fracao operator/(const Fracao&, const Fracao&)’:
+ex7.cpp:14:9: error: ‘BigInt’ was not declared in this scope
+   14 |         BigInt den = a._denominador * b._numerador;
+      |         ^~~~~~
+ex7.cpp:15:16: error: expected ‘;’ before ‘num’
+   15 |         BigInt num = b._denominador * a._numerador;
+      |                ^~~
+ex7.cpp:18:18: error: ‘num’ was not declared in this scope; did you mean ‘enum’?
+   18 |         Fracao f(num, den);
+      |                  ^~~
+      |                  enum
+ex7.cpp:18:23: error: ‘den’ was not declared in this scope
+   18 |         Fracao f(num, den);
+      |                       ^~~
+ex7.cpp: In function ‘Fracao operator*(const Fracao&, const Fracao&)’:
+ex7.cpp:22:9: error: ‘BigInt’ was not declared in this scope
+   22 |         BigInt den = a._denominador * b._denominador;
+      |         ^~~~~~
+ex7.cpp:23:16: error: expected ‘;’ before ‘num’
+   23 |         BigInt num = b._numerador * a._numerador;
+      |                ^~~
+ex7.cpp:26:18: error: ‘num’ was not declared in this scope; did you mean ‘enum’?
+   26 |         Fracao f(num, den);
+      |                  ^~~
+      |                  enum
+ex7.cpp:26:23: error: ‘den’ was not declared in this scope
+   26 |         Fracao f(num, den);
+      |                       ^~~
+ex7.cpp: In function ‘Fracao operator+(const Fracao&, const Fracao&)’:
+ex7.cpp:30:9: error: ‘BigInt’ was not declared in this scope
+   30 |         BigInt num = b._numerador * a._denominador + a._numerador * b._denominador;
+      |         ^~~~~~
+ex7.cpp:31:16: error: expected ‘;’ before ‘den’
+   31 |         BigInt den = a._denominador * b._denominador;
+      |                ^~~
+ex7.cpp:33:18: error: ‘num’ was not declared in this scope; did you mean ‘enum’?
+   33 |         Fracao f(num, den);
+      |                  ^~~
+      |                  enum
+ex7.cpp:33:23: error: ‘den’ was not declared in this scope
+   33 |         Fracao f(num, den);
+      |                       ^~~
+ex7.cpp: In function ‘Fracao operator-(const Fracao&, const Fracao&)’:
+ex7.cpp:37:9: error: ‘BigInt’ was not declared in this scope
+   37 |         BigInt num = -b._numerador * a._denominador + a._numerador * b._denominador;
+      |         ^~~~~~
+ex7.cpp:38:16: error: expected ‘;’ before ‘den’
+   38 |         BigInt den = a._denominador * b._denominador;
+      |                ^~~
+ex7.cpp:40:18: error: ‘num’ was not declared in this scope; did you mean ‘enum’?
+   40 |         Fracao f(num, den);
+      |                  ^~~
+      |                  enum
+ex7.cpp:40:23: error: ‘den’ was not declared in this scope
+   40 |         Fracao f(num, den);
+      |                       ^~~
+ex7.cpp: In function ‘std::ostream& operator<<(std::ostream&, const Fracao&)’:
+ex7.cpp:46:18: error: ‘const class Fracao’ has no member named ‘_numerador’
+   46 |         out << a._numerador << "/" << a._denominador;
+      |                  ^~~~~~~~~~
+ex7.cpp:46:41: error: ‘const class Fracao’ has no member named ‘_denominador’
+   46 |         out << a._numerador << "/" << a._denominador;
+      |                                         ^~~~~~~~~~~~
+ex7.cpp: In function ‘int main()’:
+ex7.cpp:54:18: error: ‘BigInt’ was not declared in this scope
+   54 |     f = f+Fracao(BigInt(1), BigInt(2));
+      |                  ^~~~~~
+
+#include<iostream>
+int main() {
+    Fracao f(BigInt(666358105), BigInt(844798691));
+    f = f / Fracao(BigInt(1917413049), BigInt(1441995884));
+    f = f + Fracao(BigInt(-1752842484), BigInt(1624107795));
+    std::cout << f << std::endl;
+    f = f - Fracao(BigInt(-1453028324), BigInt(1865908979));
+    f = f + Fracao(BigInt(-900257270), BigInt(1348521075));
+    f = f * Fracao(BigInt(-1544652090), BigInt(45437723));
+    f = f + Fracao(BigInt(2098702255), BigInt(159595500));
+    f = f / Fracao(BigInt(1819051658), BigInt(1173381597));
+    std::cout << f << std::endl;
+    f = f - Fracao(BigInt(1070954876), BigInt(807998647));
+    f = f + Fracao(BigInt(1921521798), BigInt(1256476266));
+    f = f - Fracao(BigInt(834411666), BigInt(232567175));
+    f = f + Fracao(BigInt(-619047350), BigInt(227486347));
+    f = f / Fracao(BigInt(1387115637), BigInt(667469715));
+    f = f - Fracao(BigInt(452891202), BigInt(1031605891));
+    f = f / Fracao(BigInt(-330982473), BigInt(2030871845));
+    f = f + Fracao(BigInt(1861403881), BigInt(1753131984));
+    std::cout << f << std::endl;
+    f = f * Fracao(BigInt(-1586068975), BigInt(713805490));
+    f = f - Fracao(BigInt(-1922299951), BigInt(1593495039));
+    f = f / Fracao(BigInt(948514811), BigInt(1339214573));
+    f = f * Fracao(BigInt(-2119699223), BigInt(747808540));
+    f = f - Fracao(BigInt(1885482534), BigInt(1225266872));
+    f = f + Fracao(BigInt(654659986), BigInt(129932794));
+    f = f / Fracao(BigInt(1945291886), BigInt(1334146767));
+    std::cout << f << std::endl;
+    f = f * Fracao(BigInt(1841085992), BigInt(630338741));
+    f = f - Fracao(BigInt(1998187229), BigInt(1647688847));
+    f = f * Fracao(BigInt(959489201), BigInt(645823410));
+    f = f / Fracao(BigInt(-1574320435), BigInt(890729352));
+    f = f * Fracao(BigInt(-692015187), BigInt(1548665620));
+    f = f + Fracao(BigInt(-599246561), BigInt(1566795319));
+    f = f / Fracao(BigInt(254808577), BigInt(411646076));
+    f = f * Fracao(BigInt(-495189730), BigInt(2129231714));
+    std::cout << f << std::endl;
+    f = f * Fracao(BigInt(694750986), BigInt(462430116));
+    f = f / Fracao(BigInt(-1018164363), BigInt(1643345028));
+    std::cout << f << std::endl;
+    f = f * Fracao(BigInt(-398520147), BigInt(411252400));
+    f = f + Fracao(BigInt(702893335), BigInt(510334921));
+    std::cout << f << std::endl;
+    f = f * Fracao(BigInt(-731711114), BigInt(842188037));
+    std::cout << f << std::endl;
+    f = f - Fracao(BigInt(-649870922), BigInt(973411221));
+    f = f * Fracao(BigInt(-1603887867), BigInt(1710877798));
+    f = f - Fracao(BigInt(-836985390), BigInt(1273518904));
+    std::cout << f << std::endl;
+    f = f / Fracao(BigInt(1461422570), BigInt(2117852643));
+    std::cout << f << std::endl;
+    f = f - Fracao(BigInt(-1468058219), BigInt(1335692122));
+    f = f / Fracao(BigInt(-60930475), BigInt(168620817));
+    f = f + Fracao(BigInt(-1692399047), BigInt(151524200));
+    f = f - Fracao(BigInt(-1160027660), BigInt(1689096054));
+    f = f * Fracao(BigInt(703556686), BigInt(1784800874));
+    f = f / Fracao(BigInt(1071290171), BigInt(1964062995));
+    f = f - Fracao(BigInt(789376530), BigInt(2042340088));
+    f = f * Fracao(BigInt(-1986956157), BigInt(1077984411));
+    f = f + Fracao(BigInt(-613514374), BigInt(200506));
+    std::cout << f << std::endl;
+    f = f - Fracao(BigInt(-1529238446), BigInt(1005088300));
+    f = f / Fracao(BigInt(24866268), BigInt(960349922));
+    f = f - Fracao(BigInt(-1602881926), BigInt(758896703));
+    std::cout << f << std::endl;
+    f = f * Fracao(BigInt(289242271), BigInt(1820254128));
+    f = f - Fracao(BigInt(-294604005), BigInt(1012713094));
+    return 0;
+}
+main -> beatae
+ERRO: Erro de compilação: 256
+ex7.cpp:5:3: error: ‘BigInt’ does not name a type
+    5 |   BigInt _numerador;
+      |   ^~~~~~
+ex7.cpp:6:3: error: ‘BigInt’ does not name a type
+    6 |   BigInt _denominador;
+      |   ^~~~~~
+ex7.cpp:9:18: error: expected ‘)’ before ‘numerador’
+    9 |     Fracao(BigInt numerador = 0, BigInt denominador = 1): _numerador(0), _denominador(1){
+      |           ~      ^~~~~~~~~~
+      |                  )
+ex7.cpp: In function ‘Fracao operator/(const Fracao&, const Fracao&)’:
+ex7.cpp:14:9: error: ‘BigInt’ was not declared in this scope
+   14 |         BigInt den = a._denominador * b._numerador;
+      |         ^~~~~~
+ex7.cpp:15:16: error: expected ‘;’ before ‘num’
+   15 |         BigInt num = b._denominador * a._numerador;
+      |                ^~~
+ex7.cpp:18:18: error: ‘num’ was not declared in this scope; did you mean ‘enum’?
+   18 |         Fracao f(num, den);
+      |                  ^~~
+      |                  enum
+ex7.cpp:18:23: error: ‘den’ was not declared in this scope
+   18 |         Fracao f(num, den);
+      |                       ^~~
+ex7.cpp: In function ‘Fracao operator*(const Fracao&, const Fracao&)’:
+ex7.cpp:22:9: error: ‘BigInt’ was not declared in this scope
+   22 |         BigInt den = a._denominador * b._denominador;
+      |         ^~~~~~
+ex7.cpp:23:16: error: expected ‘;’ before ‘num’
+   23 |         BigInt num = b._numerador * a._numerador;
+      |                ^~~
+ex7.cpp:26:18: error: ‘num’ was not declared in this scope; did you mean ‘enum’?
+   26 |         Fracao f(num, den);
+      |                  ^~~
+      |                  enum
+ex7.cpp:26:23: error: ‘den’ was not declared in this scope
+   26 |         Fracao f(num, den);
+      |                       ^~~
+ex7.cpp: In function ‘Fracao operator+(const Fracao&, const Fracao&)’:
+ex7.cpp:30:9: error: ‘BigInt’ was not declared in this scope
+   30 |         BigInt num = b._numerador * a._denominador + a._numerador * b._denominador;
+      |         ^~~~~~
+ex7.cpp:31:16: error: expected ‘;’ before ‘den’
+   31 |         BigInt den = a._denominador * b._denominador;
+      |                ^~~
+ex7.cpp:33:18: error: ‘num’ was not declared in this scope; did you mean ‘enum’?
+   33 |         Fracao f(num, den);
+      |                  ^~~
+      |                  enum
+ex7.cpp:33:23: error: ‘den’ was not declared in this scope
+   33 |         Fracao f(num, den);
+      |                       ^~~
+ex7.cpp: In function ‘Fracao operator-(const Fracao&, const Fracao&)’:
+ex7.cpp:37:9: error: ‘BigInt’ was not declared in this scope
+   37 |         BigInt num = -b._numerador * a._denominador + a._numerador * b._denominador;
+      |         ^~~~~~
+ex7.cpp:38:16: error: expected ‘;’ before ‘den’
+   38 |         BigInt den = a._denominador * b._denominador;
+      |                ^~~
+ex7.cpp:40:18: error: ‘num’ was not declared in this scope; did you mean ‘enum’?
+   40 |         Fracao f(num, den);
+      |                  ^~~
+      |                  enum
+ex7.cpp:40:23: error: ‘den’ was not declared in this scope
+   40 |         Fracao f(num, den);
+      |                       ^~~
+ex7.cpp: In function ‘std::ostream& operator<<(std::ostream&, const Fracao&)’:
+ex7.cpp:46:18: error: ‘const class Fracao’ has no member named ‘_numerador’
+   46 |         out << a._numerador << "/" << a._denominador;
+      |                  ^~~~~~~~~~
+ex7.cpp:46:41: error: ‘const class Fracao’ has no member named ‘_denominador’
+   46 |         out << a._numerador << "/" << a._denominador;
+      |                                         ^~~~~~~~~~~~
+ex7.cpp: In function ‘int main()’:
+ex7.cpp:52:14: error: ‘BigInt’ was not declared in this scope
+   52 |     Fracao f(BigInt(666358105), BigInt(844798691));
+      |              ^~~~~~
+
+#include<iostream>
+int main() {
+    Fracao f(BigInt(-1757019542), BigInt(1156787262));
+    f = f / Fracao(BigInt(1637429899), BigInt(1988445231));
+    f = f * Fracao(BigInt(767237466), BigInt(409849816));
+    f = f + Fracao(BigInt(675029823), BigInt(291314760));
+    f = f - Fracao(BigInt(1462568972), BigInt(1709175200));
+    std::cout << f << std::endl;
+    f = f + Fracao(BigInt(-1877062005), BigInt(1808907000));
+    f = f - Fracao(BigInt(365142730), BigInt(221919402));
+    f = f / Fracao(BigInt(1458965179), BigInt(1349516662));
+    f = f + Fracao(BigInt(-979060976), BigInt(1747751686));
+    f = f * Fracao(BigInt(-1455506988), BigInt(764060311));
+    f = f - Fracao(BigInt(-1602673615), BigInt(1662420868));
+    f = f / Fracao(BigInt(-2137302044), BigInt(1885884445));
+    f = f * Fracao(BigInt(-697813785), BigInt(375521189));
+    f = f - Fracao(BigInt(1046880837), BigInt(182796340));
+    f = f + Fracao(BigInt(-3655294), BigInt(1553578630));
+    f = f * Fracao(BigInt(2079787172), BigInt(1480951373));
+    f = f - Fracao(BigInt(193076933), BigInt(1430990369));
+    f = f / Fracao(BigInt(-714002470), BigInt(929752179));
+    f = f * Fracao(BigInt(-1082428992), BigInt(1050440274));
+    f = f - Fracao(BigInt(-536105497), BigInt(1597986656));
+    std::cout << f << std::endl;
+    f = f / Fracao(BigInt(-1872316016), BigInt(1742601461));
+    f = f * Fracao(BigInt(-623359381), BigInt(841769289));
+    std::cout << f << std::endl;
+    f = f * Fracao(BigInt(794544696), BigInt(148606170));
+    f = f - Fracao(BigInt(468469589), BigInt(1050929399));
+    f = f + Fracao(BigInt(-912927060), BigInt(207720527));
+    std::cout << f << std::endl;
+    return 0;
+}
+main -> occaecati
+ERRO: Erro de compilação: 256
+ex7.cpp:5:3: error: ‘BigInt’ does not name a type
+    5 |   BigInt _numerador;
+      |   ^~~~~~
+ex7.cpp:6:3: error: ‘BigInt’ does not name a type
+    6 |   BigInt _denominador;
+      |   ^~~~~~
+ex7.cpp:9:18: error: expected ‘)’ before ‘numerador’
+    9 |     Fracao(BigInt numerador = 0, BigInt denominador = 1): _numerador(0), _denominador(1){
+      |           ~      ^~~~~~~~~~
+      |                  )
+ex7.cpp: In function ‘Fracao operator/(const Fracao&, const Fracao&)’:
+ex7.cpp:14:9: error: ‘BigInt’ was not declared in this scope
+   14 |         BigInt den = a._denominador * b._numerador;
+      |         ^~~~~~
+ex7.cpp:15:16: error: expected ‘;’ before ‘num’
+   15 |         BigInt num = b._denominador * a._numerador;
+      |                ^~~
+ex7.cpp:18:18: error: ‘num’ was not declared in this scope; did you mean ‘enum’?
+   18 |         Fracao f(num, den);
+      |                  ^~~
+      |                  enum
+ex7.cpp:18:23: error: ‘den’ was not declared in this scope
+   18 |         Fracao f(num, den);
+      |                       ^~~
+ex7.cpp: In function ‘Fracao operator*(const Fracao&, const Fracao&)’:
+ex7.cpp:22:9: error: ‘BigInt’ was not declared in this scope
+   22 |         BigInt den = a._denominador * b._denominador;
+      |         ^~~~~~
+ex7.cpp:23:16: error: expected ‘;’ before ‘num’
+   23 |         BigInt num = b._numerador * a._numerador;
+      |                ^~~
+ex7.cpp:26:18: error: ‘num’ was not declared in this scope; did you mean ‘enum’?
+   26 |         Fracao f(num, den);
+      |                  ^~~
+      |                  enum
+ex7.cpp:26:23: error: ‘den’ was not declared in this scope
+   26 |         Fracao f(num, den);
+      |                       ^~~
+ex7.cpp: In function ‘Fracao operator+(const Fracao&, const Fracao&)’:
+ex7.cpp:30:9: error: ‘BigInt’ was not declared in this scope
+   30 |         BigInt num = b._numerador * a._denominador + a._numerador * b._denominador;
+      |         ^~~~~~
+ex7.cpp:31:16: error: expected ‘;’ before ‘den’
+   31 |         BigInt den = a._denominador * b._denominador;
+      |                ^~~
+ex7.cpp:33:18: error: ‘num’ was not declared in this scope; did you mean ‘enum’?
+   33 |         Fracao f(num, den);
+      |                  ^~~
+      |                  enum
+ex7.cpp:33:23: error: ‘den’ was not declared in this scope
+   33 |         Fracao f(num, den);
+      |                       ^~~
+ex7.cpp: In function ‘Fracao operator-(const Fracao&, const Fracao&)’:
+ex7.cpp:37:9: error: ‘BigInt’ was not declared in this scope
+   37 |         BigInt num = -b._numerador * a._denominador + a._numerador * b._denominador;
+      |         ^~~~~~
+ex7.cpp:38:16: error: expected ‘;’ before ‘den’
+   38 |         BigInt den = a._denominador * b._denominador;
+      |                ^~~
+ex7.cpp:40:18: error: ‘num’ was not declared in this scope; did you mean ‘enum’?
+   40 |         Fracao f(num, den);
+      |                  ^~~
+      |                  enum
+ex7.cpp:40:23: error: ‘den’ was not declared in this scope
+   40 |         Fracao f(num, den);
+      |                       ^~~
+ex7.cpp: In function ‘std::ostream& operator<<(std::ostream&, const Fracao&)’:
+ex7.cpp:46:18: error: ‘const class Fracao’ has no member named ‘_numerador’
+   46 |         out << a._numerador << "/" << a._denominador;
+      |                  ^~~~~~~~~~
+ex7.cpp:46:41: error: ‘const class Fracao’ has no member named ‘_denominador’
+   46 |         out << a._numerador << "/" << a._denominador;
+      |                                         ^~~~~~~~~~~~
+ex7.cpp: In function ‘int main()’:
+ex7.cpp:52:14: error: ‘BigInt’ was not declared in this scope
+   52 |     Fracao f(BigInt(-1757019542), BigInt(1156787262));
+      |              ^~~~~~
+
+#include<iostream>
+int main() {
+    Fracao f(BigInt(1358865064), BigInt(1005408539));
+    f = f - Fracao(BigInt(317992495), BigInt(324677792));
+    f = f + Fracao(BigInt(443136015), BigInt(1312359724));
+    f = f - Fracao(BigInt(1508092459), BigInt(1141827273));
+    f = f * Fracao(BigInt(-1976392370), BigInt(839576344));
+    f = f + Fracao(BigInt(-361980028), BigInt(682057365));
+    f = f / Fracao(BigInt(1486236801), BigInt(1169769116));
+    f = f + Fracao(BigInt(1003464098), BigInt(488421271));
+    f = f - Fracao(BigInt(1402960435), BigInt(1997877777));
+    f = f + Fracao(BigInt(-771070574), BigInt(235711750));
+    f = f / Fracao(BigInt(-1240388770), BigInt(1828876454));
+    f = f - Fracao(BigInt(-1941370019), BigInt(1292609453));
+    f = f * Fracao(BigInt(-1712192171), BigInt(10636595));
+    std::cout << f << std::endl;
+    f = f * Fracao(BigInt(-1618373051), BigInt(153388879));
+    f = f / Fracao(BigInt(98677908), BigInt(2093820120));
+    f = f - Fracao(BigInt(1151829990), BigInt(2115933473));
+    f = f + Fracao(BigInt(-197508554), BigInt(1373798392));
+    f = f - Fracao(BigInt(-527495059), BigInt(1705881685));
+    std::cout << f << std::endl;
+    f = f / Fracao(BigInt(-1179088139), BigInt(825072900));
+    f = f + Fracao(BigInt(-696326853), BigInt(889064543));
+    f = f - Fracao(BigInt(-121662626), BigInt(1096436998));
+    f = f / Fracao(BigInt(647988575), BigInt(334546217));
+    f = f - Fracao(BigInt(-1751799491), BigInt(1176461170));
+    f = f / Fracao(BigInt(-1826490939), BigInt(930862905));
+    f = f - Fracao(BigInt(-2009112443), BigInt(2141858259));
+    f = f * Fracao(BigInt(-651825075), BigInt(558691249));
+    std::cout << f << std::endl;
+    f = f / Fracao(BigInt(486737318), BigInt(2106217003));
+    std::cout << f << std::endl;
+    f = f + Fracao(BigInt(1262576821), BigInt(1573859509));
+    f = f - Fracao(BigInt(523262686), BigInt(1557900098));
+    std::cout << f << std::endl;
+    f = f / Fracao(BigInt(-258560758), BigInt(447024145));
+    std::cout << f << std::endl;
+    f = f - Fracao(BigInt(407921580), BigInt(136703526));
+    std::cout << f << std::endl;
+    f = f - Fracao(BigInt(-1449959724), BigInt(1758397970));
+    f = f * Fracao(BigInt(354110799), BigInt(1628758513));
+    f = f - Fracao(BigInt(-2108763222), BigInt(259126571));
+    f = f * Fracao(BigInt(1803558060), BigInt(223876990));
+    f = f - Fracao(BigInt(2085310771), BigInt(1425309932));
+    f = f * Fracao(BigInt(-668928071), BigInt(859868501));
+    f = f - Fracao(BigInt(-854405414), BigInt(1152323116));
+    f = f * Fracao(BigInt(865728500), BigInt(2102117594));
+    f = f + Fracao(BigInt(731531708), BigInt(1210189465));
+    f = f - Fracao(BigInt(1190134368), BigInt(2144264857));
+    std::cout << f << std::endl;
+    f = f + Fracao(BigInt(343804600), BigInt(373110063));
+    f = f / Fracao(BigInt(248581810), BigInt(136059516));
+    f = f * Fracao(BigInt(1043481816), BigInt(1664288910));
+    f = f / Fracao(BigInt(-1152964029), BigInt(960636219));
+    f = f * Fracao(BigInt(-430312355), BigInt(437985959));
+    f = f - Fracao(BigInt(-1052828516), BigInt(1125411349));
+    f = f * Fracao(BigInt(1732463521), BigInt(1824575399));
+    f = f / Fracao(BigInt(374243941), BigInt(1193351385));
+    std::cout << f << std::endl;
+    f = f * Fracao(BigInt(2833685), BigInt(946653044));
+    return 0;
+}
+main -> doloribus
+ERRO: Erro de compilação: 256
+ex7.cpp:5:3: error: ‘BigInt’ does not name a type
+    5 |   BigInt _numerador;
+      |   ^~~~~~
+ex7.cpp:6:3: error: ‘BigInt’ does not name a type
+    6 |   BigInt _denominador;
+      |   ^~~~~~
+ex7.cpp:9:18: error: expected ‘)’ before ‘numerador’
+    9 |     Fracao(BigInt numerador = 0, BigInt denominador = 1): _numerador(0), _denominador(1){
+      |           ~      ^~~~~~~~~~
+      |                  )
+ex7.cpp: In function ‘Fracao operator/(const Fracao&, const Fracao&)’:
+ex7.cpp:14:9: error: ‘BigInt’ was not declared in this scope
+   14 |         BigInt den = a._denominador * b._numerador;
+      |         ^~~~~~
+ex7.cpp:15:16: error: expected ‘;’ before ‘num’
+   15 |         BigInt num = b._denominador * a._numerador;
+      |                ^~~
+ex7.cpp:18:18: error: ‘num’ was not declared in this scope; did you mean ‘enum’?
+   18 |         Fracao f(num, den);
+      |                  ^~~
+      |                  enum
+ex7.cpp:18:23: error: ‘den’ was not declared in this scope
+   18 |         Fracao f(num, den);
+      |                       ^~~
+ex7.cpp: In function ‘Fracao operator*(const Fracao&, const Fracao&)’:
+ex7.cpp:22:9: error: ‘BigInt’ was not declared in this scope
+   22 |         BigInt den = a._denominador * b._denominador;
+      |         ^~~~~~
+ex7.cpp:23:16: error: expected ‘;’ before ‘num’
+   23 |         BigInt num = b._numerador * a._numerador;
+      |                ^~~
+ex7.cpp:26:18: error: ‘num’ was not declared in this scope; did you mean ‘enum’?
+   26 |         Fracao f(num, den);
+      |                  ^~~
+      |                  enum
+ex7.cpp:26:23: error: ‘den’ was not declared in this scope
+   26 |         Fracao f(num, den);
+      |                       ^~~
+ex7.cpp: In function ‘Fracao operator+(const Fracao&, const Fracao&)’:
+ex7.cpp:30:9: error: ‘BigInt’ was not declared in this scope
+   30 |         BigInt num = b._numerador * a._denominador + a._numerador * b._denominador;
+      |         ^~~~~~
+ex7.cpp:31:16: error: expected ‘;’ before ‘den’
+   31 |         BigInt den = a._denominador * b._denominador;
+      |                ^~~
+ex7.cpp:33:18: error: ‘num’ was not declared in this scope; did you mean ‘enum’?
+   33 |         Fracao f(num, den);
+      |                  ^~~
+      |                  enum
+ex7.cpp:33:23: error: ‘den’ was not declared in this scope
+   33 |         Fracao f(num, den);
+      |                       ^~~
+ex7.cpp: In function ‘Fracao operator-(const Fracao&, const Fracao&)’:
+ex7.cpp:37:9: error: ‘BigInt’ was not declared in this scope
+   37 |         BigInt num = -b._numerador * a._denominador + a._numerador * b._denominador;
+      |         ^~~~~~
+ex7.cpp:38:16: error: expected ‘;’ before ‘den’
+   38 |         BigInt den = a._denominador * b._denominador;
+      |                ^~~
+ex7.cpp:40:18: error: ‘num’ was not declared in this scope; did you mean ‘enum’?
+   40 |         Fracao f(num, den);
+      |                  ^~~
+      |                  enum
+ex7.cpp:40:23: error: ‘den’ was not declared in this scope
+   40 |         Fracao f(num, den);
+      |                       ^~~
+ex7.cpp: In function ‘std::ostream& operator<<(std::ostream&, const Fracao&)’:
+ex7.cpp:46:18: error: ‘const class Fracao’ has no member named ‘_numerador’
+   46 |         out << a._numerador << "/" << a._denominador;
+      |                  ^~~~~~~~~~
+ex7.cpp:46:41: error: ‘const class Fracao’ has no member named ‘_denominador’
+   46 |         out << a._numerador << "/" << a._denominador;
+      |                                         ^~~~~~~~~~~~
+ex7.cpp: In function ‘int main()’:
+ex7.cpp:52:14: error: ‘BigInt’ was not declared in this scope
+   52 |     Fracao f(BigInt(1358865064), BigInt(1005408539));
+      |              ^~~~~~
+
+#include<iostream>
+int main() {
+    Fracao f(BigInt(1842843153), BigInt(1621479156));
+    f = f * Fracao(BigInt(-1360133884), BigInt(505179922));
+    f = f + Fracao(BigInt(1439166949), BigInt(1086724560));
+    std::cout << f << std::endl;
+    f = f - Fracao(BigInt(562924486), BigInt(681287030));
+    f = f * Fracao(BigInt(1904507988), BigInt(1155354056));
+    f = f + Fracao(BigInt(-1662060830), BigInt(343991949));
+    f = f * Fracao(BigInt(-495320481), BigInt(928146451));
+    f = f / Fracao(BigInt(288323135), BigInt(91465296));
+    std::cout << f << std::endl;
+    f = f * Fracao(BigInt(844434737), BigInt(1610279472));
+    f = f + Fracao(BigInt(1142430455), BigInt(1715169865));
+    f = f / Fracao(BigInt(773302951), BigInt(1040250884));
+    f = f * Fracao(BigInt(-884944869), BigInt(758419289));
+    f = f - Fracao(BigInt(-1109107125), BigInt(2017102684));
+    f = f * Fracao(BigInt(2055866551), BigInt(1746440212));
+    f = f / Fracao(BigInt(155494872), BigInt(1733873329));
+    std::cout << f << std::endl;
+    f = f - Fracao(BigInt(1933406403), BigInt(126419108));
+    f = f + Fracao(BigInt(-1864690363), BigInt(616185553));
+    f = f * Fracao(BigInt(409256600), BigInt(1450495241));
+    f = f + Fracao(BigInt(1044704566), BigInt(849419630));
+    std::cout << f << std::endl;
+    f = f / Fracao(BigInt(1272016082), BigInt(281303047));
+    f = f + Fracao(BigInt(356619491), BigInt(649742267));
+    f = f - Fracao(BigInt(-1720630413), BigInt(1089137909));
+    std::cout << f << std::endl;
+    f = f / Fracao(BigInt(-861999879), BigInt(894409231));
+    f = f + Fracao(BigInt(-1763025852), BigInt(876204838));
+    f = f - Fracao(BigInt(-91840023), BigInt(787679343));
+    std::cout << f << std::endl;
+    f = f / Fracao(BigInt(-1404231591), BigInt(469306822));
+    f = f * Fracao(BigInt(-459819216), BigInt(116720959));
+    f = f / Fracao(BigInt(653229371), BigInt(943353042));
+    f = f * Fracao(BigInt(168505162), BigInt(2131921885));
+    std::cout << f << std::endl;
+    f = f / Fracao(BigInt(-2058847853), BigInt(118663411));
+    f = f + Fracao(BigInt(-171633638), BigInt(1005908242));
+    f = f / Fracao(BigInt(-1015936141), BigInt(302027795));
+    f = f - Fracao(BigInt(-2059222261), BigInt(1540526175));
+    f = f / Fracao(BigInt(1429246428), BigInt(92548548));
+    f = f * Fracao(BigInt(118948946), BigInt(2104113319));
+    f = f + Fracao(BigInt(1676432036), BigInt(2139567069));
+    f = f / Fracao(BigInt(1204761653), BigInt(1475636283));
+    f = f * Fracao(BigInt(657309771), BigInt(1268874417));
+    f = f + Fracao(BigInt(1110644563), BigInt(241819249));
+    f = f * Fracao(BigInt(326472301), BigInt(301043122));
+    f = f + Fracao(BigInt(560212533), BigInt(1866014786));
+    return 0;
+}
+main -> libero
+ERRO: Erro de compilação: 256
+ex7.cpp:5:3: error: ‘BigInt’ does not name a type
+    5 |   BigInt _numerador;
+      |   ^~~~~~
+ex7.cpp:6:3: error: ‘BigInt’ does not name a type
+    6 |   BigInt _denominador;
+      |   ^~~~~~
+ex7.cpp:9:18: error: expected ‘)’ before ‘numerador’
+    9 |     Fracao(BigInt numerador = 0, BigInt denominador = 1): _numerador(0), _denominador(1){
+      |           ~      ^~~~~~~~~~
+      |                  )
+ex7.cpp: In function ‘Fracao operator/(const Fracao&, const Fracao&)’:
+ex7.cpp:14:9: error: ‘BigInt’ was not declared in this scope
+   14 |         BigInt den = a._denominador * b._numerador;
+      |         ^~~~~~
+ex7.cpp:15:16: error: expected ‘;’ before ‘num’
+   15 |         BigInt num = b._denominador * a._numerador;
+      |                ^~~
+ex7.cpp:18:18: error: ‘num’ was not declared in this scope; did you mean ‘enum’?
+   18 |         Fracao f(num, den);
+      |                  ^~~
+      |                  enum
+ex7.cpp:18:23: error: ‘den’ was not declared in this scope
+   18 |         Fracao f(num, den);
+      |                       ^~~
+ex7.cpp: In function ‘Fracao operator*(const Fracao&, const Fracao&)’:
+ex7.cpp:22:9: error: ‘BigInt’ was not declared in this scope
+   22 |         BigInt den = a._denominador * b._denominador;
+      |         ^~~~~~
+ex7.cpp:23:16: error: expected ‘;’ before ‘num’
+   23 |         BigInt num = b._numerador * a._numerador;
+      |                ^~~
+ex7.cpp:26:18: error: ‘num’ was not declared in this scope; did you mean ‘enum’?
+   26 |         Fracao f(num, den);
+      |                  ^~~
+      |                  enum
+ex7.cpp:26:23: error: ‘den’ was not declared in this scope
+   26 |         Fracao f(num, den);
+      |                       ^~~
+ex7.cpp: In function ‘Fracao operator+(const Fracao&, const Fracao&)’:
+ex7.cpp:30:9: error: ‘BigInt’ was not declared in this scope
+   30 |         BigInt num = b._numerador * a._denominador + a._numerador * b._denominador;
+      |         ^~~~~~
+ex7.cpp:31:16: error: expected ‘;’ before ‘den’
+   31 |         BigInt den = a._denominador * b._denominador;
+      |                ^~~
+ex7.cpp:33:18: error: ‘num’ was not declared in this scope; did you mean ‘enum’?
+   33 |         Fracao f(num, den);
+      |                  ^~~
+      |                  enum
+ex7.cpp:33:23: error: ‘den’ was not declared in this scope
+   33 |         Fracao f(num, den);
+      |                       ^~~
+ex7.cpp: In function ‘Fracao operator-(const Fracao&, const Fracao&)’:
+ex7.cpp:37:9: error: ‘BigInt’ was not declared in this scope
+   37 |         BigInt num = -b._numerador * a._denominador + a._numerador * b._denominador;
+      |         ^~~~~~
+ex7.cpp:38:16: error: expected ‘;’ before ‘den’
+   38 |         BigInt den = a._denominador * b._denominador;
+      |                ^~~
+ex7.cpp:40:18: error: ‘num’ was not declared in this scope; did you mean ‘enum’?
+   40 |         Fracao f(num, den);
+      |                  ^~~
+      |                  enum
+ex7.cpp:40:23: error: ‘den’ was not declared in this scope
+   40 |         Fracao f(num, den);
+      |                       ^~~
+ex7.cpp: In function ‘std::ostream& operator<<(std::ostream&, const Fracao&)’:
+ex7.cpp:46:18: error: ‘const class Fracao’ has no member named ‘_numerador’
+   46 |         out << a._numerador << "/" << a._denominador;
+      |                  ^~~~~~~~~~
+ex7.cpp:46:41: error: ‘const class Fracao’ has no member named ‘_denominador’
+   46 |         out << a._numerador << "/" << a._denominador;
+      |                                         ^~~~~~~~~~~~
+ex7.cpp: In function ‘int main()’:
+ex7.cpp:52:14: error: ‘BigInt’ was not declared in this scope
+   52 |     Fracao f(BigInt(1842843153), BigInt(1621479156));
+      |              ^~~~~~
+
+#include<iostream>
+int main() {
+    Fracao f(BigInt(-600118333), BigInt(1501257352));
+    f = f - Fracao(BigInt(-1935177467), BigInt(689614640));
+    std::cout << f << std::endl;
+    f = f / Fracao(BigInt(-569382531), BigInt(50116425));
+    f = f * Fracao(BigInt(-1130497991), BigInt(1953221154));
+    f = f - Fracao(BigInt(-1680006065), BigInt(671103656));
+    f = f * Fracao(BigInt(-335814885), BigInt(855039473));
+    f = f + Fracao(BigInt(1511701797), BigInt(1202278798));
+    f = f / Fracao(BigInt(-924451279), BigInt(510317193));
+    f = f - Fracao(BigInt(1376555083), BigInt(489042743));
+    std::cout << f << std::endl;
+    f = f + Fracao(BigInt(1371813574), BigInt(1051026902));
+    f = f * Fracao(BigInt(150230677), BigInt(1422690094));
+    std::cout << f << std::endl;
+    f = f - Fracao(BigInt(-546925865), BigInt(1091323423));
+    f = f + Fracao(BigInt(223221625), BigInt(1957516623));
+    f = f * Fracao(BigInt(251861616), BigInt(542681305));
+    std::cout << f << std::endl;
+    f = f / Fracao(BigInt(-1053477781), BigInt(1956942303));
+    f = f + Fracao(BigInt(-1005033627), BigInt(376541519));
+    std::cout << f << std::endl;
+    f = f * Fracao(BigInt(1103811564), BigInt(1558602395));
+    std::cout << f << std::endl;
+    f = f + Fracao(BigInt(1097992470), BigInt(1692307039));
+    f = f - Fracao(BigInt(-3157481), BigInt(1573091188));
+    f = f / Fracao(BigInt(186096802), BigInt(556020868));
+    f = f * Fracao(BigInt(-306461543), BigInt(438921076));
+    f = f + Fracao(BigInt(-604390470), BigInt(852769160));
+    f = f * Fracao(BigInt(-1317939496), BigInt(331652575));
+    f = f / Fracao(BigInt(-549657497), BigInt(1137270564));
+    f = f * Fracao(BigInt(2089437797), BigInt(1486566499));
+    f = f / Fracao(BigInt(-1218613621), BigInt(1052339734));
+    std::cout << f << std::endl;
+    f = f - Fracao(BigInt(1609621568), BigInt(1696929074));
+    f = f * Fracao(BigInt(-2064316424), BigInt(211361246));
+    std::cout << f << std::endl;
+    f = f * Fracao(BigInt(710453239), BigInt(1140581365));
+    f = f / Fracao(BigInt(-362110210), BigInt(1701848988));
+    std::cout << f << std::endl;
+    f = f - Fracao(BigInt(2085586864), BigInt(589506555));
+    std::cout << f << std::endl;
+    f = f - Fracao(BigInt(-1098807723), BigInt(1380996596));
+    f = f * Fracao(BigInt(-289886672), BigInt(1923287725));
+    f = f - Fracao(BigInt(-1396756134), BigInt(297517560));
+    f = f * Fracao(BigInt(132376189), BigInt(1085922989));
+    return 0;
+}
+main -> soluta
+ERRO: Erro de compilação: 256
+ex7.cpp:5:3: error: ‘BigInt’ does not name a type
+    5 |   BigInt _numerador;
+      |   ^~~~~~
+ex7.cpp:6:3: error: ‘BigInt’ does not name a type
+    6 |   BigInt _denominador;
+      |   ^~~~~~
+ex7.cpp:9:18: error: expected ‘)’ before ‘numerador’
+    9 |     Fracao(BigInt numerador = 0, BigInt denominador = 1): _numerador(0), _denominador(1){
+      |           ~      ^~~~~~~~~~
+      |                  )
+ex7.cpp: In function ‘Fracao operator/(const Fracao&, const Fracao&)’:
+ex7.cpp:14:9: error: ‘BigInt’ was not declared in this scope
+   14 |         BigInt den = a._denominador * b._numerador;
+      |         ^~~~~~
+ex7.cpp:15:16: error: expected ‘;’ before ‘num’
+   15 |         BigInt num = b._denominador * a._numerador;
+      |                ^~~
+ex7.cpp:18:18: error: ‘num’ was not declared in this scope; did you mean ‘enum’?
+   18 |         Fracao f(num, den);
+      |                  ^~~
+      |                  enum
+ex7.cpp:18:23: error: ‘den’ was not declared in this scope
+   18 |         Fracao f(num, den);
+      |                       ^~~
+ex7.cpp: In function ‘Fracao operator*(const Fracao&, const Fracao&)’:
+ex7.cpp:22:9: error: ‘BigInt’ was not declared in this scope
+   22 |         BigInt den = a._denominador * b._denominador;
+      |         ^~~~~~
+ex7.cpp:23:16: error: expected ‘;’ before ‘num’
+   23 |         BigInt num = b._numerador * a._numerador;
+      |                ^~~
+ex7.cpp:26:18: error: ‘num’ was not declared in this scope; did you mean ‘enum’?
+   26 |         Fracao f(num, den);
+      |                  ^~~
+      |                  enum
+ex7.cpp:26:23: error: ‘den’ was not declared in this scope
+   26 |         Fracao f(num, den);
+      |                       ^~~
+ex7.cpp: In function ‘Fracao operator+(const Fracao&, const Fracao&)’:
+ex7.cpp:30:9: error: ‘BigInt’ was not declared in this scope
+   30 |         BigInt num = b._numerador * a._denominador + a._numerador * b._denominador;
+      |         ^~~~~~
+ex7.cpp:31:16: error: expected ‘;’ before ‘den’
+   31 |         BigInt den = a._denominador * b._denominador;
+      |                ^~~
+ex7.cpp:33:18: error: ‘num’ was not declared in this scope; did you mean ‘enum’?
+   33 |         Fracao f(num, den);
+      |                  ^~~
+      |                  enum
+ex7.cpp:33:23: error: ‘den’ was not declared in this scope
+   33 |         Fracao f(num, den);
+      |                       ^~~
+ex7.cpp: In function ‘Fracao operator-(const Fracao&, const Fracao&)’:
+ex7.cpp:37:9: error: ‘BigInt’ was not declared in this scope
+   37 |         BigInt num = -b._numerador * a._denominador + a._numerador * b._denominador;
+      |         ^~~~~~
+ex7.cpp:38:16: error: expected ‘;’ before ‘den’
+   38 |         BigInt den = a._denominador * b._denominador;
+      |                ^~~
+ex7.cpp:40:18: error: ‘num’ was not declared in this scope; did you mean ‘enum’?
+   40 |         Fracao f(num, den);
+      |                  ^~~
+      |                  enum
+ex7.cpp:40:23: error: ‘den’ was not declared in this scope
+   40 |         Fracao f(num, den);
+      |                       ^~~
+ex7.cpp: In function ‘std::ostream& operator<<(std::ostream&, const Fracao&)’:
+ex7.cpp:46:18: error: ‘const class Fracao’ has no member named ‘_numerador’
+   46 |         out << a._numerador << "/" << a._denominador;
+      |                  ^~~~~~~~~~
+ex7.cpp:46:41: error: ‘const class Fracao’ has no member named ‘_denominador’
+   46 |         out << a._numerador << "/" << a._denominador;
+      |                                         ^~~~~~~~~~~~
+ex7.cpp: In function ‘int main()’:
+ex7.cpp:52:14: error: ‘BigInt’ was not declared in this scope
+   52 |     Fracao f(BigInt(-600118333), BigInt(1501257352));
+      |              ^~~~~~
+
+#include<iostream>
+int main() {
+    Fracao f(BigInt(1769640087), BigInt(1860819985));
+    f = f * Fracao(BigInt(651056871), BigInt(2084597892));
+    f = f / Fracao(BigInt(1354373022), BigInt(1475926184));
+    std::cout << f << std::endl;
+    f = f - Fracao(BigInt(-314809507), BigInt(1808510425));
+    f = f * Fracao(BigInt(806518069), BigInt(474359694));
+    std::cout << f << std::endl;
+    f = f + Fracao(BigInt(1141116679), BigInt(784777223));
+    f = f - Fracao(BigInt(-1821393657), BigInt(2080392954));
+    std::cout << f << std::endl;
+    f = f - Fracao(BigInt(346591581), BigInt(212190476));
+    f = f / Fracao(BigInt(-320810801), BigInt(1411041298));
+    f = f - Fracao(BigInt(-209832247), BigInt(288557214));
+    f = f + Fracao(BigInt(552797766), BigInt(1883064766));
+    f = f * Fracao(BigInt(-1275982896), BigInt(345302195));
+    std::cout << f << std::endl;
+    f = f + Fracao(BigInt(-1091954486), BigInt(1714649766));
+    f = f - Fracao(BigInt(-812943081), BigInt(1584276729));
+    std::cout << f << std::endl;
+    f = f * Fracao(BigInt(-953675975), BigInt(556469227));
+    f = f - Fracao(BigInt(582792074), BigInt(1770158854));
+    f = f * Fracao(BigInt(944494699), BigInt(1576500570));
+    std::cout << f << std::endl;
+    f = f * Fracao(BigInt(-314750158), BigInt(1967763144));
+    f = f - Fracao(BigInt(254492378), BigInt(1785148422));
+    f = f / Fracao(BigInt(82934705), BigInt(1975511123));
+    std::cout << f << std::endl;
+    f = f * Fracao(BigInt(-1852698350), BigInt(2124469006));
+    std::cout << f << std::endl;
+    f = f - Fracao(BigInt(-1111995029), BigInt(1950017893));
+    f = f / Fracao(BigInt(-1058501089), BigInt(1873363584));
+    std::cout << f << std::endl;
+    f = f + Fracao(BigInt(-1624326873), BigInt(595053719));
+    f = f - Fracao(BigInt(-936411003), BigInt(1982361129));
+    f = f + Fracao(BigInt(-1538264943), BigInt(1407243267));
+    f = f - Fracao(BigInt(415905978), BigInt(542332176));
+    f = f / Fracao(BigInt(-259678631), BigInt(657991468));
+    f = f + Fracao(BigInt(-123102153), BigInt(1537740285));
+    f = f - Fracao(BigInt(398464617), BigInt(1943248995));
+    f = f * Fracao(BigInt(-667595291), BigInt(2099800021));
+    f = f / Fracao(BigInt(-1053250727), BigInt(395433635));
+    f = f + Fracao(BigInt(-70650029), BigInt(471354529));
+    f = f / Fracao(BigInt(-369352323), BigInt(428656895));
+    f = f - Fracao(BigInt(64696185), BigInt(677563464));
+    f = f * Fracao(BigInt(-807466765), BigInt(1366575634));
+    f = f - Fracao(BigInt(-938596695), BigInt(1700284637));
+    std::cout << f << std::endl;
+    f = f * Fracao(BigInt(-1290225519), BigInt(680952893));
+    f = f / Fracao(BigInt(-338165606), BigInt(667082619));
+    f = f - Fracao(BigInt(-75662473), BigInt(94928135));
+    std::cout << f << std::endl;
+    f = f / Fracao(BigInt(-1529035636), BigInt(983836352));
+    f = f + Fracao(BigInt(-546326653), BigInt(6060050));
+    f = f * Fracao(BigInt(1695369552), BigInt(751618993));
+    f = f / Fracao(BigInt(-928301410), BigInt(1889897609));
+    std::cout << f << std::endl;
+    f = f - Fracao(BigInt(-1413250665), BigInt(1859458568));
+    f = f * Fracao(BigInt(-2087753711), BigInt(410341485));
+    f = f / Fracao(BigInt(-4784385), BigInt(1014832575));
+    f = f * Fracao(BigInt(-697980181), BigInt(150496886));
+    std::cout << f << std::endl;
+    f = f / Fracao(BigInt(-586280992), BigInt(1933784405));
+    std::cout << f << std::endl;
+    f = f - Fracao(BigInt(-789190157), BigInt(744710934));
+    f = f * Fracao(BigInt(-165543642), BigInt(570791852));
+    std::cout << f << std::endl;
+    f = f * Fracao(BigInt(1054820101), BigInt(2123220024));
+    std::cout << f << std::endl;
+    f = f + Fracao(BigInt(-99826479), BigInt(1162066589));
+    f = f / Fracao(BigInt(-877456211), BigInt(867356756));
+    f = f * Fracao(BigInt(-323299693), BigInt(1802776782));
+    std::cout << f << std::endl;
+    f = f * Fracao(BigInt(1628925637), BigInt(781499072));
+    f = f + Fracao(BigInt(293134160), BigInt(693314219));
+    std::cout << f << std::endl;
+    f = f - Fracao(BigInt(-1943220216), BigInt(2120464631));
+    f = f + Fracao(BigInt(1245932081), BigInt(871015793));
+    f = f / Fracao(BigInt(399541297), BigInt(776026349));
+    std::cout << f << std::endl;
+    f = f * Fracao(BigInt(-1796434619), BigInt(1025974852));
+    std::cout << f << std::endl;
+    f = f / Fracao(BigInt(622912693), BigInt(1810563697));
+    std::cout << f << std::endl;
+    f = f + Fracao(BigInt(234092393), BigInt(662504496));
+    f = f * Fracao(BigInt(-34614731), BigInt(1339633820));
+    f = f - Fracao(BigInt(-387866220), BigInt(95719164));
+    f = f / Fracao(BigInt(-1086418009), BigInt(1918711494));
+    f = f + Fracao(BigInt(1820997493), BigInt(1174395045));
+    f = f / Fracao(BigInt(-680040872), BigInt(141250046));
+    f = f * Fracao(BigInt(-438410861), BigInt(2083860141));
+    f = f - Fracao(BigInt(-962204351), BigInt(79298227));
+    f = f + Fracao(BigInt(1965777070), BigInt(408096340));
+    f = f / Fracao(BigInt(-246737465), BigInt(1537292075));
+    f = f - Fracao(BigInt(-1501727973), BigInt(1586165024));
+    return 0;
+}
+main -> unde
+ERRO: Erro de compilação: 256
+ex7.cpp:5:3: error: ‘BigInt’ does not name a type
+    5 |   BigInt _numerador;
+      |   ^~~~~~
+ex7.cpp:6:3: error: ‘BigInt’ does not name a type
+    6 |   BigInt _denominador;
+      |   ^~~~~~
+ex7.cpp:9:18: error: expected ‘)’ before ‘numerador’
+    9 |     Fracao(BigInt numerador = 0, BigInt denominador = 1): _numerador(0), _denominador(1){
+      |           ~      ^~~~~~~~~~
+      |                  )
+ex7.cpp: In function ‘Fracao operator/(const Fracao&, const Fracao&)’:
+ex7.cpp:14:9: error: ‘BigInt’ was not declared in this scope
+   14 |         BigInt den = a._denominador * b._numerador;
+      |         ^~~~~~
+ex7.cpp:15:16: error: expected ‘;’ before ‘num’
+   15 |         BigInt num = b._denominador * a._numerador;
+      |                ^~~
+ex7.cpp:18:18: error: ‘num’ was not declared in this scope; did you mean ‘enum’?
+   18 |         Fracao f(num, den);
+      |                  ^~~
+      |                  enum
+ex7.cpp:18:23: error: ‘den’ was not declared in this scope
+   18 |         Fracao f(num, den);
+      |                       ^~~
+ex7.cpp: In function ‘Fracao operator*(const Fracao&, const Fracao&)’:
+ex7.cpp:22:9: error: ‘BigInt’ was not declared in this scope
+   22 |         BigInt den = a._denominador * b._denominador;
+      |         ^~~~~~
+ex7.cpp:23:16: error: expected ‘;’ before ‘num’
+   23 |         BigInt num = b._numerador * a._numerador;
+      |                ^~~
+ex7.cpp:26:18: error: ‘num’ was not declared in this scope; did you mean ‘enum’?
+   26 |         Fracao f(num, den);
+      |                  ^~~
+      |                  enum
+ex7.cpp:26:23: error: ‘den’ was not declared in this scope
+   26 |         Fracao f(num, den);
+      |                       ^~~
+ex7.cpp: In function ‘Fracao operator+(const Fracao&, const Fracao&)’:
+ex7.cpp:30:9: error: ‘BigInt’ was not declared in this scope
+   30 |         BigInt num = b._numerador * a._denominador + a._numerador * b._denominador;
+      |         ^~~~~~
+ex7.cpp:31:16: error: expected ‘;’ before ‘den’
+   31 |         BigInt den = a._denominador * b._denominador;
+      |                ^~~
+ex7.cpp:33:18: error: ‘num’ was not declared in this scope; did you mean ‘enum’?
+   33 |         Fracao f(num, den);
+      |                  ^~~
+      |                  enum
+ex7.cpp:33:23: error: ‘den’ was not declared in this scope
+   33 |         Fracao f(num, den);
+      |                       ^~~
+ex7.cpp: In function ‘Fracao operator-(const Fracao&, const Fracao&)’:
+ex7.cpp:37:9: error: ‘BigInt’ was not declared in this scope
+   37 |         BigInt num = -b._numerador * a._denominador + a._numerador * b._denominador;
+      |         ^~~~~~
+ex7.cpp:38:16: error: expected ‘;’ before ‘den’
+   38 |         BigInt den = a._denominador * b._denominador;
+      |                ^~~
+ex7.cpp:40:18: error: ‘num’ was not declared in this scope; did you mean ‘enum’?
+   40 |         Fracao f(num, den);
+      |                  ^~~
+      |                  enum
+ex7.cpp:40:23: error: ‘den’ was not declared in this scope
+   40 |         Fracao f(num, den);
+      |                       ^~~
+ex7.cpp: In function ‘std::ostream& operator<<(std::ostream&, const Fracao&)’:
+ex7.cpp:46:18: error: ‘const class Fracao’ has no member named ‘_numerador’
+   46 |         out << a._numerador << "/" << a._denominador;
+      |                  ^~~~~~~~~~
+ex7.cpp:46:41: error: ‘const class Fracao’ has no member named ‘_denominador’
+   46 |         out << a._numerador << "/" << a._denominador;
+      |                                         ^~~~~~~~~~~~
+ex7.cpp: In function ‘int main()’:
+ex7.cpp:52:14: error: ‘BigInt’ was not declared in this scope
+   52 |     Fracao f(BigInt(1769640087), BigInt(1860819985));
+      |              ^~~~~~
+
+Nota exercicio 7: 0.0
+Procurando exercício 8...
+Exercício 8...
+Criando testes aleatórios...
+Testes Criados!
+ERRO: Proibido o uso de bibliotecas (iomanip), exceto ['stdio.h', 'iostream', 'string']
+Nota exercicio 8: 0.0
+Nota total: 4.00
+{"scores": {"ex1": 1.0, "ex2": 0.0, "ex3": 1.0, "ex4": 1.0, "ex5": 1.0, "ex6": 0.0, "ex7": 0.0, "ex8": 0.0}}
