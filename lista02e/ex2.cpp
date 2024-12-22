@@ -78,11 +78,6 @@ public:
         return _c;
     }
 
-    Trio coeficientes(const Polinomio2& p) {
-        Trio a = Trio(p.getA(), p.getB(), p.getC());
-        return a;
-    }
-
 };
 
     Trio coeficientes(const Polinomio2& p) {
