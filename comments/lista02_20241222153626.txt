@@ -1,0 +1,548 @@
+Versão do G++:
+g++ (Debian 12.2.0-14) 12.2.0
+Copyright (C) 2022 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+Varificando data de envio...
+AGORA: 2024-12-22 12:37:27.106616-03:00
+PRAZO MÁXIMO: 2024-12-22 23:59:59-03:06
+Testando sua solucao...
+Procurando exercício 1...
+Exercício 1...
+Criando testes aleatórios...
+Testes Criados!
+Compilando...
+g++ -O2 -Wno-unused-result  "ex1.cpp" 
+Teste 1: correto! +0.050
+Teste 2: correto! +0.050
+Teste 3: correto! +0.050
+Teste 4: correto! +0.050
+Teste 5: correto! +0.050
+Teste 6: correto! +0.050
+Teste 7: correto! +0.050
+Teste 8: correto! +0.050
+Teste 9: correto! +0.050
+Teste 10: correto! +0.050
+Teste 11: correto! +0.050
+Teste 12: correto! +0.050
+Teste 13: correto! +0.050
+Teste 14: correto! +0.050
+Teste 15: correto! +0.050
+Teste 16: correto! +0.050
+Teste 17: correto! +0.050
+Teste 18: correto! +0.050
+Teste 19: correto! +0.050
+Teste 20: correto! +0.050
+Nota exercicio 1: 1.0
+Procurando exercício 2...
+Procurando exercício 3...
+Exercício 3...
+Criando testes aleatórios...
+Testes Criados!
+Compilando...
+g++ -O2 -Wno-unused-result  "ex3.cpp" 
+Teste 1: correto! +0.050
+Teste 2: correto! +0.050
+Teste 3: correto! +0.050
+Teste 4 deu errado! +0.043
+O resultado para
+#include<iostream>
+int main() {
+    Vetor v(-1, 3);
+    std::cout << v << std::endl;
+    v = v + Vetor(1,2);
+    std::cout << v << std::endl;
+    v = v + Vetor(1,2);
+    std::cout << v << std::endl;
+    v = v - Vetor(1,6);
+    std::cout << v << std::endl;
+    std::cout << v * Vetor(3, 2) << std::endl; 
+    std::cout << (v ^ Vetor(-4501,9002)) << std::endl;
+    std::cout << v.abs() << std::endl;
+    return 0;
+}
+
+deveria ser
+(-1,3)
+(0,5)
+(1,7)
+(0,1)
+2
+4501
+1.0
+mas deu
+(-1, 3)
+(0, 5)
+(1, 7)
+(0, 1)
+2
+4501
+1
+
+Teste 5: correto! +0.050
+Teste 6: correto! +0.050
+Teste 7: correto! +0.050
+Teste 8: correto! +0.050
+Teste 9: correto! +0.050
+Teste 10: correto! +0.050
+Teste 11: correto! +0.050
+Teste 12: correto! +0.050
+Teste 13: correto! +0.050
+Teste 14 deu errado! +0.049
+O resultado para
+#include<iostream>
+int main() {
+    Vetor v(-96, 49);
+    std::cout << v.abs() << std::endl;
+    std::cout << v << std::endl;
+    std::cout << v.abs() << std::endl;
+    v = v + Vetor(-22, -6);
+    std::cout << (v ^ Vetor(-73,-53)) << std::endl;
+    std::cout << v.abs() << std::endl;
+    std::cout << (v ^ Vetor(45,-60)) << std::endl;
+    std::cout << (v * Vetor(90,-18)) << std::endl;
+    std::cout << v.abs() << std::endl;
+    std::cout << v << std::endl;
+    std::cout << (v * Vetor(6,1)) << std::endl;
+    v = v + Vetor(63, 68);
+    std::cout << v << std::endl;
+    std::cout << (v * Vetor(65,90)) << std::endl;
+    v = v - Vetor(22, 49);
+    std::cout << (v ^ Vetor(-87,50)) << std::endl;
+    std::cout << v.abs() << std::endl;
+    v = v - Vetor(-24, 74);
+    std::cout << v.abs() << std::endl;
+    v = v - Vetor(23, -94);
+    std::cout << v.abs() << std::endl;
+    v = v - Vetor(2, 93);
+    std::cout << (v < Vetor(17,-77)) << std::endl;
+    std::cout << (v * Vetor(8,76)) << std::endl;
+    std::cout << (v < Vetor(-41,92)) << std::endl;
+    std::cout << v << std::endl;
+    v = v + Vetor(39, 11);
+    std::cout << v.abs() << std::endl;
+    v = v - Vetor(51, 80);
+    std::cout << (v * Vetor(-57,63)) << std::endl;
+    std::cout << v << std::endl;
+    std::cout << (v * Vetor(51,66)) << std::endl;
+    std::cout << (v < Vetor(43,61)) << std::endl;
+    v = v + Vetor(69, 36);
+    v = v - Vetor(-49, -71);
+    std::cout << (v * Vetor(-67,9)) << std::endl;
+    std::cout << v << std::endl;
+    std::cout << (v < Vetor(-12,12)) << std::endl;
+    v = v - Vetor(43, 25);
+    v = v + Vetor(-45, -4);
+    std::cout << (v * Vetor(-38,1)) << std::endl;
+    std::cout << v.abs() << std::endl;
+    std::cout << (v ^ Vetor(35,-45)) << std::endl;
+    std::cout << (v < Vetor(-8,-11)) << std::endl;
+    std::cout << v.abs() << std::endl;
+    std::cout << v << std::endl;
+    v = v + Vetor(17, -5);
+    std::cout << (v < Vetor(62,-73)) << std::endl;
+    std::cout << v.abs() << std::endl;
+    std::cout << (v * Vetor(-75,48)) << std::endl;
+    std::cout << v << std::endl;
+    return 0;
+}
+deveria ser
+107.78218776773832
+(-96,49)
+107.78218776773832
+9393
+125.59060474414477
+5145
+-11394
+125.59060474414477
+(-118,43)
+-665
+(-55,111)
+6415
+1544
+98.85848471426213
+54.3415126767741
+111.80339887498948
+94.42275899737464
+-1460
+74.00699071316706
+(-78,-11)
+39.0
+90
+(-90,-80)
+-9870
+166.81423869781227
+-1633
+(28,27)
+91.04162667600997
+2278
+60.03332407921454
+2770
+52.06347418190001
+60.03332407921454
+(-60,-2)
+121.09563314476115
+43.56604182158393
+2889
+(-43,-7)
+
+mas deu
+107.782
+(-96, 49)
+107.782
+9393
+125.591
+5145
+-11394
+125.591
+(-118, 43)
+-665
+(-55, 111)
+6415
+1544
+98.8585
+54.3415
+111.803
+94.4255
+-1460
+74.0092
+(-78, -11)
+39
+90
+(-90, -80)
+-9870
+166.819
+-1633
+(28, 27)
+91.0443
+2278
+60.0333
+2770
+52.065
+60.0333
+(-60, -2)
+121.099
+43.566
+2889
+(-43, -7)
+
+Teste 15: correto! +0.050
+Teste 16: correto! +0.050
+Teste 17: correto! +0.050
+Teste 18: correto! +0.050
+Teste 19: correto! +0.050
+Teste 20: correto! +0.050
+Nota exercicio 3: 1.0
+Procurando exercício 4...
+Exercício 4...
+Criando testes aleatórios...
+Testes Criados!
+Compilando...
+g++ -O2 -Wno-unused-result  "ex4.cpp" 
+Teste 1 deu errado!
+O resultado para
+#include<iostream>
+int main() {
+    Polinomio2 p(-200, 3887, 176);
+    double *v = p.raizes();
+    for(int i=0; i<=v[0]; i++) std::cout << v[i] << " " ;
+    std::cout << p(2) << std::endl;
+    return 0;
+}
+deveria ser
+2.0 19.48017413417041 -0.04517413417041212 7150
+mas deu
+2 19.4802 -0.0451741 167950
+
+Teste 2 deu errado!
+O resultado para
+#include<iostream>
+int main() {
+    Polinomio2 p(-1293, 4738, -1639);
+    double *v = p.raizes();
+    for(int i=0; i<=v[0]; i++) std::cout << v[i] << " " ;
+    std::cout << p(2) << std::endl;
+    return 0;
+}
+deveria ser
+2.0 3.2776019113314256 0.3867445697203919 2665
+mas deu
+2 3.2776 0.386745 6.69523e+06
+
+Teste 3 deu errado!
+O resultado para
+#include<iostream>
+int main() {
+    Polinomio2 p(-842, 2577, -1942);
+    double *v = p.raizes();
+    for(int i=0; i<=v[0]; i++) std::cout << v[i] << " " ;
+    std::cout << p(2) << std::endl;
+    return 0;
+}
+deveria ser
+2.0 1.7183248947251533 1.3422451765337542 -156
+mas deu
+2 1.71832 1.34225 2.83907e+06
+
+Teste 4 deu errado!
+O resultado para
+#include<iostream>
+int main() {
+    Polinomio2 p(1283, 3348, -1945);
+    double *v = p.raizes();
+    for(int i=0; i<=v[0]; i++) std::cout << v[i] << " " ;
+    std::cout << p(2) << std::endl;
+    return 0;
+}
+deveria ser
+2.0 -3.098733978116824 0.48922501474971575 9883
+mas deu
+2 -3.09873 0.489225 6.58911e+06
+
+Teste 5 deu errado!
+O resultado para
+#include<iostream>
+int main() {
+    Polinomio2 p(841, 976, -863);
+    double *v = p.raizes();
+    for(int i=0; i<=v[0]; i++) std::cout << v[i] << " " ;
+    std::cout << p(2) << std::endl;
+    return 0;
+}
+deveria ser
+2.0 -1.7476787642073477 0.5871555775248266 4453
+mas deu
+2 -1.74768 0.587156 2.83021e+06
+
+Teste 6 deu errado!
+O resultado para
+#include<iostream>
+int main() {
+    Polinomio2 p(-904, 7291, 637);
+    double *v = p.raizes();
+    for(int i=0; i<=v[0]; i++) std::cout << v[i] << " " ;
+    std::cout << p(2) << std::endl;
+    return 0;
+}
+deveria ser
+2.0 8.151707015640664 -0.08644152891500036 11603
+mas deu
+2 8.15171 -0.0864415 3.28408e+06
+
+Teste 7: correto! +0.050
+Teste 8 deu errado!
+O resultado para
+#include<iostream>
+int main() {
+    Polinomio2 p(-400, 7037, 1003);
+    double *v = p.raizes();
+    for(int i=0; i<=v[0]; i++) std::cout << v[i] << " " ;
+    std::cout << p(2) << std::endl;
+    return 0;
+}
+deveria ser
+2.0 17.733895890417678 -0.1413958904176775 13477
+mas deu
+2 17.7339 -0.141396 655077
+
+Teste 9 deu errado!
+O resultado para
+#include<iostream>
+int main() {
+    Polinomio2 p(1217, 8506, -1901);
+    double *v = p.raizes();
+    for(int i=0; i<=v[0]; i++) std::cout << v[i] << " " ;
+    std::cout << p(2) << std::endl;
+    return 0;
+}
+deveria ser
+2.0 -7.206084506273495 0.21676651120365212 19979
+mas deu
+2 -7.20608 0.216767 5.93947e+06
+
+Teste 10 deu errado!
+O resultado para
+#include<iostream>
+int main() {
+    Polinomio2 p(-575, 8213, -1220);
+    double *v = p.raizes();
+    for(int i=0; i<=v[0]; i++) std::cout << v[i] << " " ;
+    std::cout << p(2) << std::endl;
+    return 0;
+}
+deveria ser
+2.0 14.133355444045575 0.15012281682398917 12906
+mas deu
+2 14.1334 0.150123 1.33771e+06
+
+Teste 11 deu errado! +0.001
+O resultado para
+#include<iostream>
+int main() {
+    for(int i=0; i<100; i++) {
+        Polinomio2 p(0, 1991319901, 1140353907);
+        std::cout << p(2) << " ";
+    }
+    return 0;
+}
+deveria ser
+RANDOM 100
+mas deu
++09 5.12299e+09 5.12299e+09 5.12299e+09 5.12299e+09 5.12299e+09 5.12299e+09 5.12299e+09 5.12299e+09 5.12299e+09 5.12299e+09 5.12299e+09 5.12299e+09 5.12299e+09 5.12299e+09 5.12299e+09 5.12299e+09 5.12299e+09 5.12299e+09 5.12299e+09 5.12299e+09 5.12299e+09 5.12299e+09 5.12299e+09 5.12299e+09 5.12299e+09 5.12299e+09 5.12299e+09 5.12299e+09 5.12299e+09 5.12299e+09 5.12299e+09 5.12299e+09 5.12299e+09 5.12299e+09 5.12299e+09 5.12299e+09 5.12299e+09 5.12299e+09 5.12299e+09 5.12299e+09 5.12299e+09 5.12299e+09 5.12299e+09 5.12299e+09 5.12299e+09 5.12299e+09 5.12299e+09 5.12299e+09 5.12299e+09 5.12299e+09 5.12299e+09 5.12299e+09 5.12299e+09 5.12299e+09 5.12299e+09 5.12299e+09 5.12299e+09 5.12299e+09 5.12299e+09 5.12299e+09 5.12299e+09 5.12299e+09 5.12299e+09 5.12299e+09 5.12299e+09 5.12299e+09 5.12299e+09 5.12299e+09 5.12299e+09 5.12299e+09 5.12299e+09 5.12299e+09 5.12299e+09 5.12299e+09 5.12299e+09 5.12299e+09 5.12299e+09 5.12299e+09 5.12299e+09 5.12299e+09 5.12299e+09 5.12299e+09 5.12299e+09 
+Teste 12 deu errado!
+O resultado para
+#include<iostream>
+int main() {
+    Polinomio2 p(1942, 1327, -1385);
+    double *v = p.raizes();
+    for(int i=0; i<=v[0]; i++) std::cout << v[i] << " " ;
+    std::cout << p(2) << std::endl;
+    return 0;
+}
+deveria ser
+2.0 -1.2526534373307778 0.5693372684327345 9037
+mas deu
+2 -1.25265 0.569337 1.50867e+07
+
+Teste 13 deu errado!
+O resultado para
+#include<iostream>
+int main() {
+    Polinomio2 p(-1041, 9807, 1297);
+    double *v = p.raizes();
+    for(int i=0; i<=v[0]; i++) std::cout << v[i] << " " ;
+    std::cout << p(2) << std::endl;
+    return 0;
+}
+deveria ser
+2.0 9.551195503436169 -0.13044622389726282 16747
+mas deu
+2 9.5512 -0.130446 4.35564e+06
+
+Teste 14 deu errado!
+O resultado para
+#include<iostream>
+int main() {
+    Polinomio2 p(-536, 8240, -123);
+    double *v = p.raizes();
+    for(int i=0; i<=v[0]; i++) std::cout << v[i] << " " ;
+    std::cout << p(2) << std::endl;
+    return 0;
+}
+deveria ser
+2.0 15.358192621505347 0.014941706852861029 14213
+mas deu
+2 15.3582 0.0149417 1.16554e+06
+
+Teste 15: correto! +0.050
+Teste 16 deu errado!
+O resultado para
+#include<iostream>
+int main() {
+    Polinomio2 p(-1925, 8537, 1038);
+    double *v = p.raizes();
+    for(int i=0; i<=v[0]; i++) std::cout << v[i] << " " ;
+    std::cout << p(2) << std::endl;
+    return 0;
+}
+deveria ser
+2.0 4.553231156648452 -0.1184259618432572 10412
+mas deu
+2 4.55323 -0.118426 1.48406e+07
+
+Teste 17 deu errado!
+O resultado para
+#include<iostream>
+int main() {
+    Polinomio2 p(-115, 5147, 1883);
+    double *v = p.raizes();
+    for(int i=0; i<=v[0]; i++) std::cout << v[i] << " " ;
+    std::cout << p(2) << std::endl;
+    return 0;
+}
+deveria ser
+2.0 45.11942338579978 -0.3629016466693468 11717
+mas deu
+2 45.1194 -0.362902 65077
+
+Teste 18 deu errado!
+O resultado para
+#include<iostream>
+int main() {
+    Polinomio2 p(-1312, 5197, -10);
+    double *v = p.raizes();
+    for(int i=0; i<=v[0]; i++) std::cout << v[i] << " " ;
+    std::cout << p(2) << std::endl;
+    return 0;
+}
+deveria ser
+2.0 3.959202926132896 0.001925122647592286 5136
+mas deu
+2 3.9592 0.00192512 6.89576e+06
+
+Teste 19 deu errado!
+O resultado para
+#include<iostream>
+int main() {
+    Polinomio2 p(896, 3143, -903);
+    double *v = p.raizes();
+    for(int i=0; i<=v[0]; i++) std::cout << v[i] << " " ;
+    std::cout << p(2) << std::endl;
+    return 0;
+}
+deveria ser
+2.0 -3.7747970520447476 0.26698455204474747 8967
+mas deu
+2 -3.7748 0.266985 3.21665e+06
+
+Teste 20 deu errado!
+O resultado para
+#include<iostream>
+int main() {
+    Polinomio2 p(-1491, 9967, -1368);
+    double *v = p.raizes();
+    for(int i=0; i<=v[0]; i++) std::cout << v[i] << " " ;
+    std::cout << p(2) << std::endl;
+    return 0;
+}
+deveria ser
+2.0 6.544582255934745 0.14019306264339104 12602
+mas deu
+2 6.54458 0.140193 8.91089e+06
+
+Nota exercicio 4: 0.1
+Procurando exercício 5...
+Exercício 5...
+Criando testes aleatórios...
+Testes Criados!
+ERRO: A classe deve ter somente os seguintes atributos: _conteudo
+Nota exercicio 5: 0.0
+Procurando exercício 6...
+Procurando exercício 7...
+Exercício 7...
+Criando testes aleatórios...
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+Testes Criados!
+ERRO: Proibido o uso de bibliotecas (BigInt.cpp), exceto ['iostream', 'iomanip', 'string', 'stdio.h', 'ex6.h', 'ex5.h', 'ex6.cpp', 'ex5.cpp']
+Nota exercicio 7: 0.0
+Procurando exercício 8...
+Nota total: 2.10
+{"scores": {"ex1": 1.0, "ex2": 0.0, "ex3": 1.0, "ex4": 0.1, "ex5": 0.0, "ex6": 0.0, "ex7": 0.0, "ex8": 0.0}}
