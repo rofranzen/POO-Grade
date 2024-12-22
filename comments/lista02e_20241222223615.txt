@@ -1,0 +1,915 @@
+Versão do G++:
+g++ (Debian 12.2.0-14) 12.2.0
+Copyright (C) 2022 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+Varificando data de envio...
+AGORA: 2024-12-22 19:37:16.155248-03:00
+PRAZO MÁXIMO: 2024-12-22 23:59:59-03:06
+Testando sua solucao...
+Procurando exercício 1...
+Exercício 1...
+Criando testes aleatórios...
+Testes Criados!
+Compilando...
+g++ -O2 -Wno-unused-result  "ex1.cpp" 
+Teste 1: correto! +1.000
+Teste 2: correto! +1.000
+Teste 3: correto! +1.000
+Nota exercicio 1: 3.0
+Procurando exercício 2...
+Exercício 2...
+Criando testes aleatórios...
+Testes Criados!
+ERRO: A classe deve ter somente os seguintes métodos: raizes, Polinomio2, operator()
+Nota exercicio 2: 0.0
+Procurando exercício 3...
+Exercício 3...
+Criando testes aleatórios...
+Testes Criados!
+Compilando...
+g++ -O2 -Wno-unused-result  "ex3.cpp" 
+#include<iostream>
+int main() {
+    for(const auto& linha : Arquivo("/tmp/ex3.cpp"))
+        std::cout << linha << std::endl;
+    return 0;
+}
+main -> iste
+ERRO: Erro de compilação: 256
+ex3.cpp: In constructor ‘Arquivo::Arquivo(std::string)’:
+ex3.cpp:10:34: error: variable ‘std::ifstream arq’ has initializer but incomplete type
+   10 |         std::ifstream arq(arquivo);
+      |                                  ^
+ex3.cpp:18:18: error: ‘cerr’ is not a member of ‘std’
+   18 |             std::cerr << "Erro ao abrir o arquivo!" << std::endl;
+      |                  ^~~~
+ex3.cpp:2:1: note: ‘std::cerr’ is defined in header ‘<iostream>’; did you forget to ‘#include <iostream>’?
+    1 | #include <string>
+  +++ |+#include <iostream>
+    2 | 
+ex3.cpp:18:61: error: ‘endl’ is not a member of ‘std’
+   18 |             std::cerr << "Erro ao abrir o arquivo!" << std::endl;
+      |                                                             ^~~~
+ex3.cpp:2:1: note: ‘std::endl’ is defined in header ‘<ostream>’; did you forget to ‘#include <ostream>’?
+    1 | #include <string>
+  +++ |+#include <ostream>
+    2 | 
+ex3.cpp: In function ‘int main()’:
+ex3.cpp:44:51: error: ‘begin’ was not declared in this scope; did you mean ‘std::begin’?
+   44 |     for(const auto& linha : Arquivo("/tmp/ex3.cpp"))
+      |                                                   ^
+      |                                                   std::begin
+In file included from /usr/include/c++/12/string:52,
+                 from ex3.cpp:1:
+/usr/include/c++/12/bits/range_access.h:114:37: note: ‘std::begin’ declared here
+  114 |   template<typename _Tp> const _Tp* begin(const valarray<_Tp>&) noexcept;
+      |                                     ^~~~~
+ex3.cpp:44:51: error: ‘end’ was not declared in this scope; did you mean ‘std::end’?
+   44 |     for(const auto& linha : Arquivo("/tmp/ex3.cpp"))
+      |                                                   ^
+      |                                                   std::end
+/usr/include/c++/12/bits/range_access.h:116:37: note: ‘std::end’ declared here
+  116 |   template<typename _Tp> const _Tp* end(const valarray<_Tp>&) noexcept;
+      |                                     ^~~
+
+#include<iostream>
+int main() {
+    for(const auto& linha : Arquivo("/tmp/Arquivozzch15v2"))
+        std::cout << linha << std::endl;
+    return 0;
+}
+main -> asperiores
+ERRO: Erro de compilação: 256
+ex3.cpp: In constructor ‘Arquivo::Arquivo(std::string)’:
+ex3.cpp:10:34: error: variable ‘std::ifstream arq’ has initializer but incomplete type
+   10 |         std::ifstream arq(arquivo);
+      |                                  ^
+ex3.cpp:18:18: error: ‘cerr’ is not a member of ‘std’
+   18 |             std::cerr << "Erro ao abrir o arquivo!" << std::endl;
+      |                  ^~~~
+ex3.cpp:2:1: note: ‘std::cerr’ is defined in header ‘<iostream>’; did you forget to ‘#include <iostream>’?
+    1 | #include <string>
+  +++ |+#include <iostream>
+    2 | 
+ex3.cpp:18:61: error: ‘endl’ is not a member of ‘std’
+   18 |             std::cerr << "Erro ao abrir o arquivo!" << std::endl;
+      |                                                             ^~~~
+ex3.cpp:2:1: note: ‘std::endl’ is defined in header ‘<ostream>’; did you forget to ‘#include <ostream>’?
+    1 | #include <string>
+  +++ |+#include <ostream>
+    2 | 
+ex3.cpp: In function ‘int main()’:
+ex3.cpp:44:59: error: ‘begin’ was not declared in this scope; did you mean ‘std::begin’?
+   44 |     for(const auto& linha : Arquivo("/tmp/Arquivozzch15v2"))
+      |                                                           ^
+      |                                                           std::begin
+In file included from /usr/include/c++/12/string:52,
+                 from ex3.cpp:1:
+/usr/include/c++/12/bits/range_access.h:114:37: note: ‘std::begin’ declared here
+  114 |   template<typename _Tp> const _Tp* begin(const valarray<_Tp>&) noexcept;
+      |                                     ^~~~~
+ex3.cpp:44:59: error: ‘end’ was not declared in this scope; did you mean ‘std::end’?
+   44 |     for(const auto& linha : Arquivo("/tmp/Arquivozzch15v2"))
+      |                                                           ^
+      |                                                           std::end
+/usr/include/c++/12/bits/range_access.h:116:37: note: ‘std::end’ declared here
+  116 |   template<typename _Tp> const _Tp* end(const valarray<_Tp>&) noexcept;
+      |                                     ^~~
+
+#include<iostream>
+int main() {
+    for(const auto& linha : Arquivo("/tmp/Arquivo4k_a5jwc"))
+        std::cout << linha << std::endl;
+    return 0;
+}
+main -> molestias
+ERRO: Erro de compilação: 256
+ex3.cpp: In constructor ‘Arquivo::Arquivo(std::string)’:
+ex3.cpp:10:34: error: variable ‘std::ifstream arq’ has initializer but incomplete type
+   10 |         std::ifstream arq(arquivo);
+      |                                  ^
+ex3.cpp:18:18: error: ‘cerr’ is not a member of ‘std’
+   18 |             std::cerr << "Erro ao abrir o arquivo!" << std::endl;
+      |                  ^~~~
+ex3.cpp:2:1: note: ‘std::cerr’ is defined in header ‘<iostream>’; did you forget to ‘#include <iostream>’?
+    1 | #include <string>
+  +++ |+#include <iostream>
+    2 | 
+ex3.cpp:18:61: error: ‘endl’ is not a member of ‘std’
+   18 |             std::cerr << "Erro ao abrir o arquivo!" << std::endl;
+      |                                                             ^~~~
+ex3.cpp:2:1: note: ‘std::endl’ is defined in header ‘<ostream>’; did you forget to ‘#include <ostream>’?
+    1 | #include <string>
+  +++ |+#include <ostream>
+    2 | 
+ex3.cpp: In function ‘int main()’:
+ex3.cpp:44:59: error: ‘begin’ was not declared in this scope; did you mean ‘std::begin’?
+   44 |     for(const auto& linha : Arquivo("/tmp/Arquivo4k_a5jwc"))
+      |                                                           ^
+      |                                                           std::begin
+In file included from /usr/include/c++/12/string:52,
+                 from ex3.cpp:1:
+/usr/include/c++/12/bits/range_access.h:114:37: note: ‘std::begin’ declared here
+  114 |   template<typename _Tp> const _Tp* begin(const valarray<_Tp>&) noexcept;
+      |                                     ^~~~~
+ex3.cpp:44:59: error: ‘end’ was not declared in this scope; did you mean ‘std::end’?
+   44 |     for(const auto& linha : Arquivo("/tmp/Arquivo4k_a5jwc"))
+      |                                                           ^
+      |                                                           std::end
+/usr/include/c++/12/bits/range_access.h:116:37: note: ‘std::end’ declared here
+  116 |   template<typename _Tp> const _Tp* end(const valarray<_Tp>&) noexcept;
+      |                                     ^~~
+
+#include<iostream>
+int main() {
+    for(const auto& linha : Arquivo("/tmp/Arquivo6hqez5lc"))
+        std::cout << linha << std::endl;
+    return 0;
+}
+main -> quae
+ERRO: Erro de compilação: 256
+ex3.cpp: In constructor ‘Arquivo::Arquivo(std::string)’:
+ex3.cpp:10:34: error: variable ‘std::ifstream arq’ has initializer but incomplete type
+   10 |         std::ifstream arq(arquivo);
+      |                                  ^
+ex3.cpp:18:18: error: ‘cerr’ is not a member of ‘std’
+   18 |             std::cerr << "Erro ao abrir o arquivo!" << std::endl;
+      |                  ^~~~
+ex3.cpp:2:1: note: ‘std::cerr’ is defined in header ‘<iostream>’; did you forget to ‘#include <iostream>’?
+    1 | #include <string>
+  +++ |+#include <iostream>
+    2 | 
+ex3.cpp:18:61: error: ‘endl’ is not a member of ‘std’
+   18 |             std::cerr << "Erro ao abrir o arquivo!" << std::endl;
+      |                                                             ^~~~
+ex3.cpp:2:1: note: ‘std::endl’ is defined in header ‘<ostream>’; did you forget to ‘#include <ostream>’?
+    1 | #include <string>
+  +++ |+#include <ostream>
+    2 | 
+ex3.cpp: In function ‘int main()’:
+ex3.cpp:44:59: error: ‘begin’ was not declared in this scope; did you mean ‘std::begin’?
+   44 |     for(const auto& linha : Arquivo("/tmp/Arquivo6hqez5lc"))
+      |                                                           ^
+      |                                                           std::begin
+In file included from /usr/include/c++/12/string:52,
+                 from ex3.cpp:1:
+/usr/include/c++/12/bits/range_access.h:114:37: note: ‘std::begin’ declared here
+  114 |   template<typename _Tp> const _Tp* begin(const valarray<_Tp>&) noexcept;
+      |                                     ^~~~~
+ex3.cpp:44:59: error: ‘end’ was not declared in this scope; did you mean ‘std::end’?
+   44 |     for(const auto& linha : Arquivo("/tmp/Arquivo6hqez5lc"))
+      |                                                           ^
+      |                                                           std::end
+/usr/include/c++/12/bits/range_access.h:116:37: note: ‘std::end’ declared here
+  116 |   template<typename _Tp> const _Tp* end(const valarray<_Tp>&) noexcept;
+      |                                     ^~~
+
+#include<iostream>
+int main() {
+    for(const auto& linha : Arquivo("/tmp/Arquivoamrxqkz1"))
+        std::cout << linha << std::endl;
+    return 0;
+}
+main -> nobis
+ERRO: Erro de compilação: 256
+ex3.cpp: In constructor ‘Arquivo::Arquivo(std::string)’:
+ex3.cpp:10:34: error: variable ‘std::ifstream arq’ has initializer but incomplete type
+   10 |         std::ifstream arq(arquivo);
+      |                                  ^
+ex3.cpp:18:18: error: ‘cerr’ is not a member of ‘std’
+   18 |             std::cerr << "Erro ao abrir o arquivo!" << std::endl;
+      |                  ^~~~
+ex3.cpp:2:1: note: ‘std::cerr’ is defined in header ‘<iostream>’; did you forget to ‘#include <iostream>’?
+    1 | #include <string>
+  +++ |+#include <iostream>
+    2 | 
+ex3.cpp:18:61: error: ‘endl’ is not a member of ‘std’
+   18 |             std::cerr << "Erro ao abrir o arquivo!" << std::endl;
+      |                                                             ^~~~
+ex3.cpp:2:1: note: ‘std::endl’ is defined in header ‘<ostream>’; did you forget to ‘#include <ostream>’?
+    1 | #include <string>
+  +++ |+#include <ostream>
+    2 | 
+ex3.cpp: In function ‘int main()’:
+ex3.cpp:44:59: error: ‘begin’ was not declared in this scope; did you mean ‘std::begin’?
+   44 |     for(const auto& linha : Arquivo("/tmp/Arquivoamrxqkz1"))
+      |                                                           ^
+      |                                                           std::begin
+In file included from /usr/include/c++/12/string:52,
+                 from ex3.cpp:1:
+/usr/include/c++/12/bits/range_access.h:114:37: note: ‘std::begin’ declared here
+  114 |   template<typename _Tp> const _Tp* begin(const valarray<_Tp>&) noexcept;
+      |                                     ^~~~~
+ex3.cpp:44:59: error: ‘end’ was not declared in this scope; did you mean ‘std::end’?
+   44 |     for(const auto& linha : Arquivo("/tmp/Arquivoamrxqkz1"))
+      |                                                           ^
+      |                                                           std::end
+/usr/include/c++/12/bits/range_access.h:116:37: note: ‘std::end’ declared here
+  116 |   template<typename _Tp> const _Tp* end(const valarray<_Tp>&) noexcept;
+      |                                     ^~~
+
+#include<iostream>
+int main() {
+    for(const auto& linha : Arquivo("/tmp/Arquivohv6f_ue8"))
+        std::cout << linha << std::endl;
+    return 0;
+}
+main -> cum
+ERRO: Erro de compilação: 256
+ex3.cpp: In constructor ‘Arquivo::Arquivo(std::string)’:
+ex3.cpp:10:34: error: variable ‘std::ifstream arq’ has initializer but incomplete type
+   10 |         std::ifstream arq(arquivo);
+      |                                  ^
+ex3.cpp:18:18: error: ‘cerr’ is not a member of ‘std’
+   18 |             std::cerr << "Erro ao abrir o arquivo!" << std::endl;
+      |                  ^~~~
+ex3.cpp:2:1: note: ‘std::cerr’ is defined in header ‘<iostream>’; did you forget to ‘#include <iostream>’?
+    1 | #include <string>
+  +++ |+#include <iostream>
+    2 | 
+ex3.cpp:18:61: error: ‘endl’ is not a member of ‘std’
+   18 |             std::cerr << "Erro ao abrir o arquivo!" << std::endl;
+      |                                                             ^~~~
+ex3.cpp:2:1: note: ‘std::endl’ is defined in header ‘<ostream>’; did you forget to ‘#include <ostream>’?
+    1 | #include <string>
+  +++ |+#include <ostream>
+    2 | 
+ex3.cpp: In function ‘int main()’:
+ex3.cpp:44:59: error: ‘begin’ was not declared in this scope; did you mean ‘std::begin’?
+   44 |     for(const auto& linha : Arquivo("/tmp/Arquivohv6f_ue8"))
+      |                                                           ^
+      |                                                           std::begin
+In file included from /usr/include/c++/12/string:52,
+                 from ex3.cpp:1:
+/usr/include/c++/12/bits/range_access.h:114:37: note: ‘std::begin’ declared here
+  114 |   template<typename _Tp> const _Tp* begin(const valarray<_Tp>&) noexcept;
+      |                                     ^~~~~
+ex3.cpp:44:59: error: ‘end’ was not declared in this scope; did you mean ‘std::end’?
+   44 |     for(const auto& linha : Arquivo("/tmp/Arquivohv6f_ue8"))
+      |                                                           ^
+      |                                                           std::end
+/usr/include/c++/12/bits/range_access.h:116:37: note: ‘std::end’ declared here
+  116 |   template<typename _Tp> const _Tp* end(const valarray<_Tp>&) noexcept;
+      |                                     ^~~
+
+#include<iostream>
+int main() {
+    for(const auto& linha : Arquivo("/tmp/Arquivokbanhouu"))
+        std::cout << linha << std::endl;
+    return 0;
+}
+main -> laborum
+ERRO: Erro de compilação: 256
+ex3.cpp: In constructor ‘Arquivo::Arquivo(std::string)’:
+ex3.cpp:10:34: error: variable ‘std::ifstream arq’ has initializer but incomplete type
+   10 |         std::ifstream arq(arquivo);
+      |                                  ^
+ex3.cpp:18:18: error: ‘cerr’ is not a member of ‘std’
+   18 |             std::cerr << "Erro ao abrir o arquivo!" << std::endl;
+      |                  ^~~~
+ex3.cpp:2:1: note: ‘std::cerr’ is defined in header ‘<iostream>’; did you forget to ‘#include <iostream>’?
+    1 | #include <string>
+  +++ |+#include <iostream>
+    2 | 
+ex3.cpp:18:61: error: ‘endl’ is not a member of ‘std’
+   18 |             std::cerr << "Erro ao abrir o arquivo!" << std::endl;
+      |                                                             ^~~~
+ex3.cpp:2:1: note: ‘std::endl’ is defined in header ‘<ostream>’; did you forget to ‘#include <ostream>’?
+    1 | #include <string>
+  +++ |+#include <ostream>
+    2 | 
+ex3.cpp: In function ‘int main()’:
+ex3.cpp:44:59: error: ‘begin’ was not declared in this scope; did you mean ‘std::begin’?
+   44 |     for(const auto& linha : Arquivo("/tmp/Arquivokbanhouu"))
+      |                                                           ^
+      |                                                           std::begin
+In file included from /usr/include/c++/12/string:52,
+                 from ex3.cpp:1:
+/usr/include/c++/12/bits/range_access.h:114:37: note: ‘std::begin’ declared here
+  114 |   template<typename _Tp> const _Tp* begin(const valarray<_Tp>&) noexcept;
+      |                                     ^~~~~
+ex3.cpp:44:59: error: ‘end’ was not declared in this scope; did you mean ‘std::end’?
+   44 |     for(const auto& linha : Arquivo("/tmp/Arquivokbanhouu"))
+      |                                                           ^
+      |                                                           std::end
+/usr/include/c++/12/bits/range_access.h:116:37: note: ‘std::end’ declared here
+  116 |   template<typename _Tp> const _Tp* end(const valarray<_Tp>&) noexcept;
+      |                                     ^~~
+
+#include<iostream>
+int main() {
+    for(const auto& linha : Arquivo("/tmp/Arquivo3b5cb6ek"))
+        std::cout << linha << std::endl;
+    return 0;
+}
+main -> ut
+ERRO: Erro de compilação: 256
+ex3.cpp: In constructor ‘Arquivo::Arquivo(std::string)’:
+ex3.cpp:10:34: error: variable ‘std::ifstream arq’ has initializer but incomplete type
+   10 |         std::ifstream arq(arquivo);
+      |                                  ^
+ex3.cpp:18:18: error: ‘cerr’ is not a member of ‘std’
+   18 |             std::cerr << "Erro ao abrir o arquivo!" << std::endl;
+      |                  ^~~~
+ex3.cpp:2:1: note: ‘std::cerr’ is defined in header ‘<iostream>’; did you forget to ‘#include <iostream>’?
+    1 | #include <string>
+  +++ |+#include <iostream>
+    2 | 
+ex3.cpp:18:61: error: ‘endl’ is not a member of ‘std’
+   18 |             std::cerr << "Erro ao abrir o arquivo!" << std::endl;
+      |                                                             ^~~~
+ex3.cpp:2:1: note: ‘std::endl’ is defined in header ‘<ostream>’; did you forget to ‘#include <ostream>’?
+    1 | #include <string>
+  +++ |+#include <ostream>
+    2 | 
+ex3.cpp: In function ‘int main()’:
+ex3.cpp:44:59: error: ‘begin’ was not declared in this scope; did you mean ‘std::begin’?
+   44 |     for(const auto& linha : Arquivo("/tmp/Arquivo3b5cb6ek"))
+      |                                                           ^
+      |                                                           std::begin
+In file included from /usr/include/c++/12/string:52,
+                 from ex3.cpp:1:
+/usr/include/c++/12/bits/range_access.h:114:37: note: ‘std::begin’ declared here
+  114 |   template<typename _Tp> const _Tp* begin(const valarray<_Tp>&) noexcept;
+      |                                     ^~~~~
+ex3.cpp:44:59: error: ‘end’ was not declared in this scope; did you mean ‘std::end’?
+   44 |     for(const auto& linha : Arquivo("/tmp/Arquivo3b5cb6ek"))
+      |                                                           ^
+      |                                                           std::end
+/usr/include/c++/12/bits/range_access.h:116:37: note: ‘std::end’ declared here
+  116 |   template<typename _Tp> const _Tp* end(const valarray<_Tp>&) noexcept;
+      |                                     ^~~
+
+#include<iostream>
+int main() {
+    for(const auto& linha : Arquivo("/tmp/Arquivov24lwmho"))
+        std::cout << linha << std::endl;
+    return 0;
+}
+main -> impedit
+ERRO: Erro de compilação: 256
+ex3.cpp: In constructor ‘Arquivo::Arquivo(std::string)’:
+ex3.cpp:10:34: error: variable ‘std::ifstream arq’ has initializer but incomplete type
+   10 |         std::ifstream arq(arquivo);
+      |                                  ^
+ex3.cpp:18:18: error: ‘cerr’ is not a member of ‘std’
+   18 |             std::cerr << "Erro ao abrir o arquivo!" << std::endl;
+      |                  ^~~~
+ex3.cpp:2:1: note: ‘std::cerr’ is defined in header ‘<iostream>’; did you forget to ‘#include <iostream>’?
+    1 | #include <string>
+  +++ |+#include <iostream>
+    2 | 
+ex3.cpp:18:61: error: ‘endl’ is not a member of ‘std’
+   18 |             std::cerr << "Erro ao abrir o arquivo!" << std::endl;
+      |                                                             ^~~~
+ex3.cpp:2:1: note: ‘std::endl’ is defined in header ‘<ostream>’; did you forget to ‘#include <ostream>’?
+    1 | #include <string>
+  +++ |+#include <ostream>
+    2 | 
+ex3.cpp: In function ‘int main()’:
+ex3.cpp:44:59: error: ‘begin’ was not declared in this scope; did you mean ‘std::begin’?
+   44 |     for(const auto& linha : Arquivo("/tmp/Arquivov24lwmho"))
+      |                                                           ^
+      |                                                           std::begin
+In file included from /usr/include/c++/12/string:52,
+                 from ex3.cpp:1:
+/usr/include/c++/12/bits/range_access.h:114:37: note: ‘std::begin’ declared here
+  114 |   template<typename _Tp> const _Tp* begin(const valarray<_Tp>&) noexcept;
+      |                                     ^~~~~
+ex3.cpp:44:59: error: ‘end’ was not declared in this scope; did you mean ‘std::end’?
+   44 |     for(const auto& linha : Arquivo("/tmp/Arquivov24lwmho"))
+      |                                                           ^
+      |                                                           std::end
+/usr/include/c++/12/bits/range_access.h:116:37: note: ‘std::end’ declared here
+  116 |   template<typename _Tp> const _Tp* end(const valarray<_Tp>&) noexcept;
+      |                                     ^~~
+
+#include<iostream>
+int main() {
+    for(const auto& linha : Arquivo("/tmp/Arquivo7y1e_83r"))
+        std::cout << linha << std::endl;
+    return 0;
+}
+main -> libero
+ERRO: Erro de compilação: 256
+ex3.cpp: In constructor ‘Arquivo::Arquivo(std::string)’:
+ex3.cpp:10:34: error: variable ‘std::ifstream arq’ has initializer but incomplete type
+   10 |         std::ifstream arq(arquivo);
+      |                                  ^
+ex3.cpp:18:18: error: ‘cerr’ is not a member of ‘std’
+   18 |             std::cerr << "Erro ao abrir o arquivo!" << std::endl;
+      |                  ^~~~
+ex3.cpp:2:1: note: ‘std::cerr’ is defined in header ‘<iostream>’; did you forget to ‘#include <iostream>’?
+    1 | #include <string>
+  +++ |+#include <iostream>
+    2 | 
+ex3.cpp:18:61: error: ‘endl’ is not a member of ‘std’
+   18 |             std::cerr << "Erro ao abrir o arquivo!" << std::endl;
+      |                                                             ^~~~
+ex3.cpp:2:1: note: ‘std::endl’ is defined in header ‘<ostream>’; did you forget to ‘#include <ostream>’?
+    1 | #include <string>
+  +++ |+#include <ostream>
+    2 | 
+ex3.cpp: In function ‘int main()’:
+ex3.cpp:44:59: error: ‘begin’ was not declared in this scope; did you mean ‘std::begin’?
+   44 |     for(const auto& linha : Arquivo("/tmp/Arquivo7y1e_83r"))
+      |                                                           ^
+      |                                                           std::begin
+In file included from /usr/include/c++/12/string:52,
+                 from ex3.cpp:1:
+/usr/include/c++/12/bits/range_access.h:114:37: note: ‘std::begin’ declared here
+  114 |   template<typename _Tp> const _Tp* begin(const valarray<_Tp>&) noexcept;
+      |                                     ^~~~~
+ex3.cpp:44:59: error: ‘end’ was not declared in this scope; did you mean ‘std::end’?
+   44 |     for(const auto& linha : Arquivo("/tmp/Arquivo7y1e_83r"))
+      |                                                           ^
+      |                                                           std::end
+/usr/include/c++/12/bits/range_access.h:116:37: note: ‘std::end’ declared here
+  116 |   template<typename _Tp> const _Tp* end(const valarray<_Tp>&) noexcept;
+      |                                     ^~~
+
+#include<iostream>
+int main() {
+    for(const auto& linha : Arquivo("/tmp/Arquivo77u2blgh"))
+        std::cout << linha << std::endl;
+    return 0;
+}
+main -> eveniet
+ERRO: Erro de compilação: 256
+ex3.cpp: In constructor ‘Arquivo::Arquivo(std::string)’:
+ex3.cpp:10:34: error: variable ‘std::ifstream arq’ has initializer but incomplete type
+   10 |         std::ifstream arq(arquivo);
+      |                                  ^
+ex3.cpp:18:18: error: ‘cerr’ is not a member of ‘std’
+   18 |             std::cerr << "Erro ao abrir o arquivo!" << std::endl;
+      |                  ^~~~
+ex3.cpp:2:1: note: ‘std::cerr’ is defined in header ‘<iostream>’; did you forget to ‘#include <iostream>’?
+    1 | #include <string>
+  +++ |+#include <iostream>
+    2 | 
+ex3.cpp:18:61: error: ‘endl’ is not a member of ‘std’
+   18 |             std::cerr << "Erro ao abrir o arquivo!" << std::endl;
+      |                                                             ^~~~
+ex3.cpp:2:1: note: ‘std::endl’ is defined in header ‘<ostream>’; did you forget to ‘#include <ostream>’?
+    1 | #include <string>
+  +++ |+#include <ostream>
+    2 | 
+ex3.cpp: In function ‘int main()’:
+ex3.cpp:44:59: error: ‘begin’ was not declared in this scope; did you mean ‘std::begin’?
+   44 |     for(const auto& linha : Arquivo("/tmp/Arquivo77u2blgh"))
+      |                                                           ^
+      |                                                           std::begin
+In file included from /usr/include/c++/12/string:52,
+                 from ex3.cpp:1:
+/usr/include/c++/12/bits/range_access.h:114:37: note: ‘std::begin’ declared here
+  114 |   template<typename _Tp> const _Tp* begin(const valarray<_Tp>&) noexcept;
+      |                                     ^~~~~
+ex3.cpp:44:59: error: ‘end’ was not declared in this scope; did you mean ‘std::end’?
+   44 |     for(const auto& linha : Arquivo("/tmp/Arquivo77u2blgh"))
+      |                                                           ^
+      |                                                           std::end
+/usr/include/c++/12/bits/range_access.h:116:37: note: ‘std::end’ declared here
+  116 |   template<typename _Tp> const _Tp* end(const valarray<_Tp>&) noexcept;
+      |                                     ^~~
+
+#include<iostream>
+int main() {
+    for(const auto& linha : Arquivo("/tmp/Arquivoroav4cyh"))
+        std::cout << linha << std::endl;
+    return 0;
+}
+main -> dicta
+ERRO: Erro de compilação: 256
+ex3.cpp: In constructor ‘Arquivo::Arquivo(std::string)’:
+ex3.cpp:10:34: error: variable ‘std::ifstream arq’ has initializer but incomplete type
+   10 |         std::ifstream arq(arquivo);
+      |                                  ^
+ex3.cpp:18:18: error: ‘cerr’ is not a member of ‘std’
+   18 |             std::cerr << "Erro ao abrir o arquivo!" << std::endl;
+      |                  ^~~~
+ex3.cpp:2:1: note: ‘std::cerr’ is defined in header ‘<iostream>’; did you forget to ‘#include <iostream>’?
+    1 | #include <string>
+  +++ |+#include <iostream>
+    2 | 
+ex3.cpp:18:61: error: ‘endl’ is not a member of ‘std’
+   18 |             std::cerr << "Erro ao abrir o arquivo!" << std::endl;
+      |                                                             ^~~~
+ex3.cpp:2:1: note: ‘std::endl’ is defined in header ‘<ostream>’; did you forget to ‘#include <ostream>’?
+    1 | #include <string>
+  +++ |+#include <ostream>
+    2 | 
+ex3.cpp: In function ‘int main()’:
+ex3.cpp:44:59: error: ‘begin’ was not declared in this scope; did you mean ‘std::begin’?
+   44 |     for(const auto& linha : Arquivo("/tmp/Arquivoroav4cyh"))
+      |                                                           ^
+      |                                                           std::begin
+In file included from /usr/include/c++/12/string:52,
+                 from ex3.cpp:1:
+/usr/include/c++/12/bits/range_access.h:114:37: note: ‘std::begin’ declared here
+  114 |   template<typename _Tp> const _Tp* begin(const valarray<_Tp>&) noexcept;
+      |                                     ^~~~~
+ex3.cpp:44:59: error: ‘end’ was not declared in this scope; did you mean ‘std::end’?
+   44 |     for(const auto& linha : Arquivo("/tmp/Arquivoroav4cyh"))
+      |                                                           ^
+      |                                                           std::end
+/usr/include/c++/12/bits/range_access.h:116:37: note: ‘std::end’ declared here
+  116 |   template<typename _Tp> const _Tp* end(const valarray<_Tp>&) noexcept;
+      |                                     ^~~
+
+#include<iostream>
+int main() {
+    for(const auto& linha : Arquivo("/tmp/Arquivocxub83v5"))
+        std::cout << linha << std::endl;
+    return 0;
+}
+main -> cupiditate
+ERRO: Erro de compilação: 256
+ex3.cpp: In constructor ‘Arquivo::Arquivo(std::string)’:
+ex3.cpp:10:34: error: variable ‘std::ifstream arq’ has initializer but incomplete type
+   10 |         std::ifstream arq(arquivo);
+      |                                  ^
+ex3.cpp:18:18: error: ‘cerr’ is not a member of ‘std’
+   18 |             std::cerr << "Erro ao abrir o arquivo!" << std::endl;
+      |                  ^~~~
+ex3.cpp:2:1: note: ‘std::cerr’ is defined in header ‘<iostream>’; did you forget to ‘#include <iostream>’?
+    1 | #include <string>
+  +++ |+#include <iostream>
+    2 | 
+ex3.cpp:18:61: error: ‘endl’ is not a member of ‘std’
+   18 |             std::cerr << "Erro ao abrir o arquivo!" << std::endl;
+      |                                                             ^~~~
+ex3.cpp:2:1: note: ‘std::endl’ is defined in header ‘<ostream>’; did you forget to ‘#include <ostream>’?
+    1 | #include <string>
+  +++ |+#include <ostream>
+    2 | 
+ex3.cpp: In function ‘int main()’:
+ex3.cpp:44:59: error: ‘begin’ was not declared in this scope; did you mean ‘std::begin’?
+   44 |     for(const auto& linha : Arquivo("/tmp/Arquivocxub83v5"))
+      |                                                           ^
+      |                                                           std::begin
+In file included from /usr/include/c++/12/string:52,
+                 from ex3.cpp:1:
+/usr/include/c++/12/bits/range_access.h:114:37: note: ‘std::begin’ declared here
+  114 |   template<typename _Tp> const _Tp* begin(const valarray<_Tp>&) noexcept;
+      |                                     ^~~~~
+ex3.cpp:44:59: error: ‘end’ was not declared in this scope; did you mean ‘std::end’?
+   44 |     for(const auto& linha : Arquivo("/tmp/Arquivocxub83v5"))
+      |                                                           ^
+      |                                                           std::end
+/usr/include/c++/12/bits/range_access.h:116:37: note: ‘std::end’ declared here
+  116 |   template<typename _Tp> const _Tp* end(const valarray<_Tp>&) noexcept;
+      |                                     ^~~
+
+#include<iostream>
+int main() {
+    for(const auto& linha : Arquivo("/tmp/Arquivoilvpkfhq"))
+        std::cout << linha << std::endl;
+    return 0;
+}
+main -> adipisci
+ERRO: Erro de compilação: 256
+ex3.cpp: In constructor ‘Arquivo::Arquivo(std::string)’:
+ex3.cpp:10:34: error: variable ‘std::ifstream arq’ has initializer but incomplete type
+   10 |         std::ifstream arq(arquivo);
+      |                                  ^
+ex3.cpp:18:18: error: ‘cerr’ is not a member of ‘std’
+   18 |             std::cerr << "Erro ao abrir o arquivo!" << std::endl;
+      |                  ^~~~
+ex3.cpp:2:1: note: ‘std::cerr’ is defined in header ‘<iostream>’; did you forget to ‘#include <iostream>’?
+    1 | #include <string>
+  +++ |+#include <iostream>
+    2 | 
+ex3.cpp:18:61: error: ‘endl’ is not a member of ‘std’
+   18 |             std::cerr << "Erro ao abrir o arquivo!" << std::endl;
+      |                                                             ^~~~
+ex3.cpp:2:1: note: ‘std::endl’ is defined in header ‘<ostream>’; did you forget to ‘#include <ostream>’?
+    1 | #include <string>
+  +++ |+#include <ostream>
+    2 | 
+ex3.cpp: In function ‘int main()’:
+ex3.cpp:44:59: error: ‘begin’ was not declared in this scope; did you mean ‘std::begin’?
+   44 |     for(const auto& linha : Arquivo("/tmp/Arquivoilvpkfhq"))
+      |                                                           ^
+      |                                                           std::begin
+In file included from /usr/include/c++/12/string:52,
+                 from ex3.cpp:1:
+/usr/include/c++/12/bits/range_access.h:114:37: note: ‘std::begin’ declared here
+  114 |   template<typename _Tp> const _Tp* begin(const valarray<_Tp>&) noexcept;
+      |                                     ^~~~~
+ex3.cpp:44:59: error: ‘end’ was not declared in this scope; did you mean ‘std::end’?
+   44 |     for(const auto& linha : Arquivo("/tmp/Arquivoilvpkfhq"))
+      |                                                           ^
+      |                                                           std::end
+/usr/include/c++/12/bits/range_access.h:116:37: note: ‘std::end’ declared here
+  116 |   template<typename _Tp> const _Tp* end(const valarray<_Tp>&) noexcept;
+      |                                     ^~~
+
+#include<iostream>
+int main() {
+    for(const auto& linha : Arquivo("/tmp/Arquivoo2gcrcn2"))
+        std::cout << linha << std::endl;
+    return 0;
+}
+main -> nesciunt
+ERRO: Erro de compilação: 256
+ex3.cpp: In constructor ‘Arquivo::Arquivo(std::string)’:
+ex3.cpp:10:34: error: variable ‘std::ifstream arq’ has initializer but incomplete type
+   10 |         std::ifstream arq(arquivo);
+      |                                  ^
+ex3.cpp:18:18: error: ‘cerr’ is not a member of ‘std’
+   18 |             std::cerr << "Erro ao abrir o arquivo!" << std::endl;
+      |                  ^~~~
+ex3.cpp:2:1: note: ‘std::cerr’ is defined in header ‘<iostream>’; did you forget to ‘#include <iostream>’?
+    1 | #include <string>
+  +++ |+#include <iostream>
+    2 | 
+ex3.cpp:18:61: error: ‘endl’ is not a member of ‘std’
+   18 |             std::cerr << "Erro ao abrir o arquivo!" << std::endl;
+      |                                                             ^~~~
+ex3.cpp:2:1: note: ‘std::endl’ is defined in header ‘<ostream>’; did you forget to ‘#include <ostream>’?
+    1 | #include <string>
+  +++ |+#include <ostream>
+    2 | 
+ex3.cpp: In function ‘int main()’:
+ex3.cpp:44:59: error: ‘begin’ was not declared in this scope; did you mean ‘std::begin’?
+   44 |     for(const auto& linha : Arquivo("/tmp/Arquivoo2gcrcn2"))
+      |                                                           ^
+      |                                                           std::begin
+In file included from /usr/include/c++/12/string:52,
+                 from ex3.cpp:1:
+/usr/include/c++/12/bits/range_access.h:114:37: note: ‘std::begin’ declared here
+  114 |   template<typename _Tp> const _Tp* begin(const valarray<_Tp>&) noexcept;
+      |                                     ^~~~~
+ex3.cpp:44:59: error: ‘end’ was not declared in this scope; did you mean ‘std::end’?
+   44 |     for(const auto& linha : Arquivo("/tmp/Arquivoo2gcrcn2"))
+      |                                                           ^
+      |                                                           std::end
+/usr/include/c++/12/bits/range_access.h:116:37: note: ‘std::end’ declared here
+  116 |   template<typename _Tp> const _Tp* end(const valarray<_Tp>&) noexcept;
+      |                                     ^~~
+
+#include<iostream>
+int main() {
+    for(const auto& linha : Arquivo("/tmp/Arquivotc3ayr09"))
+        std::cout << linha << std::endl;
+    return 0;
+}
+main -> ipsam
+ERRO: Erro de compilação: 256
+ex3.cpp: In constructor ‘Arquivo::Arquivo(std::string)’:
+ex3.cpp:10:34: error: variable ‘std::ifstream arq’ has initializer but incomplete type
+   10 |         std::ifstream arq(arquivo);
+      |                                  ^
+ex3.cpp:18:18: error: ‘cerr’ is not a member of ‘std’
+   18 |             std::cerr << "Erro ao abrir o arquivo!" << std::endl;
+      |                  ^~~~
+ex3.cpp:2:1: note: ‘std::cerr’ is defined in header ‘<iostream>’; did you forget to ‘#include <iostream>’?
+    1 | #include <string>
+  +++ |+#include <iostream>
+    2 | 
+ex3.cpp:18:61: error: ‘endl’ is not a member of ‘std’
+   18 |             std::cerr << "Erro ao abrir o arquivo!" << std::endl;
+      |                                                             ^~~~
+ex3.cpp:2:1: note: ‘std::endl’ is defined in header ‘<ostream>’; did you forget to ‘#include <ostream>’?
+    1 | #include <string>
+  +++ |+#include <ostream>
+    2 | 
+ex3.cpp: In function ‘int main()’:
+ex3.cpp:44:59: error: ‘begin’ was not declared in this scope; did you mean ‘std::begin’?
+   44 |     for(const auto& linha : Arquivo("/tmp/Arquivotc3ayr09"))
+      |                                                           ^
+      |                                                           std::begin
+In file included from /usr/include/c++/12/string:52,
+                 from ex3.cpp:1:
+/usr/include/c++/12/bits/range_access.h:114:37: note: ‘std::begin’ declared here
+  114 |   template<typename _Tp> const _Tp* begin(const valarray<_Tp>&) noexcept;
+      |                                     ^~~~~
+ex3.cpp:44:59: error: ‘end’ was not declared in this scope; did you mean ‘std::end’?
+   44 |     for(const auto& linha : Arquivo("/tmp/Arquivotc3ayr09"))
+      |                                                           ^
+      |                                                           std::end
+/usr/include/c++/12/bits/range_access.h:116:37: note: ‘std::end’ declared here
+  116 |   template<typename _Tp> const _Tp* end(const valarray<_Tp>&) noexcept;
+      |                                     ^~~
+
+#include<iostream>
+int main() {
+    for(const auto& linha : Arquivo("/tmp/Arquivoyb1figdg"))
+        std::cout << linha << std::endl;
+    return 0;
+}
+main -> vitae
+ERRO: Erro de compilação: 256
+ex3.cpp: In constructor ‘Arquivo::Arquivo(std::string)’:
+ex3.cpp:10:34: error: variable ‘std::ifstream arq’ has initializer but incomplete type
+   10 |         std::ifstream arq(arquivo);
+      |                                  ^
+ex3.cpp:18:18: error: ‘cerr’ is not a member of ‘std’
+   18 |             std::cerr << "Erro ao abrir o arquivo!" << std::endl;
+      |                  ^~~~
+ex3.cpp:2:1: note: ‘std::cerr’ is defined in header ‘<iostream>’; did you forget to ‘#include <iostream>’?
+    1 | #include <string>
+  +++ |+#include <iostream>
+    2 | 
+ex3.cpp:18:61: error: ‘endl’ is not a member of ‘std’
+   18 |             std::cerr << "Erro ao abrir o arquivo!" << std::endl;
+      |                                                             ^~~~
+ex3.cpp:2:1: note: ‘std::endl’ is defined in header ‘<ostream>’; did you forget to ‘#include <ostream>’?
+    1 | #include <string>
+  +++ |+#include <ostream>
+    2 | 
+ex3.cpp: In function ‘int main()’:
+ex3.cpp:44:59: error: ‘begin’ was not declared in this scope; did you mean ‘std::begin’?
+   44 |     for(const auto& linha : Arquivo("/tmp/Arquivoyb1figdg"))
+      |                                                           ^
+      |                                                           std::begin
+In file included from /usr/include/c++/12/string:52,
+                 from ex3.cpp:1:
+/usr/include/c++/12/bits/range_access.h:114:37: note: ‘std::begin’ declared here
+  114 |   template<typename _Tp> const _Tp* begin(const valarray<_Tp>&) noexcept;
+      |                                     ^~~~~
+ex3.cpp:44:59: error: ‘end’ was not declared in this scope; did you mean ‘std::end’?
+   44 |     for(const auto& linha : Arquivo("/tmp/Arquivoyb1figdg"))
+      |                                                           ^
+      |                                                           std::end
+/usr/include/c++/12/bits/range_access.h:116:37: note: ‘std::end’ declared here
+  116 |   template<typename _Tp> const _Tp* end(const valarray<_Tp>&) noexcept;
+      |                                     ^~~
+
+#include<iostream>
+int main() {
+    for(const auto& linha : Arquivo("/tmp/Arquivojs5s9vvv"))
+        std::cout << linha << std::endl;
+    return 0;
+}
+main -> incidunt
+ERRO: Erro de compilação: 256
+ex3.cpp: In constructor ‘Arquivo::Arquivo(std::string)’:
+ex3.cpp:10:34: error: variable ‘std::ifstream arq’ has initializer but incomplete type
+   10 |         std::ifstream arq(arquivo);
+      |                                  ^
+ex3.cpp:18:18: error: ‘cerr’ is not a member of ‘std’
+   18 |             std::cerr << "Erro ao abrir o arquivo!" << std::endl;
+      |                  ^~~~
+ex3.cpp:2:1: note: ‘std::cerr’ is defined in header ‘<iostream>’; did you forget to ‘#include <iostream>’?
+    1 | #include <string>
+  +++ |+#include <iostream>
+    2 | 
+ex3.cpp:18:61: error: ‘endl’ is not a member of ‘std’
+   18 |             std::cerr << "Erro ao abrir o arquivo!" << std::endl;
+      |                                                             ^~~~
+ex3.cpp:2:1: note: ‘std::endl’ is defined in header ‘<ostream>’; did you forget to ‘#include <ostream>’?
+    1 | #include <string>
+  +++ |+#include <ostream>
+    2 | 
+ex3.cpp: In function ‘int main()’:
+ex3.cpp:44:59: error: ‘begin’ was not declared in this scope; did you mean ‘std::begin’?
+   44 |     for(const auto& linha : Arquivo("/tmp/Arquivojs5s9vvv"))
+      |                                                           ^
+      |                                                           std::begin
+In file included from /usr/include/c++/12/string:52,
+                 from ex3.cpp:1:
+/usr/include/c++/12/bits/range_access.h:114:37: note: ‘std::begin’ declared here
+  114 |   template<typename _Tp> const _Tp* begin(const valarray<_Tp>&) noexcept;
+      |                                     ^~~~~
+ex3.cpp:44:59: error: ‘end’ was not declared in this scope; did you mean ‘std::end’?
+   44 |     for(const auto& linha : Arquivo("/tmp/Arquivojs5s9vvv"))
+      |                                                           ^
+      |                                                           std::end
+/usr/include/c++/12/bits/range_access.h:116:37: note: ‘std::end’ declared here
+  116 |   template<typename _Tp> const _Tp* end(const valarray<_Tp>&) noexcept;
+      |                                     ^~~
+
+#include<iostream>
+int main() {
+    for(const auto& linha : Arquivo("/tmp/Arquivo45crmqht"))
+        std::cout << linha << std::endl;
+    return 0;
+}
+main -> veritatis
+ERRO: Erro de compilação: 256
+ex3.cpp: In constructor ‘Arquivo::Arquivo(std::string)’:
+ex3.cpp:10:34: error: variable ‘std::ifstream arq’ has initializer but incomplete type
+   10 |         std::ifstream arq(arquivo);
+      |                                  ^
+ex3.cpp:18:18: error: ‘cerr’ is not a member of ‘std’
+   18 |             std::cerr << "Erro ao abrir o arquivo!" << std::endl;
+      |                  ^~~~
+ex3.cpp:2:1: note: ‘std::cerr’ is defined in header ‘<iostream>’; did you forget to ‘#include <iostream>’?
+    1 | #include <string>
+  +++ |+#include <iostream>
+    2 | 
+ex3.cpp:18:61: error: ‘endl’ is not a member of ‘std’
+   18 |             std::cerr << "Erro ao abrir o arquivo!" << std::endl;
+      |                                                             ^~~~
+ex3.cpp:2:1: note: ‘std::endl’ is defined in header ‘<ostream>’; did you forget to ‘#include <ostream>’?
+    1 | #include <string>
+  +++ |+#include <ostream>
+    2 | 
+ex3.cpp: In function ‘int main()’:
+ex3.cpp:44:59: error: ‘begin’ was not declared in this scope; did you mean ‘std::begin’?
+   44 |     for(const auto& linha : Arquivo("/tmp/Arquivo45crmqht"))
+      |                                                           ^
+      |                                                           std::begin
+In file included from /usr/include/c++/12/string:52,
+                 from ex3.cpp:1:
+/usr/include/c++/12/bits/range_access.h:114:37: note: ‘std::begin’ declared here
+  114 |   template<typename _Tp> const _Tp* begin(const valarray<_Tp>&) noexcept;
+      |                                     ^~~~~
+ex3.cpp:44:59: error: ‘end’ was not declared in this scope; did you mean ‘std::end’?
+   44 |     for(const auto& linha : Arquivo("/tmp/Arquivo45crmqht"))
+      |                                                           ^
+      |                                                           std::end
+/usr/include/c++/12/bits/range_access.h:116:37: note: ‘std::end’ declared here
+  116 |   template<typename _Tp> const _Tp* end(const valarray<_Tp>&) noexcept;
+      |                                     ^~~
+
+#include<iostream>
+int main() {
+    for(const auto& linha : Arquivo("/tmp/Arquivo81v3deu_"))
+        std::cout << linha << std::endl;
+    return 0;
+}
+main -> modi
+ERRO: Erro de compilação: 256
+ex3.cpp: In constructor ‘Arquivo::Arquivo(std::string)’:
+ex3.cpp:10:34: error: variable ‘std::ifstream arq’ has initializer but incomplete type
+   10 |         std::ifstream arq(arquivo);
+      |                                  ^
+ex3.cpp:18:18: error: ‘cerr’ is not a member of ‘std’
+   18 |             std::cerr << "Erro ao abrir o arquivo!" << std::endl;
+      |                  ^~~~
+ex3.cpp:2:1: note: ‘std::cerr’ is defined in header ‘<iostream>’; did you forget to ‘#include <iostream>’?
+    1 | #include <string>
+  +++ |+#include <iostream>
+    2 | 
+ex3.cpp:18:61: error: ‘endl’ is not a member of ‘std’
+   18 |             std::cerr << "Erro ao abrir o arquivo!" << std::endl;
+      |                                                             ^~~~
+ex3.cpp:2:1: note: ‘std::endl’ is defined in header ‘<ostream>’; did you forget to ‘#include <ostream>’?
+    1 | #include <string>
+  +++ |+#include <ostream>
+    2 | 
+ex3.cpp: In function ‘int main()’:
+ex3.cpp:44:59: error: ‘begin’ was not declared in this scope; did you mean ‘std::begin’?
+   44 |     for(const auto& linha : Arquivo("/tmp/Arquivo81v3deu_"))
+      |                                                           ^
+      |                                                           std::begin
+In file included from /usr/include/c++/12/string:52,
+                 from ex3.cpp:1:
+/usr/include/c++/12/bits/range_access.h:114:37: note: ‘std::begin’ declared here
+  114 |   template<typename _Tp> const _Tp* begin(const valarray<_Tp>&) noexcept;
+      |                                     ^~~~~
+ex3.cpp:44:59: error: ‘end’ was not declared in this scope; did you mean ‘std::end’?
+   44 |     for(const auto& linha : Arquivo("/tmp/Arquivo81v3deu_"))
+      |                                                           ^
+      |                                                           std::end
+/usr/include/c++/12/bits/range_access.h:116:37: note: ‘std::end’ declared here
+  116 |   template<typename _Tp> const _Tp* end(const valarray<_Tp>&) noexcept;
+      |                                     ^~~
+
+Nota exercicio 3: 0.0
+Nota total: 3.00
+{"scores": {"ex1": 3.0, "ex2": 0.0, "ex3": 0.0}}
