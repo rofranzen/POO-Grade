@@ -1,0 +1,383 @@
+Versão do G++:
+g++ (Debian 12.2.0-14) 12.2.0
+Copyright (C) 2022 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+Varificando data de envio...
+AGORA: 2024-12-22 13:07:07.257620-03:00
+PRAZO MÁXIMO: 2024-12-22 23:59:59-03:06
+Testando sua solucao...
+Procurando exercício 1...
+Exercício 1...
+Criando testes aleatórios...
+Testes Criados!
+Compilando...
+g++ -O2 -Wno-unused-result  "ex1.cpp" 
+Teste 1: correto! +0.050
+Teste 2: correto! +0.050
+Teste 3: correto! +0.050
+Teste 4: correto! +0.050
+Teste 5: correto! +0.050
+Teste 6: correto! +0.050
+Teste 7: correto! +0.050
+Teste 8: correto! +0.050
+Teste 9: correto! +0.050
+Teste 10: correto! +0.050
+Teste 11: correto! +0.050
+Teste 12: correto! +0.050
+Teste 13: correto! +0.050
+Teste 14: correto! +0.050
+Teste 15: correto! +0.050
+Teste 16: correto! +0.050
+Teste 17: correto! +0.050
+Teste 18: correto! +0.050
+Teste 19: correto! +0.050
+Teste 20: correto! +0.050
+Nota exercicio 1: 1.0
+Procurando exercício 2...
+Procurando exercício 3...
+Exercício 3...
+Criando testes aleatórios...
+Testes Criados!
+Compilando...
+g++ -O2 -Wno-unused-result  "ex3.cpp" 
+Teste 1: correto! +0.050
+Teste 2: correto! +0.050
+Teste 3: correto! +0.050
+Teste 4: correto! +0.050
+Teste 5: correto! +0.050
+Teste 6: correto! +0.050
+Teste 7: correto! +0.050
+Teste 8: correto! +0.050
+Teste 9: correto! +0.050
+Teste 10: correto! +0.050
+Teste 11 deu errado! +0.043
+O resultado para
+#include<iostream>
+int main() {
+    Vetor v(-1, 3);
+    std::cout << v << std::endl;
+    v = v + Vetor(1,2);
+    std::cout << v << std::endl;
+    v = v + Vetor(1,2);
+    std::cout << v << std::endl;
+    v = v - Vetor(1,6);
+    std::cout << v << std::endl;
+    std::cout << v * Vetor(3, 2) << std::endl; 
+    std::cout << (v ^ Vetor(-4501,9002)) << std::endl;
+    std::cout << v.abs() << std::endl;
+    return 0;
+}
+
+deveria ser
+(-1,3)
+(0,5)
+(1,7)
+(0,1)
+2
+4501
+1.0
+mas deu
+(-1,3)
+(0,5)
+(1,7)
+(0,1)
+2
+4501
+1
+
+Teste 12: correto! +0.050
+Teste 13: correto! +0.050
+Teste 14: correto! +0.050
+Teste 15: correto! +0.050
+Teste 16: correto! +0.050
+Teste 17 deu errado! +0.048
+O resultado para
+#include<iostream>
+int main() {
+    Vetor v(96, 81);
+    v = v - Vetor(95, 9);
+    v = v + Vetor(69, 1);
+    v = v - Vetor(67, 60);
+    std::cout << v << std::endl;
+    std::cout << (v ^ Vetor(35,9)) << std::endl;
+    v = v - Vetor(38, -68);
+    std::cout << v.abs() << std::endl;
+    v = v + Vetor(-60, -75);
+    std::cout << v.abs() << std::endl;
+    std::cout << v << std::endl;
+    std::cout << (v ^ Vetor(51,-55)) << std::endl;
+    std::cout << (v < Vetor(69,-93)) << std::endl;
+    v = v - Vetor(17, 37);
+    std::cout << v << std::endl;
+    std::cout << (v * Vetor(-84,-56)) << std::endl;
+    v = v - Vetor(-29, -77);
+    std::cout << v.abs() << std::endl;
+    std::cout << (v * Vetor(-25,10)) << std::endl;
+    std::cout << v.abs() << std::endl;
+    std::cout << v << std::endl;
+    v = v - Vetor(-90, 60);
+    v = v + Vetor(-10, -86);
+    std::cout << v.abs() << std::endl;
+    v = v - Vetor(-83, 16);
+    std::cout << (v ^ Vetor(-45,41)) << std::endl;
+    std::cout << v.abs() << std::endl;
+    std::cout << (v * Vetor(-67,-23)) << std::endl;
+    v = v - Vetor(92, 71);
+    std::cout << (v ^ Vetor(-92,17)) << std::endl;
+    std::cout << v.abs() << std::endl;
+    std::cout << (v * Vetor(-33,32)) << std::endl;
+    v = v + Vetor(-61, -93);
+    v = v - Vetor(-73, -66);
+    std::cout << (v * Vetor(-26,2)) << std::endl;
+    std::cout << (v < Vetor(-62,-53)) << std::endl;
+    std::cout << (v ^ Vetor(-6,-84)) << std::endl;
+    std::cout << (v < Vetor(-80,-100)) << std::endl;
+    std::cout << v.abs() << std::endl;
+    std::cout << (v < Vetor(35,23)) << std::endl;
+    std::cout << (v * Vetor(-69,-22)) << std::endl;
+    std::cout << v.abs() << std::endl;
+    std::cout << (v ^ Vetor(-48,51)) << std::endl;
+    std::cout << v << std::endl;
+    v = v - Vetor(-48, -94);
+    std::cout << v << std::endl;
+    std::cout << (v < Vetor(65,-3)) << std::endl;
+    v = v + Vetor(-78, -16);
+    std::cout << v.abs() << std::endl;
+    std::cout << (v ^ Vetor(97,39)) << std::endl;
+    std::cout << (v < Vetor(-29,49)) << std::endl;
+    v = v + Vetor(86, -98);
+    std::cout << v << std::endl;
+    std::cout << (v ^ Vetor(88,-96)) << std::endl;
+    v = v - Vetor(28, 79);
+    std::cout << (v ^ Vetor(48,-77)) << std::endl;
+    std::cout << v.abs() << std::endl;
+    std::cout << v << std::endl;
+    std::cout << (v * Vetor(-17,-14)) << std::endl;
+    std::cout << v.abs() << std::endl;
+    v = v + Vetor(88, 32);
+    std::cout << (v ^ Vetor(76,-65)) << std::endl;
+    std::cout << (v * Vetor(27,61)) << std::endl;
+    v = v + Vetor(-50, 71);
+    v = v - Vetor(-94, -78);
+    std::cout << v << std::endl;
+    std::cout << (v * Vetor(-50,-74)) << std::endl;
+    std::cout << v.abs() << std::endl;
+    std::cout << (v * Vetor(-17,83)) << std::endl;
+    std::cout << v.abs() << std::endl;
+    std::cout << (v ^ Vetor(42,5)) << std::endl;
+    v = v + Vetor(67, -67);
+    std::cout << (v < Vetor(-68,-36)) << std::endl;
+    v = v + Vetor(-49, 5);
+    std::cout << (v < Vetor(-57,70)) << std::endl;
+    v = v - Vetor(-26, -51);
+    return 0;
+}
+deveria ser
+(3,13)
+-428
+88.23831367382311
+95.1892851112981
+(-95,6)
+4919
+130.18691173052298
+(-112,-31)
+11144
+94.89467845985885
+2535
+94.89467845985885
+(-83,46)
+100.04498987955368
+-1940
+140.91131963046828
+-2692
+-17408
+187.3846311734236
+-5588
+-428
+49.4748965062461
+-1284
+38.65980825409009
+214.0
+123.31063082456083
+4708
+214.0
+-10272
+(0,-214)
+(48,-120)
+65.55604521958347
+139.26952286842948
+12022
+136.94183257224404
+(56,-234)
+15216
+12868
+314.2499005568657
+(28,-313)
+3906
+314.2499005568657
+13816
+-14009
+(160,-132)
+1768
+207.42227459942677
+-13676
+207.42227459942677
+6344
+110.86323967480931
+176.6182507985299
+
+mas deu
+(3,13)
+-428
+88.2383
+95.1893
+(-95,6)
+4919
+130.191
+(-112,-31)
+11144
+94.8947
+2535
+94.8947
+(-83,46)
+100.045
+-1940
+140.911
+-2692
+-17408
+187.385
+-5588
+-428
+49.4764
+-1284
+38.6609
+214
+123.314
+4708
+214
+-10272
+(0,-214)
+(48,-120)
+65.558
+139.27
+12022
+136.946
+(56,-234)
+15216
+12868
+314.25
+(28,-313)
+3906
+314.25
+13816
+-14009
+(160,-132)
+1768
+207.422
+-13676
+207.422
+6344
+110.867
+176.623
+
+Teste 18: correto! +0.050
+Teste 19: correto! +0.050
+Teste 20: correto! +0.050
+Nota exercicio 3: 1.0
+Procurando exercício 4...
+Exercício 4...
+Criando testes aleatórios...
+Testes Criados!
+Compilando...
+g++ -O2 -Wno-unused-result  "ex4.cpp" 
+Teste 1: correto! +0.050
+Teste 2: correto! +0.050
+Teste 3: correto! +0.050
+Teste 4: correto! +0.050
+Teste 5: correto! +0.050
+Teste 6: correto! +0.050
+Teste 7: correto! +0.050
+Teste 8: correto! +0.050
+Teste 9: correto! +0.050
+Teste 10: correto! +0.050
+Teste 11 deu errado! +0.001
+O resultado para
+#include<iostream>
+int main() {
+    for(int i=0; i<100; i++) {
+        Polinomio2 p(0, -1360004539, -438126241);
+        std::cout << p(2) << " ";
+    }
+    return 0;
+}
+deveria ser
+RANDOM 100
+mas deu
+3.15814e+09 -3.15814e+09 -3.15814e+09 -3.15814e+09 -3.15814e+09 -3.15814e+09 -3.15814e+09 -3.15814e+09 -3.15814e+09 -3.15814e+09 -3.15814e+09 -3.15814e+09 -3.15814e+09 -3.15814e+09 -3.15814e+09 -3.15814e+09 -3.15814e+09 -3.15814e+09 -3.15814e+09 -3.15814e+09 -3.15814e+09 -3.15814e+09 -3.15814e+09 -3.15814e+09 -3.15814e+09 -3.15814e+09 -3.15814e+09 -3.15814e+09 -3.15814e+09 -3.15814e+09 -3.15814e+09 -3.15814e+09 -3.15814e+09 -3.15814e+09 -3.15814e+09 -3.15814e+09 -3.15814e+09 -3.15814e+09 -3.15814e+09 -3.15814e+09 -3.15814e+09 -3.15814e+09 -3.15814e+09 -3.15814e+09 -3.15814e+09 -3.15814e+09 -3.15814e+09 -3.15814e+09 -3.15814e+09 -3.15814e+09 -3.15814e+09 -3.15814e+09 -3.15814e+09 -3.15814e+09 -3.15814e+09 -3.15814e+09 -3.15814e+09 -3.15814e+09 -3.15814e+09 -3.15814e+09 -3.15814e+09 -3.15814e+09 -3.15814e+09 -3.15814e+09 -3.15814e+09 -3.15814e+09 -3.15814e+09 -3.15814e+09 -3.15814e+09 -3.15814e+09 -3.15814e+09 -3.15814e+09 -3.15814e+09 -3.15814e+09 -3.15814e+09 -3.15814e+09 -3.15814e+09 
+Teste 12: correto! +0.050
+Teste 13: correto! +0.050
+Teste 14: correto! +0.050
+Teste 15: correto! +0.050
+Teste 16: correto! +0.050
+Teste 17: correto! +0.050
+Teste 18: correto! +0.050
+Teste 19: correto! +0.050
+Teste 20: correto! +0.050
+Nota exercicio 4: 1.0
+Procurando exercício 5...
+Exercício 5...
+Criando testes aleatórios...
+Testes Criados!
+Compilando...
+g++ -O2 -Wno-unused-result  "ex5.cpp" 
+Teste 1: correto! +0.050
+Teste 2: correto! +0.050
+Teste 3: correto! +0.050
+Teste 4: correto! +0.050
+Teste 5: correto! +0.050
+Teste 6: correto! +0.050
+Teste 7: correto! +0.050
+Teste 8: correto! +0.050
+Teste 9: correto! +0.050
+Teste 10: correto! +0.050
+Teste 11: correto! +0.050
+Teste 12: correto! +0.050
+Teste 13: correto! +0.050
+Teste 14: correto! +0.050
+Teste 15: correto! +0.050
+Teste 16: correto! +0.050
+Teste 17: correto! +0.050
+Teste 18: correto! +0.050
+Teste 19: correto! +0.050
+Teste 20: correto! +0.050
+Nota exercicio 5: 1.0
+Procurando exercício 6...
+Procurando exercício 7...
+Exercício 7...
+Criando testes aleatórios...
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+Testes Criados!
+ERRO: Proibido o uso de bibliotecas (BigInt.cpp), exceto ['iostream', 'iomanip', 'string', 'stdio.h', 'ex6.h', 'ex5.h', 'ex6.cpp', 'ex5.cpp']
+Nota exercicio 7: 0.0
+Procurando exercício 8...
+Nota total: 4.00
+{"scores": {"ex1": 1.0, "ex2": 0.0, "ex3": 1.0, "ex4": 1.0, "ex5": 1.0, "ex6": 0.0, "ex7": 0.0, "ex8": 0.0}}
