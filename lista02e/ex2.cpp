@@ -68,19 +68,12 @@ public:
         return (_a * x*x + _b * x + _c);
     };
 
-    int getA() const {
-        return _a;
-    }
-    int getB() const {
-        return _b;
-    }
-    int getC() const {
-        return _c;
-    }
+    friend Trio coeficientes(const Polinomio2& p);
 
 };
 
     Trio coeficientes(const Polinomio2& p) {
-        Trio a = Trio(p.getA(), p.getB(), p.getC());
+        Trio a = Trio(p._a, p._b, p._c);
         return a;
     }
+
