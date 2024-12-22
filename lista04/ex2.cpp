@@ -10,6 +10,7 @@ std::string jogo(std::stack<int> cartas, std::queue<std::string> jogadores){
     for (int i = 0; i < 3; i++) {
         nomes[i] = jogadores.front();
         jogadores.pop();
+        //cout << "chegouu";
     };
 
     int i =0;
@@ -23,15 +24,17 @@ std::string jogo(std::stack<int> cartas, std::queue<std::string> jogadores){
 
     int vencedor_index = 0;
     int menor_soma = soma[0];
+    //cout << "soma[0]" << soma[0];
 
 
 
     for (int j = 1; j < 3; ++j){
-        if (soma[j] < menor_soma || (soma[j] == menor_soma && nomes[j] < nomes[vencedor_index])) {
+        if (soma[j] < menor_soma || (soma[j]==menor_soma && nomes[j]<nomes[vencedor_index])) {
             vencedor_index = j;
             menor_soma = soma[j];
+            
         }
     }
 
-    return nomes[vencedor_index];
+    return nomes[vencedor_index]; //return deu
 }
