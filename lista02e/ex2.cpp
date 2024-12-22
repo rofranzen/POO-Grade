@@ -68,12 +68,13 @@ public:
         return (_a * x*x + _b * x + _c);
     };
 
-    friend Trio coeficientes(const Polinomio2& p);
+    Trio coeficientes() const{
+        return Trio(_a, _b, _c);
+    }
 
 };
 
     Trio coeficientes(const Polinomio2& p) {
-        Trio a = Trio(p._a, p._b, p._c);
+        Trio a = p.coeficientes();
         return a;
     }
-
