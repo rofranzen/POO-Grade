@@ -13,10 +13,10 @@ public:
     }
 
     virtual void print(ostream& os) const {
-        if (_imag != 0)
-            os << _real << " + " << _imag << "i";
-        else
-            os << _real;
+        //if (_imag != 0)
+            os <<_real << " + " << _imag << "i";
+        //else
+            //os  << _real;
     }
     double getReal() const {
         return _real;
