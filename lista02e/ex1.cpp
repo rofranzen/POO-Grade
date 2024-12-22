@@ -22,12 +22,12 @@ public:
       //std::cout << "\n Next channel: " << _canal;
   };
   void canal_baixo(){
-      _canal = ((-_ligada + _canal) + 100 *_ligada)%100;
+      _canal = (_canal - 1*_ligada) % 100;//((-_ligada + _canal) + 100 *_ligada)%100;
   };
   friend std::ostream& operator<<(std::ostream &out, const Televisao &tv){
       const char* estados[] = { "desligada", "ligada" };
       out << "(" << estados[tv._ligada] << ", " << tv._canal << ")";
-    
+
       return out;
   };
 };
