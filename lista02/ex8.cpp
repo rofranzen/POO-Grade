@@ -4,9 +4,11 @@
 using namespace std;
 
 class C {
-public:
+private:
     double _real;
     double _imag;
+
+public:
 
     C(double _real = 0.0, double _imag = 0.0) : _real(_real), _imag(_imag) {
     }
@@ -17,6 +19,12 @@ public:
         else
             os << _real;
     }
+    double getReal() const {
+        return _real;
+    }
+    double getImag() const {
+        return _imag;
+    }
 };
 
 class R : public C {
@@ -26,16 +34,17 @@ public:
     }
 
     void print(ostream& os) const override {
-        os << _real;
+        os << getReal();
     }
 };
 
 class Q : public R {
 
-public:
+private:
 
     double _numerador;
     double _denominador;
+public:
 
     Q(double _numerador = 0, double _denominador = 1) : _numerador(_numerador), _denominador(_denominador), R(_numerador / _denominador) {
     }
