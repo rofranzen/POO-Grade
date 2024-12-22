@@ -1,0 +1,43 @@
+Versão do G++:
+g++ (Debian 12.2.0-14) 12.2.0
+Copyright (C) 2022 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+Varificando data de envio...
+AGORA: 2024-12-22 19:00:38.594274-03:00
+PRAZO MÁXIMO: 2024-12-22 23:59:59-03:06
+Testando sua solucao...
+Procurando exercício 1...
+Exercício 1...
+Criando testes aleatórios...
+Testes Criados!
+Compilando...
+g++ -O2 -Wno-unused-result  "ex1.cpp" 
+Teste 1 deu errado!
+O resultado para
+#include<iostream>
+int main() {
+    Televisao tv(true);
+    tv.canal_baixo();
+    std::cout << tv << std::endl;
+    return 0;
+}
+
+deveria ser
+(ligada, 100)
+mas deu
+(ligada, 0)
+
+Teste 2: correto! +1.000
+Teste 3: correto! +1.000
+Nota exercicio 1: 2.0
+Procurando exercício 2...
+Exercício 2...
+Criando testes aleatórios...
+Testes Criados!
+ERRO: A classe "Polinomio2" deve ter os seguintes membros amigos: 
+Nota exercicio 2: 0.0
+Procurando exercício 3...
+Nota total: 2.00
+{"scores": {"ex1": 2.0, "ex2": 0.0, "ex3": 0.0}}
