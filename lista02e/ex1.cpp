@@ -17,20 +17,12 @@ public:
       _ligada = false;
   };
   void canal_cima(){
-      if (_ligada){
-        if (_canal == 100)
-            _canal = 1;
-        else
-            _canal++;
-      }
+      //std::cout << "\nLast channel was: "<< _canal;
+      _canal = (_canal % 100) + _ligada;
+      //std::cout << "\n Next channel: " << _canal;
   };
   void canal_baixo(){
-      if (_ligada){
-        if (_canal == 1)
-            _canal = 100;
-        else
-            _canal--;
-      }
+      _canal = ((-_ligada + _canal) + 100 *_ligada)%100;
   };
   friend std::ostream& operator<<(std::ostream &out, const Televisao &tv){
       out << "("<<(tv._ligada ? "ligada" : "desligada") << ", " << tv._canal<< ")";
