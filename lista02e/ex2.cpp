@@ -1,70 +1,81 @@
 #include <iostream>
-#include <fstream>
-#include <string>
+#include <math.h>
 
-class Arquivo {
-    std::string _conteudo;
+
+class Trio {
+public:
+    int a;
+    int b;
+    int c;
+
+    Trio(int a = 0, int b = 0, int c = 0) : a(a), b(b), c(c) {}
+};
+
+class Polinomio2
+{
+    int _a;
+    int _b;
+    int _c;
+
 
 public:
-    Arquivo(const std::string& arquivo) {
-        std::ifstream arq(arquivo);
-        if (arq.is_open()) {
-            std::string linha;
-            while (std::getline(arq, linha)) {
-                _conteudo += linha + "\n";
-            }
-            arq.close();
+    Polinomio2(int a =0, int b =0, int c=0){
+        if (a == 0){
+            _a = 1;
+            _b = 0;
+            _c = 0;
         }
-    }
+        _a = a;
+        _b = b;
+        _c = c;
+        //std::cout << "criado";
 
-    std::string proxima_linha(size_t& pos) const {
-        if (pos >= _conteudo.size()) {
-            return "";
-        }
+    };
+    double *raizes(){
+        //int qtd;
+        double t1,t2, *p = new double[3]();
 
-        size_t inicio = pos;
-        size_t fim = _conteudo.find('\n', inicio);
+        double t = _b*_b - 4*_a*_c;
+        if (t<0){
+            //qtd = 0;
+            //std::cout << "chegou no menor que 0";
+            p[0] = 0;;
+            return p;
+        };
 
-        if (fim == std::string::npos) {
-            pos = _conteudo.size();
-            return _conteudo.substr(inicio);
-        } else {
-            pos = fim + 1;
-            return _conteudo.substr(inicio, fim - inicio);
-        }
-    }
+        t = sqrt(t);
 
-    ~Arquivo() {}
+        t1 = t - _b;
+        t2 = -t - _b;
+        if(t1 == t2){
+            //qtd = 1;
+            t1 = t1/(2*_a);
+            //std::cout << "chegou no 0";
+            p[0] = 1;
+            p[1] = t1;
+            return p;
+        };
+        t1 = t1/(2*_a);
+        t2 = t2/(2*_a);
 
-    class Iterator {
-        const Arquivo& _arquivo;
-        size_t _pos;
-
-    public:
-        Iterator(const Arquivo& arquivo, size_t pos) : _arquivo(arquivo), _pos(pos) {}
-
-        bool operator!=(const Iterator& other) const {
-            return _pos != other._pos;
-        }
-
-        std::string operator*(){
-            return _arquivo.proxima_linha(_pos);
-        }
-
-        Iterator& operator++() {
-            _arquivo.proxima_linha(_pos);
-            return *this;
-
-            
-        }
+        p[0] = 2;
+        p[1] = t2;
+        p[2] = t1;
+        return p;
     };
 
-    Iterator begin() const {
-        
-        return Iterator(*this, 0);
+    double operator()(double x){
+        return (_a * x*x + _b * x + _c);
+    };
+
+    Trio coeficientes() const{
+        return Trio(_a, _b, _c);
     }
 
-    Iterator end() const{
-        return Iterator(*this, _conteudo.size());
-    }
 };
+
+    Trio coeficientes(const Polinomio2& p) {
+        Trio a = p.coeficientes();
+        return a;
+    }
+
