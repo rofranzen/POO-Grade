@@ -1,6 +1,9 @@
+
 #include <iostream>
 #include <fstream>
 #include <string>
+
+class Iterator;
 
 class Arquivo {
     std::string _conteudo;
@@ -36,32 +39,35 @@ public:
 
     ~Arquivo() {}
 
-    class Iterator {
-        const Arquivo& _arquivo;
-        size_t _pos;
+    Iterator begin() const;
+    Iterator end() const;
+};
 
-    public:
-        Iterator(const Arquivo& arquivo, size_t pos) : _arquivo(arquivo), _pos(pos) {}
+class Iterator {
+    const Arquivo& _arquivo;
+    size_t _pos;
 
-        bool operator!=(const Iterator& other) const {
-            return _pos != other._pos;
-        }
+public:
+    Iterator(const Arquivo& arquivo, size_t pos) : _arquivo(arquivo), _pos(pos) {}
 
-        std::string operator*() {
-            return _arquivo.proxima_linha(_pos);
-        }
-
-        Iterator& operator++() {
-            _arquivo.proxima_linha(_pos);
-            return *this;
-        }
-    };
-
-    Iterator begin() const {
-        return Iterator(*this, 0);
+    bool operator!=(const Iterator& other) const {
+        return _pos != other._pos;
     }
 
-    Iterator end() const {
-        return Iterator(*this, _conteudo.size());
+    std::string operator*() {
+        return _arquivo.proxima_linha(_pos);
+    }
+
+    Iterator& operator++() {
+        _arquivo.proxima_linha(_pos);
+        return *this;
     }
 };
+
+Iterator Arquivo::begin() const {
+    return Iterator(*this, 0);
+}
+
+Iterator Arquivo::end() const {
+    return Iterator(*this, _conteudo.size());
+}
