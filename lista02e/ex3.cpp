@@ -22,54 +22,46 @@ public:
             return "";
         }
 
-
         size_t inicio = pos;
-        size_t fim =_conteudo.find('\n', inicio);
+        size_t fim = _conteudo.find('\n', inicio);
 
-        if(fim == std::string::npos) {
+        if (fim == std::string::npos) {
             pos = _conteudo.size();
             return _conteudo.substr(inicio);
-        }
-        else{
+        } else {
             pos = fim + 1;
             return _conteudo.substr(inicio, fim - inicio);
         }
     }
-    ~Arquivo(){
-    //nd aq
-    }
+
+    ~Arquivo() {}
 
     class Iterator {
         const Arquivo& _arquivo;
         size_t _pos;
 
     public:
-        Iterator(const Arquivo& arquivo, size_t pos) : _arquivo(arquivo), _pos(pos) {
+        Iterator(const Arquivo& arquivo, size_t pos) : _arquivo(arquivo), _pos(pos) {}
 
-        }
-
-        bool operator!=(const Iterator& other) const{
+        bool operator!=(const Iterator& other) const {
             return _pos != other._pos;
-
         }
 
-        std::string operator*(){
+        std::string operator*() {
             return _arquivo.proxima_linha(_pos);
         }
 
-        Iterator& operator++(){
-
+        Iterator& operator++() {
             _arquivo.proxima_linha(_pos);
             return *this;
         }
     };
 
-    Iterator end() const{
-        return Iterator(*this, _conteudo.size());
+    Iterator begin() const {
+        return Iterator(*this, 0);
     }
 
-
-    Iterator begin() const{
-        return Iterator(*this, 0);
+    Iterator end() const {
+        return Iterator(*this, _conteudo.size());
     }
 };
