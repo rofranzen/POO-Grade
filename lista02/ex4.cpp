@@ -55,8 +55,7 @@ public:
     };
 
     double operator()(double x){
-        double seg = _a * x;
-        return (seg * seg + _b * x + _c);
+        return (_a * x*x + _b * x + _c);
     };
 
 };
