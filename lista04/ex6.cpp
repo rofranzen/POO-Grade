@@ -37,10 +37,9 @@ std::vector<int> retira(std::vector<int> v, int n)
             is_in_result = is_in_result || (result[j] == v[i]);
         }
 
-        if (!is_in_result && v[i] != n) //so se nao for igual
-            {
-            result.push_back(v[i]);
-        }
+        result.push_back(result.size() * (is_in_result == 0) * //finalmente sem if!!!!
+            (v[i] != n) * v[i] + result.size() * (is_in_result != 0 || v[i] == n)
+            * result[result.size() ] );
     }
 
     return result;
